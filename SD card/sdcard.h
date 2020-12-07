@@ -179,14 +179,8 @@ void SDCARD_Initialize(void);
     This routine must be called from SYS_Tasks() routine.
  */
 
-void APP_TONE_TEXTFILE_SDCARD_Tasks( void );
+void SDCARD_Tasks( void );
 
-
-static bool APP_TONE_TEXTFILE_SDCARD_Read_SDCard(
-    const DRV_HANDLE handle,
-    uint8_t* const pBuffer,
-    const uint16_t requestedBytes,
-    uint16_t* const pNumBytesRead );
 
 #endif /* _APP_H */
 
