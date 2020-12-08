@@ -21,6 +21,12 @@ Different modules include:
 - (tbc)
 
 # Usage
-(tbc)
+Each folder represents a component module. Inside the folder, there're:
+- a screenshot of the component's configuration with MPLAB X Harmony v3
+- the header file of the module
+- the source file of the module
+- a main script showing how to call the module
+- (tbc)
+
 # Usage Example
 (tbc)
