@@ -63,7 +63,7 @@ void SDCARD_Tasks(void)
               break;
 
             case SDCARD_STATE_WRITE_FILE:
-              SdcardData.fileHandle = SYS_FS_FileOpen(SdcardData.fileOpen, SYS_FS_FILE_OPEN_APPEND);
+              SdcardData.fileHandle = SYS_FS_FileOpen(SdcardData.fileOpen, SYS_FS_FILE_OPEN_APPEND);// try create a new file named "fileopen" and see
               if(SdcardData.fileHandle == SYS_FS_HANDLE_INVALID)
               {
                   /* Could not open the file. Error out*/
@@ -126,6 +126,9 @@ void SDCARD_Tasks(void)
 
               break;
 
+            case SDCARD_STATE_ERROR:
+              // do nothing until state changed- ERROR STATE
+              break;
 
 
             default:

@@ -35,9 +35,6 @@ void adjustATTimeout(IridiumSBD* self,,int seconds){
   self->atTimeout = seconds;
 }
 
-
-// Last time edition 
-
 /*
 Wait for response from previous AT command.
 This process terminates when "terminator" string is seen or upon timeout.
@@ -45,7 +42,53 @@ If "prompt" string is provided (example "+CSQ:"), then all characters following
 prompt up to the next CRLF are stored in response buffer for later parsing by caller.
  */
 bool waitForATResponse(IridiumSBD* self,char *response=NULL, int responseSize=0, const char *prompt=NULL, const char *terminator="OK\r\n"){
+   if (response)
+      memset(response,0,responseSize);
    
+   int matchPromptPos = 0; // Matched chars in prompt
+   int matchTerminatorPos = 0; // Matched chars in terminator
+   enum {LOOKING_FOR_PROMPT, GATHERING_RESPONSE, LOOKING_FOR_TERMINATOR};
+   int promptState = prompt ? LOOKING_FOR_PROMPT : LOOKING_FOR_TERMINATOR;
+
+   // TODO: set a timer /////////////////////////////////////////////////////////////////////////////////
+   // while the timer is not expired:////////////////////////////////////////////////////////////////////
+   char* incoming_str = UART0_Read(); // read full message //////////////////////////////////////////////
+   // while there's char available://////////////////////////////////////////////////////////////////////
+   char c = incoming_str;
+   if (prompt){
+      switch (promptState){
+         case LOOKING_FOR_PROMPT:
+            if (c == prompt[matchPromptPos]){
+               ++matchPromptPos;
+               if (promp[matchPromptPos] == '\0')
+                  promptState = GATHERING_RESPONSE;
+            }else{
+               matchPromptPos = c == prompt[0] ? 1 : 0;
+            }
+            break;
+         case GATHERING_RESPONSE:
+            if (response){
+               if (c == '\r' || responseSize <2){
+                  promptState = LOOKING_FOR_TERMINATOR;
+               }else{
+                  *response++ = c;
+                  responseSize--;
+               }
+            }
+            break;
+      }
+   }
+
+   if (c == terminator[matchTerminatorPos]){
+      ++matchTerminatorPos;
+      if (terminator[matchTerminatorPos]== '\0' ){
+         return true;
+      }
+   }else{
+      matchTerminatorPos = c == terminator[0] ? 1:0;
+   }
+   // end of while ava. loop
+   // end of timer loop
 }
 
 /*
@@ -58,36 +101,54 @@ bool disableFlowControl(void){
   return status 
 }
 
+/* TODO */
 int sendSBDText(IridiumSBD* self,const char *message){
 
-
 }
+
+/* TODO */
 int sendSBDBinary(IridiumSBD* self,const uint8_t *txData, size_t txDataSize){
+
   send("AT+SBDWB=[");
   send(txDataSize);// todo : int to string
   send("]\r");
-
-  // wait for READY\r
+ 
+  if (!waitForATResponse(NULL, 0, NULL, "READY\r\n"))
+         return cancelled() ? ISBD_CANCELLED : ISBD_PROTOCOL_ERROR; /////////////////////////////////////////////////////////// canceled todo 
   
   // send txData + checksum 
+  send(txTxtMessage);
+  send("\r");
   // wait for 0\r\n\r\nOK\r\n
+  if (!waitForATResponse(NULL, 0, NULL, "0\r\n\r\nOK\r\n"))
+         return cancelled() ? ISBD_CANCELLED : ISBD_PROTOCOL_ERROR; /////////////////////////////////////////////////////////// canceled todo 
+  }
 }
+
+/* TODO */
 int sendReceiveSBDText(IridiumSBD* self,const char *message, uint8_t *rxBuffer, size_t &rxBufferSize){
+  
   send("AT+SBDWT=");
   send(message);
   send("\r")
   // wait for OK\r
 
 }
+
+/* TODO */
 int sendReceiveSBDBinary(IridiumSBD* self,const uint8_t *txData, size_t txDataSize, uint8_t *rxBuffer, size_t &rxBufferSize){
   send("AT+SBDRT\r");
   // wait message
 
 }
+
+/* TODO */
 int checkMailBox(IridiumSBD* self){
   send("AT+SBDIX\r");
   // receive response +SBDIX:
 }
+
+/* TODO */
 int getSignalQuality(IridiumSBD* self,int &quality){
   if (self->asleep)
     return ISBD_IS_ASLEEP;
@@ -96,7 +157,7 @@ int getSignalQuality(IridiumSBD* self,int &quality){
 
   send("AT+CSQ\r");
   if (!waitForATResponse(csqResponseBuf, sizeof(csqResponseBuf), "+CSQ:"))
-      return cancelled() ? ISBD_CANCELLED : ISBD_PROTOCOL_ERROR; // what is cancelled
+      return cancelled() ? ISBD_CANCELLED : ISBD_PROTOCOL_ERROR;
 
     if (isdigit(csqResponseBuf[0]))
     {
@@ -106,6 +167,8 @@ int getSignalQuality(IridiumSBD* self,int &quality){
 
     return ISBD_PROTOCOL_ERROR;
 }
+
+/* TODO */
 int getSystemTime(IridiumSBD* self,struct tm &tm){
    char msstmResponseBuf[24];
 
@@ -142,6 +205,8 @@ int getSystemTime(IridiumSBD* self,struct tm &tm){
    return ISBD_SUCCESS;
 
 }
+
+/* TODO */
 int sleep(IridiumSBD* self){
   if (self->sleepPin == -1)
       return ISBD_NO_SLEEP_PIN;
@@ -151,6 +216,8 @@ int sleep(IridiumSBD* self){
   self->asleep
   return ISBD_SUCCESS;
 }
+
+/* TODO */
 int begin(IridiumSBD* self){
    if (!self->asleep)
       return ISBD_ALREADY_AWAKE;
@@ -188,6 +255,8 @@ int begin(IridiumSBD* self){
          return cancelled() ? ISBD_CANCELLED : ISBD_PROTOCOL_ERROR;
    }
 }
+
+/* TODO */
 void power(IridiumSBD* self,bool on)
 {
    self->asleep = !on;
