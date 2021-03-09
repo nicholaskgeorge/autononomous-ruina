@@ -1,8 +1,6 @@
 # autononomous-ruina
 Fall 2020 collaboration between autonomous plane and boat with Ruina group
 
-@author [Chris Chan](mailto:cec272@cornell.edu?subject=[GitHub]%20Source%20Han%20Sans)
-
 @author [Daisy Zhang](mailto:dz298@cornell.edu?subject=[GitHub]%20Source%20Han%20Sans)
 
 # Overview
