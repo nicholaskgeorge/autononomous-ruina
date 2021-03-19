@@ -15,12 +15,14 @@ SDCARD_DATA SdcardData;
 
 void SDCARD_Initialize(void)
 {
-    SdcardData.state = SDCARD_STATE_CARD_MOUNT;
+    SdcardData.state = SDCARD_STATE_CARD_WAITING;
     SdcardData.currentFilePosition = 0;
     SdcardData.fileOpen = "";
-    SdcardData.WorR = true;
+    SdcardData.WorR = true; // true -> write to file; false -> read file
     SdcardData.buf = "";
-    SdcardData.nbytes = 0;
+    SdcardData.nbytes = 128;
+    SdcardData.devName = "/dev/mmcbka1";
+    SdcardData.mountName = "/mnt/myDrive1";
 }
 
 /* This is the task routine for this lab */
@@ -31,7 +33,7 @@ void SDCARD_Tasks(void)
     {
 
             case SDCARD_STATE_CARD_MOUNT:
-              if(SYS_FS_Mount("/dev/mmcblka1", "/mnt/myDrive", FAT, 0, NULL) != 0)
+              if(SYS_FS_Mount(SdcardData.devName, SdcardData.mountName, FAT, 0, NULL) != SYS_FS_RES_SUCCESS)
               {
                   /* The disk could not be mounted. Try mounting again until success. */
                   SdcardData.state = SDCARD_STATE_CARD_MOUNT;
@@ -45,7 +47,7 @@ void SDCARD_Tasks(void)
 
 
             case SDCARD_STATE_CARD_CURRENT_DRIVE_SET:
-              if(SYS_FS_CurrentDriveSet("/mnt/myDrive") == SYS_FS_RES_FAILURE)
+              if(SYS_FS_CurrentDriveSet(SdcardData.mountName) == SYS_FS_RES_FAILURE)
               {
                   /* Error while setting current drive */
                   SdcardData.state = SDCARD_STATE_ERROR;
@@ -73,16 +75,12 @@ void SDCARD_Tasks(void)
               {
                 bytes_written = SYS_FS_FileWrite(SdcardData.fileHandle, (void *)SdcardData.buf, SdcardData.nbytes);
                 if (bytes_written != -1){
-                  SdcardData.state = SDCARD_STATE_WAITING;
+                  SdcardData.state = SDCARD_STATE_SUCCESS;
                 }else{
                   SdcardData.state = SDCARD_STATE_ERROR;
                 }
                 SYS_FS_FileClose(handle);
               }
-              break;
-
-            case SDCARD_STATE_WAITING:
-              // do nothing until state changed
               break;
 
             case SDCARD_STATE_READ_FILE:
@@ -118,7 +116,7 @@ void SDCARD_Tasks(void)
 
               nBytesRead = SYS_FS_FileRead(SdcardData.fileHandle,(void *)SdcardData.buf, SdcardData.nbytes);
               if (nBytesRead != -1){
-                SdcardData.state = SDCARD_STATE_WAITING;
+                SdcardData.state = SDCARD_STATE_SUCCESS;
               }else{
                 SdcardData.state = SDCARD_STATE_ERROR;
               }
@@ -127,9 +125,20 @@ void SDCARD_Tasks(void)
               break;
 
             case SDCARD_STATE_ERROR:
-              // do nothing until state changed- ERROR STATE
+              char fail_message[100];
+              SYS_FS_ERROR err = SYS_FS_Error();
+              sprintf(fail_message, "FAIL MESSAGE:%i\r\n", err);
+              USART1_Write(fail_message,sizeof(fail_message));
               break;
 
+            case SDCARD_STATE_SUCCESS:
+              USART1_Write("File Operation Success!/r/n",sizeof("File Operation Success!/r/n"));
+              SdcardData.state = SDCARD_STATE_WAITING;
+              break;
+
+            case SDCARD_STATE_WAITING:
+              // do nothing until state changed
+              break;
 
             default:
             {
@@ -138,14 +147,37 @@ void SDCARD_Tasks(void)
     }
 }
 
+void SDCARD_WriteorRead(bool ifwrite){
+  SdcardData.WorR = ifwrite;
+}
 
+void SDCARD_FileName(char* fileName){
+  SdcardData.fileOpen = fileName;
+}
 
+void SDCARD_StateSwitch(SDCARD_STATES state){
+  if (SdcardData.state == SDCARD_STATE_CARD_WAITING)
+    SdcardData.state = state;
+}
 
-/**********************************************************
- * Application CODEC buffer Event handler.
- ***********************************************************/
+void SDCARD_FillBuffer(char* buf,size_t nbytes){
+  SdcardData.buf = buf;
+  SdcardData.nbytes = nbytes;
+}
 
-////////////////////////////////////////////////////////////////////////////////
+void SDCARD_SetDevice(char* devName){
+  SdcardData.devName = devName;
+}
+
+void SDCARD_SetMount(char* mntName){
+  SdcardData.mountName
+}
+
+/* Close file
+* Input:
+*        handle: file handle
+* Returns: if file is successfully closed
+*/
  bool SDCARD_CloseFile (SYS_FS_HANDLE fileHandle )
 {
     SYS_FS_RESULT ret;

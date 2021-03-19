@@ -15,12 +15,14 @@
 // *****************************************************************************
 // *****************************************************************************
 
-#include <stdint.h>
-#include <stdbool.h>
-#include <stddef.h>
-#include <stdlib.h>
+
 #include "configuration.h"
-#include "system/fs/sys_fs_media_manager.h"
+#include <stddef.h>
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdlib.h>                     // Defines EXIT_FAILURE
+#include "definitions.h"                // SYS function prototypes
+#include <stdio.h>
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
@@ -58,6 +60,7 @@ typedef enum
     SDCARD_STATE_READ_FILE,
     SDCARD_STATE_ERROR,
     SDCARD_STATE_WAITING,
+    SDCARD_STATE_SUCCESS,
     SDCARD_STATE_READ_FILE_SIZE,
     SDCARD_STATE_CARD_READ
 
@@ -179,6 +182,23 @@ void SDCARD_Initialize(void);
 
 void SDCARD_Tasks( void );
 
+/* Change the file operation if read or write to the file */
+void SDCARD_WriteorRead(bool ifwrite);
+
+/* Change the file to be written or read */
+void SDCARD_FileName(char* fileName);
+
+/* Fill in buffer to Write to the file */
+void SDCARD_FillBuffer(char* buf,size_t nbytes);
+
+/* Switch sdcard state only when it's waiting */
+void SDCARD_StateSwitch(SDCARD_STATES state);
+
+/* Change device for data logging */
+void SDCARD_SetDevice(char* devName);
+
+/* Change mount drive */
+void SDCARD_SetMount(char* mntName);
 
 #endif /* _APP_H */
 
