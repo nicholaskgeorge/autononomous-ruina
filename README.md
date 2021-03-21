@@ -1,11 +1,11 @@
 # autononomous-ruina
-Fall 2020 collaboration between autonomous plane and boat with Ruina group
+Modular code for monitoring and controlling an autonomous boat.
 
 @author [Daisy Zhang](mailto:dz298@cornell.edu?subject=[GitHub]%20Source%20Han%20Sans)
 
 # Overview
-This repo contains C scripts for the autonomous plane and boat projects while 
-the microcontroller in both projects is **SAM E70 Xplained Evaluation Kit**.
+This repo contains C scripts for the autonomous boat project of Ruina group while 
+the microcontroller in this projects is **SAM E70 Xplained Evaluation Kit**.
 
 Code is made to be modular so that it can be applied to similar projects with minor edition. 
 
@@ -40,7 +40,6 @@ After the configuration is finished, the user can generate code based on the con
 
 Then users are free to use code in 'main.c' to use functions in 'Anemometer'.
 
-# SAM E70 Xplained Evaluation Kit Pin Out
 
 
 
