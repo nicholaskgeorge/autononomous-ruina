@@ -94,11 +94,17 @@ typedef struct
     /* File Size*/
     int32_t fileSize;
     /* Message to be written/read */
-    char *buf;
+    uint8_t *buf;
     /* size of buf*/
     size_t nbytes;
+    /* size of buf after operation*/
+    size_t nbytesReturned;
     /* Current file position or number of bytes read from file */
     int32_t currentFilePosition;
+    /* Device name*/
+    char* devName;
+    /* Mounted drive name*/
+    char* mntName;
 
 } SDCARD_DATA;
 
@@ -189,7 +195,7 @@ void SDCARD_WriteorRead(bool ifwrite);
 void SDCARD_FileName(char* fileName);
 
 /* Fill in buffer to Write to the file */
-void SDCARD_FillBuffer(char* buf,size_t nbytes);
+void SDCARD_FillBuffer(uint8_t* buf,size_t nbytes);
 
 /* Switch sdcard state only when it's waiting */
 void SDCARD_StateSwitch(SDCARD_STATES state);

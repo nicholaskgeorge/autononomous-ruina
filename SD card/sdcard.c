@@ -15,14 +15,15 @@ SDCARD_DATA SdcardData;
 
 void SDCARD_Initialize(void)
 {
-    SdcardData.state = SDCARD_STATE_CARD_WAITING;
+    SdcardData.state = SDCARD_STATE_WAITING;
     SdcardData.currentFilePosition = 0;
     SdcardData.fileOpen = "";
     SdcardData.WorR = true; // true -> write to file; false -> read file
-    SdcardData.buf = "";
+    SdcardData.buf = 0;
     SdcardData.nbytes = 128;
-    SdcardData.devName = "/dev/mmcbka1";
-    SdcardData.mountName = "/mnt/myDrive1";
+    SdcardData.nbytesReturned = 0;
+    SdcardData.devName = "/dev/mmcblka1";
+    SdcardData.mntName = "/mnt/myDrive";
 }
 
 /* This is the task routine for this lab */
@@ -33,10 +34,12 @@ void SDCARD_Tasks(void)
     {
 
             case SDCARD_STATE_CARD_MOUNT:
-              if(SYS_FS_Mount(SdcardData.devName, SdcardData.mountName, FAT, 0, NULL) != SYS_FS_RES_SUCCESS)
+              if(SYS_FS_Mount(SdcardData.devName, SdcardData.mntName, FAT, 0, NULL) != SYS_FS_RES_SUCCESS)
               {
                   /* The disk could not be mounted. Try mounting again until success. */
                   SdcardData.state = SDCARD_STATE_CARD_MOUNT;
+
+
               }
               else
               {
@@ -47,7 +50,7 @@ void SDCARD_Tasks(void)
 
 
             case SDCARD_STATE_CARD_CURRENT_DRIVE_SET:
-              if(SYS_FS_CurrentDriveSet(SdcardData.mountName) == SYS_FS_RES_FAILURE)
+              if(SYS_FS_CurrentDriveSet(SdcardData.mntName) == SYS_FS_RES_FAILURE)
               {
                   /* Error while setting current drive */
                   SdcardData.state = SDCARD_STATE_ERROR;
@@ -73,13 +76,13 @@ void SDCARD_Tasks(void)
               }
               else
               {
-                bytes_written = SYS_FS_FileWrite(SdcardData.fileHandle, (void *)SdcardData.buf, SdcardData.nbytes);
-                if (bytes_written != -1){
+                SdcardData.nbytesReturned = SYS_FS_FileWrite(SdcardData.fileHandle, (void *)SdcardData.buf, SdcardData.nbytes);
+                if (SdcardData.nbytesReturned != -1){
                   SdcardData.state = SDCARD_STATE_SUCCESS;
                 }else{
                   SdcardData.state = SDCARD_STATE_ERROR;
                 }
-                SYS_FS_FileClose(handle);
+                SYS_FS_FileClose(SdcardData.fileHandle);
               }
               break;
 
@@ -112,27 +115,26 @@ void SDCARD_Tasks(void)
 
               break;
 
-            case SDCARD_STATE_CARD_READ:
+            case SDCARD_STATE_CARD_READ:;
 
-              nBytesRead = SYS_FS_FileRead(SdcardData.fileHandle,(void *)SdcardData.buf, SdcardData.nbytes);
-              if (nBytesRead != -1){
+              SdcardData.nbytesReturned = SYS_FS_FileRead(SdcardData.fileHandle,(void *)SdcardData.buf, SdcardData.nbytes);
+              if (SdcardData.nbytesReturned != -1){
                 SdcardData.state = SDCARD_STATE_SUCCESS;
               }else{
                 SdcardData.state = SDCARD_STATE_ERROR;
               }
-              SYS_FS_FileClose(handle);
-
+              SYS_FS_FileClose(SdcardData.fileHandle);
               break;
 
-            case SDCARD_STATE_ERROR:
-              char fail_message[100];
+            case SDCARD_STATE_ERROR:;
               SYS_FS_ERROR err = SYS_FS_Error();
+              char fail_message[50];
               sprintf(fail_message, "FAIL MESSAGE:%i\r\n", err);
               USART1_Write(fail_message,sizeof(fail_message));
               break;
 
             case SDCARD_STATE_SUCCESS:
-              USART1_Write("File Operation Success!/r/n",sizeof("File Operation Success!/r/n"));
+              USART1_Write("File Operation Success!\r\n",sizeof("File Operation Success!\r\n"));
               SdcardData.state = SDCARD_STATE_WAITING;
               break;
 
@@ -156,11 +158,11 @@ void SDCARD_FileName(char* fileName){
 }
 
 void SDCARD_StateSwitch(SDCARD_STATES state){
-  if (SdcardData.state == SDCARD_STATE_CARD_WAITING)
+  if (SdcardData.state == SDCARD_STATE_WAITING)
     SdcardData.state = state;
 }
 
-void SDCARD_FillBuffer(char* buf,size_t nbytes){
+void SDCARD_FillBuffer(uint8_t* buf,size_t nbytes){
   SdcardData.buf = buf;
   SdcardData.nbytes = nbytes;
 }
@@ -170,7 +172,7 @@ void SDCARD_SetDevice(char* devName){
 }
 
 void SDCARD_SetMount(char* mntName){
-  SdcardData.mountName
+  SdcardData.mntName = mntName;
 }
 
 /* Close file
