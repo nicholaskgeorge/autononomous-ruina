@@ -89,8 +89,10 @@ typedef struct
     SYS_FS_HANDLE fileHandle;
     /* Write (true) or read (false) a file*/
     bool WorR;
-    /* File to be open*/
-    char* fileOpen;
+    /* Name(s) of file(s) to be open*/
+    char** fileOpen;
+    /* Number of files to be open */
+    int numFile;
     /* File Size*/
     int32_t fileSize;
     /* Message to be written/read */
@@ -192,10 +194,10 @@ void SDCARD_Tasks( void );
 void SDCARD_WriteorRead(bool ifwrite);
 
 /* Change the file to be written or read */
-void SDCARD_FileName(char* fileName);
+void SDCARD_FileName(char** fileName,int numFile);
 
 /* Fill in buffer to Write to the file */
-void SDCARD_FillBuffer(uint8_t* buf,size_t nbytes);
+void SDCARD_FillBuffer(void);
 
 /* Switch sdcard state only when it's waiting */
 void SDCARD_StateSwitch(SDCARD_STATES state);

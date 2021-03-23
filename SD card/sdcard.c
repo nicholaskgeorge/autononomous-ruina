@@ -17,7 +17,9 @@ void SDCARD_Initialize(void)
 {
     SdcardData.state = SDCARD_STATE_WAITING;
     SdcardData.currentFilePosition = 0;
-    SdcardData.fileOpen = "";
+    SdcardData.numFile = 1;
+    SdcardData.fileOpen = malloc(SdcardData.numFile* sizeof(char*));
+    SdcardData.fileOpen[0] = "test.txt";
     SdcardData.WorR = true; // true -> write to file; false -> read file
     SdcardData.buf = 0;
     SdcardData.nbytes = 128;
@@ -68,7 +70,7 @@ void SDCARD_Tasks(void)
               break;
 
             case SDCARD_STATE_WRITE_FILE:
-              SdcardData.fileHandle = SYS_FS_FileOpen(SdcardData.fileOpen, SYS_FS_FILE_OPEN_APPEND);// try create a new file named "fileopen" and see
+              SdcardData.fileHandle = SYS_FS_FileOpen(SdcardData.fileOpen[--SdcardData.numFile], SYS_FS_FILE_OPEN_APPEND);// try create a new file named "fileopen" and see
               if(SdcardData.fileHandle == SYS_FS_HANDLE_INVALID)
               {
                   /* Could not open the file. Error out*/
@@ -76,18 +78,21 @@ void SDCARD_Tasks(void)
               }
               else
               {
+                SDCARD_FillBuffer();
                 SdcardData.nbytesReturned = SYS_FS_FileWrite(SdcardData.fileHandle, (void *)SdcardData.buf, SdcardData.nbytes);
-                if (SdcardData.nbytesReturned != -1){
+                if (SdcardData.nbytesReturned == -1){
+                  SdcardData.state = SDCARD_STATE_ERROR;
+                }else if (SdcardData.numFile==0) {
                   SdcardData.state = SDCARD_STATE_SUCCESS;
                 }else{
-                  SdcardData.state = SDCARD_STATE_ERROR;
+                  SdcardData.state = SDCARD_STATE_WRITE_FILE;
                 }
                 SYS_FS_FileClose(SdcardData.fileHandle);
               }
               break;
 
             case SDCARD_STATE_READ_FILE:
-              SdcardData.fileHandle = SYS_FS_FileOpen(SdcardData.fileOpen, SYS_FS_FILE_OPEN_READ);
+              SdcardData.fileHandle = SYS_FS_FileOpen(SdcardData.fileOpen[--SdcardData.numFile], SYS_FS_FILE_OPEN_READ);
               if(SdcardData.fileHandle == SYS_FS_HANDLE_INVALID)
               {
                   /* Could not open the file. Error out*/
@@ -118,10 +123,13 @@ void SDCARD_Tasks(void)
             case SDCARD_STATE_CARD_READ:;
 
               SdcardData.nbytesReturned = SYS_FS_FileRead(SdcardData.fileHandle,(void *)SdcardData.buf, SdcardData.nbytes);
-              if (SdcardData.nbytesReturned != -1){
+
+              if (SdcardData.nbytesReturned == -1  ){
+                SdcardData.state = SDCARD_STATE_ERROR;
+              }else if (SdcardData.numFile == 0 ){
                 SdcardData.state = SDCARD_STATE_SUCCESS;
               }else{
-                SdcardData.state = SDCARD_STATE_ERROR;
+                  SdcardData.state = SDCARD_STATE_READ_FILE;
               }
               SYS_FS_FileClose(SdcardData.fileHandle);
               break;
@@ -153,8 +161,11 @@ void SDCARD_WriteorRead(bool ifwrite){
   SdcardData.WorR = ifwrite;
 }
 
-void SDCARD_FileName(char* fileName){
-  SdcardData.fileOpen = fileName;
+void SDCARD_FileName(char** fileName,int numFile){
+
+    SdcardData.numFile = numFile;
+    SdcardData.fileOpen = fileName;
+
 }
 
 void SDCARD_StateSwitch(SDCARD_STATES state){
@@ -162,9 +173,23 @@ void SDCARD_StateSwitch(SDCARD_STATES state){
     SdcardData.state = state;
 }
 
-void SDCARD_FillBuffer(uint8_t* buf,size_t nbytes){
-  SdcardData.buf = buf;
-  SdcardData.nbytes = nbytes;
+void SDCARD_FillBuffer(void){
+
+ // TODO change: read different ports according to current text file then fill buffer. argument is null
+    uint8_t buf[128];
+    size_t nbytes = 128;
+    if (SdcardData.fileOpen[SdcardData.numFile] == "GPS.txt"){
+        USART0_Read(&buf[0], nbytes);
+    }else if (SdcardData.fileOpen[SdcardData.numFile] == "GPS.txt"){
+        USART0_Read(&buf[0], nbytes);
+    }else if (SdcardData.fileOpen[SdcardData.numFile] == "GPS.txt"){
+        USART0_Read(&buf[0], nbytes);
+    }else{
+        USART0_Read(&buf[0], nbytes);
+    }
+    SdcardData.buf = buf;
+    SdcardData.nbytes = nbytes;
+
 }
 
 void SDCARD_SetDevice(char* devName){
