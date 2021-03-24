@@ -174,21 +174,19 @@ void SDCARD_StateSwitch(SDCARD_STATES state){
 }
 
 void SDCARD_FillBuffer(void){
-
- // TODO change: read different ports according to current text file then fill buffer. argument is null
-    uint8_t buf[128];
-    size_t nbytes = 128;
-    if (SdcardData.fileOpen[SdcardData.numFile] == "GPS.txt"){
-        USART0_Read(&buf[0], nbytes);
-    }else if (SdcardData.fileOpen[SdcardData.numFile] == "GPS.txt"){
-        USART0_Read(&buf[0], nbytes);
-    }else if (SdcardData.fileOpen[SdcardData.numFile] == "GPS.txt"){
-        USART0_Read(&buf[0], nbytes);
-    }else{
-        USART0_Read(&buf[0], nbytes);
-    }
-    SdcardData.buf = buf;
-    SdcardData.nbytes = nbytes;
+  uint8_t buf[128];
+  size_t nbytes = 128;
+  if (strcmp(SdcardData.fileOpen[SdcardData.numFile],"GPS.txt")==0){
+      USART0_Read(&buf[0], nbytes);
+  }else if (strcmp(SdcardData.fileOpen[SdcardData.numFile],"Anem.txt")==0) {
+      USART0_Read(&buf[0], nbytes);
+  }else if (strcmp(SdcardData.fileOpen[SdcardData.numFile],"IMU.txt")==0) {
+      USART0_Read(&buf[0], nbytes);
+  }else{
+      USART0_Read(&buf[0], nbytes);
+  }
+  SdcardData.buf = buf;
+  SdcardData.nbytes = nbytes;
 
 }
 
