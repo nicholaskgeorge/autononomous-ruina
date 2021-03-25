@@ -8,15 +8,26 @@
 
 #include "IridiumSBD.h"
 
-#include <stddef.h>                     // Defines NULL
-#include <stdbool.h>                    // Defines true
-#include <stdlib.h>                     // Defines EXIT_FAILURE
-#include "definitions.h"                // SYS function prototypes
-#include <stdio.h>
-#include <math.h>
-#include <string.h>
-#include  <ctype.h>
-#include "./default/peripheral/uart/plib_uart0.h"
+
+IridiumSBD SBDstatus;
+
+void SBD_Initialize(void){
+
+  SBDstatus.sleep_pin;
+  SBDstatus.ring_pin;
+  SBDstatus.current_mode;
+  SBDstatus.atTimeout = 20;
+  SBDstatus.MOsent;
+  SBDstatus.MOnum;
+  SBDstatus.MTreceive;
+  SBDstatus.MTnum;
+  SBDstatus.MTlen;
+  SBDstatus.MTqueue;
+
+
+
+}
+
 
 /* Write to IridiumSBD
  * Input: buffer - contents to write
@@ -27,12 +38,8 @@ bool send( void *buffer){
   return status;
 }
 
-/*
-Adjust time out in seconds.
-Defalult value is 20 seconds.
- */
-void adjustATTimeout(IridiumSBD* self,,int seconds){
-  self->atTimeout = seconds;
+void adjustATTimeout(int seconds){
+  SBDstatus.atTimeout = seconds;
 }
 
 /*
@@ -44,7 +51,7 @@ prompt up to the next CRLF are stored in response buffer for later parsing by ca
 bool waitForATResponse(IridiumSBD* self,char *response=NULL, int responseSize=0, const char *prompt=NULL, const char *terminator="OK\r\n"){
    if (response)
       memset(response,0,responseSize);
-   
+
    int matchPromptPos = 0; // Matched chars in prompt
    int matchTerminatorPos = 0; // Matched chars in terminator
    enum {LOOKING_FOR_PROMPT, GATHERING_RESPONSE, LOOKING_FOR_TERMINATOR};
@@ -91,14 +98,10 @@ bool waitForATResponse(IridiumSBD* self,char *response=NULL, int responseSize=0,
    // end of timer loop
 }
 
-/*
-Disable flow control
-Input: void
-Returns: if the operation succeeds
- */
+
 bool disableFlowControl(void){
   bool status = send("AT&K0\r");
-  return status 
+  return status
 }
 
 /* TODO */
@@ -112,22 +115,22 @@ int sendSBDBinary(IridiumSBD* self,const uint8_t *txData, size_t txDataSize){
   send("AT+SBDWB=[");
   send(txDataSize);// todo : int to string
   send("]\r");
- 
+
   if (!waitForATResponse(NULL, 0, NULL, "READY\r\n"))
-         return cancelled() ? ISBD_CANCELLED : ISBD_PROTOCOL_ERROR; /////////////////////////////////////////////////////////// canceled todo 
-  
-  // send txData + checksum 
+         return cancelled() ? ISBD_CANCELLED : ISBD_PROTOCOL_ERROR; /////////////////////////////////////////////////////////// canceled todo
+
+  // send txData + checksum
   send(txTxtMessage);
   send("\r");
   // wait for 0\r\n\r\nOK\r\n
   if (!waitForATResponse(NULL, 0, NULL, "0\r\n\r\nOK\r\n"))
-         return cancelled() ? ISBD_CANCELLED : ISBD_PROTOCOL_ERROR; /////////////////////////////////////////////////////////// canceled todo 
+         return cancelled() ? ISBD_CANCELLED : ISBD_PROTOCOL_ERROR; /////////////////////////////////////////////////////////// canceled todo
   }
 }
 
 /* TODO */
 int sendReceiveSBDText(IridiumSBD* self,const char *message, uint8_t *rxBuffer, size_t &rxBufferSize){
-  
+
   send("AT+SBDWT=");
   send(message);
   send("\r")
@@ -191,7 +194,7 @@ int getSystemTime(IridiumSBD* self,struct tm &tm){
    unsigned long ticks_since_epoch = strtoul(msstmResponseBuf, NULL, 16);
 
    /* Strategy: we'll convert to seconds by finding the largest number of integral
-      seconds less than the equivalent ticks_since_epoch. Subtract that away and 
+      seconds less than the equivalent ticks_since_epoch. Subtract that away and
       we'll be left with a small number that won't overflow when we scale by 90/1000.
       Many thanks to Scott Weldon for this suggestion.
    */
@@ -250,7 +253,7 @@ int begin(IridiumSBD* self){
    const char *strings[3] = { "ATE1\r", "AT&D0\r", "AT&K0\r" };
    for (int i=0; i<3; ++i)
    {
-      send(strings[i]); 
+      send(strings[i]);
       if (!waitForATResponse())
          return cancelled() ? ISBD_CANCELLED : ISBD_PROTOCOL_ERROR;
    }

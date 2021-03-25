@@ -13,11 +13,17 @@
 extern "C" {
 #endif
 
-#include <stddef.h>                     // Defines NULL
-#include <stdbool.h>                    // Defines true
+
+#include "configuration.h"
+#include <stddef.h>
+#include <stdbool.h>
+#include <stdint.h>
 #include <stdlib.h>                     // Defines EXIT_FAILURE
 #include "definitions.h"                // SYS function prototypes
 #include <stdio.h>
+#include <math.h>
+#include <string.h>
+#include  <ctype.h>
 
 typedef enum{
 
@@ -43,7 +49,7 @@ typedef struct{
     PIO_PIN sleep_pin;
     PIO_PIN ring_pin;
     SBD_MODE current_mode;
-    int atTimeout = 20;
+    int atTimeout;
     bool MOsent;
     int MOnum;
     bool MTreceive;
@@ -53,8 +59,18 @@ typedef struct{
 
 } IridiumSBD;
 
+/*
+    This function initializes the Harmony application.  It places the
+    application in its initial state and prepares it to run so that its
+    APP_Tasks function can be called.
 
+*/
+void SBD_Initialize(void);
+
+/* Disable flow control */
 bool disableFlowControl(void);
+
+/* Adjust time out in seconds. Defalult value is 20 seconds. */
 void adjustATTimeout(IridiumSBD* self,,int seconds);          // default value = 20 seconds
 bool waitForATResponse(IridiumSBD* self,char *response=NULL, int responseSize=0, const char *prompt=NULL, const char *terminator="OK\r\n");
 int sendSBDText(IridiumSBD* self,const char *message);
