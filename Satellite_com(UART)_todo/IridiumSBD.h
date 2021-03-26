@@ -24,23 +24,23 @@ extern "C" {
 #include <math.h>
 #include <string.h>
 #include  <ctype.h>
+#include <time.h>
+#include <unistd.h>
 
 typedef enum{
-
-  ISBD_SUCCESS          =   0,
-  ISBD_ALREADY_AWAKE    =   1,
-  ISBD_SERIAL_FAILURE   =   2,
-  ISBD_PROTOCOL_ERROR    =  3,
-  ISBD_CANCELLED          = 4,
-  ISBD_NO_MODEM_DETECTED  = 5,
-  ISBD_SBDIX_FATAL_ERROR  = 6,
-  ISBD_SENDRECEIVE_TIMEOUT =7,
-  ISBD_RX_OVERFLOW         =8,
-  ISBD_REENTRANT           =9,
-  ISBD_IS_ASLEEP           =10,
-  ISBD_NO_SLEEP_PIN        =11,
-  ISBD_NO_NETWORK          =12,
-  ISBD_MSG_TOO_LONG        =13
+  ISBD_SUCCESS          ,
+  ISBD_ALREADY_AWAKE    ,
+  ISBD_SERIAL_FAILURE   ,
+  ISBD_PROTOCOL_ERROR    ,
+  ISBD_NO_MODEM_DETECTED  ,
+  ISBD_SBDIX_FATAL_ERROR  ,
+  ISBD_SENDRECEIVE_TIMEOUT ,
+  ISBD_RX_OVERFLOW         ,
+  ISBD_REENTRANT           ,
+  ISBD_IS_ASLEEP           ,
+  ISBD_NO_SLEEP_PIN        ,
+  ISBD_NO_NETWORK          ,
+  ISBD_MSG_TOO_LONG
 
 }SBD_MODE;
 
@@ -56,6 +56,8 @@ typedef struct{
     int MTnum;
     int MTlen;
     int MTqueue;
+		bool isAsleep;
+		time_t lastPowerOnTime;
 
 } IridiumSBD;
 
@@ -67,11 +69,15 @@ typedef struct{
 */
 void SBD_Initialize(void);
 
-/* Disable flow control */
-bool disableFlowControl(void);
-
 /* Adjust time out in seconds. Defalult value is 20 seconds. */
-void adjustATTimeout(IridiumSBD* self,,int seconds);          // default value = 20 seconds
+void adjustATTimeout(IridiumSBD* self,,int seconds);
+
+/*
+Wait for response from previous AT command.
+This process terminates when "terminator" string is seen or upon timeout.
+If "prompt" string is provided (example "+CSQ:"), then all characters following
+prompt up to the next CRLF are stored in response buffer for later parsing by caller.
+ */
 bool waitForATResponse(IridiumSBD* self,char *response=NULL, int responseSize=0, const char *prompt=NULL, const char *terminator="OK\r\n");
 int sendSBDText(IridiumSBD* self,const char *message);
 int sendSBDBinary(IridiumSBD* self,const uint8_t *txData, size_t txDataSize);
@@ -79,10 +85,15 @@ int sendReceiveSBDText(IridiumSBD* self,const char *message, uint8_t *rxBuffer, 
 int sendReceiveSBDBinary(IridiumSBD* self,const uint8_t *txData, size_t txDataSize, uint8_t *rxBuffer, size_t &rxBufferSize);
 int checkMailBox(vIridiumSBD* self);
 int getSignalQuality(IridiumSBD* self,int &quality);
-int getSystemTime(IridiumSBD* self,struct tm &tm);
+
+/* make the modem asleeep */
 int sleep(IridiumSBD* self);
+
+/* power on/off the modem */
 void power(IridiumSBD* self,bool on);
-int begin(IridiumSBD* self);
+
+/* The usual initialization process */
+int begin(void);
 #ifdef	__cplusplus
 }
 #endif
