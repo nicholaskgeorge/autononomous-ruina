@@ -28,6 +28,8 @@ extern "C" {
 #include <unistd.h>
 
 #define ISBD_MAX_MESSAGE_LENGTH         340
+#define ISBD_DEFAULT_AT_TIMEOUT         30
+#define ISBD_DEFAULT_SENDRECEIVE_TIME   300
 
 typedef enum{
   ISBD_SUCCESS          ,
@@ -42,7 +44,8 @@ typedef enum{
   ISBD_IS_ASLEEP           ,
   ISBD_NO_SLEEP_PIN        ,
   ISBD_NO_NETWORK          ,
-  ISBD_MSG_TOO_LONG
+  ISBD_MSG_TOO_LONG,
+  ISBD_WAIT_RETRY
 
 }SBD_MODE;
 
@@ -51,13 +54,14 @@ typedef struct{
     PIO_PIN sleep_pin;
     PIO_PIN ring_pin;
     SBD_MODE current_mode;
-    int atTimeout = 20;
+    int atTimeout = ISBD_DEFAULT_AT_TIMEOUT;
+    int sendReceiveTimeout = ISBD_DEFAULT_SENDRECEIVE_TIME;
     bool MOsent;
-    int MOnum;
+    uint16_t MOnum;
     bool MTreceive;
-    int MTnum;
-    int MTlen;
-    int MTqueue;
+    uint16_t MTnum;
+    uint16_t MTlen;
+    uint16_t MTqueue;
 		bool isAsleep;
 		time_t lastPowerOnTime;
 
@@ -75,7 +79,7 @@ void SBD_Initialize(IridiumSBD* self);
     This routine is the application's tasks function.  It
     defines the application's state machine and core logic.
  */
-void SBD_Tasks(IridiumSBD* self);
+void SBD_Tasks(IridiumSBD* self); /* TODO */
 
 /* Adjust time out in seconds. Defalult value is 20 seconds. */
 void adjustATTimeout(IridiumSBD* self,int seconds);

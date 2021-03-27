@@ -178,10 +178,72 @@ void sendSBDBinary(IridiumSBD* self,const uint8_t *txData, size_t txDataSize){
 }
 
 
-/* TODO */
-int checkMailBox(IridiumSBD* self,uint8_t *rxBuffer, size_t *rxBufferSize){
-  send("AT+SBDIX\r");
-  // receive response +SBDIX:
+void checkMailBox(IridiumSBD* self,uint8_t *rxBuffer, size_t *rxBufferSize){
+   // Long SBDIX loop begins here
+
+   time_t endwait;
+   int seconds = self->sendReceiveTimeout;
+   endwait = time (NULL) + seconds ;
+   while (time (NULL) < endwait){
+
+      uint16_t moCode = 0, moMSN = 0, mtCode = 0, mtMSN = 0, mtLen = 0, mtRemaining = 0;
+      int ret = doSBDIX(moCode, moMSN, mtCode, mtMSN, mtLen, mtRemaining);
+      
+      if (ret != ISBD_SUCCESS){
+         self->current_mode = ret;
+         return;
+      }
+
+      debug_print("SBDIX MO code: ");
+      debug_print(moCode);
+      debug_print("\r\n");
+
+      if (moCode >= 0 && moCode <= 4) // this range indicates successful return!
+      {
+         debug_print(("SBDIX success!\r\n");
+         self->MOsent = true;
+         self->MOnum = moMSN;
+         self->MTnum = mtMSN;
+         self->MTlen = mtLen;
+         self->MTqueue = mtRemaining;
+
+         self->MTreceive = mtCode == 1 && rxBuffer;
+         if (self->MTreceive) // retrieved 1 message
+         {
+            debug_print(F("Incoming message!\r\n"));
+            self->current_mode = doSBDRT(rxBuffer, rxBufferSize);
+            return;
+         }
+
+         else
+         {
+            // No data returned
+            if (rxBufferSize) 
+               *rxBufferSize = 0;
+         }
+         self->current_mode = ISBD_SUCCESS;
+         return;
+      }
+
+      else if (moCode == 12 || moCode == 14 || moCode == 16) // fatal failure: no retry
+      {
+         debug_print("SBDIX fatal!\r\n");
+         self->current_mode = ISBD_SBDIX_FATAL_ERROR;
+         return;
+      }
+
+      else // retry
+      {
+         debug_print("Waiting for SBDIX retry...\r\n");
+         self->current_mode = ISBD_WAIT_RETRY;
+         return;
+      }
+      
+   } // big wait loop
+
+   debug_print("SBDIX timeout!\r\n");
+   self->current_mode = ISBD_SENDRECEIVE_TIMEOUT;
+   return;
 }
 
 
@@ -296,74 +358,27 @@ bool send(size_t num){
    return send(p);
 }
 
-/* TODO + Read message */
+/* parse to read SBDIX response field */
+int doSBDIX(uint16_t &moCode, uint16_t &moMSN, uint16_t &mtCode, uint16_t &mtMSN, uint16_t &mtLen, uint16_t &mtRemaining){
+   // Returns xx,xxxxx,xx,xxxxx,xx,xxx
+   char sbdixResponseBuf[32];
+   send("AT+SBDIX\r");
+   if (!waitForATResponse(sbdixResponseBuf, sizeof(sbdixResponseBuf), "+SBDIX: "))
+      return  ISBD_PROTOCOL_ERROR;
 
-void SBDIX(IridiumSBD* self, uint8_t *rxBuffer, size_t *rxBufferSize){
- // Long SBDIX loop begins here
-   for (unsigned long start = millis(); millis() - start < 1000UL * this->sendReceiveTimeout;)
+   uint16_t *values[6] = { &moCode, &moMSN, &mtCode, &mtMSN, &mtLen, &mtRemaining };
+   for (int i=0; i<6; ++i)
    {
-      bool okToProceed = true;
-      if (this->msstmWorkaroundRequested)
-      {
-         okToProceed = false;
-         int ret = internalMSSTMWorkaround(okToProceed);
-         if (ret != ISBD_SUCCESS)
-            return ret;
-      }
+      char *p = strtok(i == 0 ? sbdixResponseBuf : NULL, ", ");
+      if (p == NULL)
+         return ISBD_PROTOCOL_ERROR;
+      *values[i] = atol(p);
+   }
+   return ISBD_SUCCESS;
+}
 
-      if (okToProceed)
-      {
-         uint16_t moCode = 0, moMSN = 0, mtCode = 0, mtMSN = 0, mtLen = 0, mtRemaining = 0;
-         int ret = doSBDIX(moCode, moMSN, mtCode, mtMSN, mtLen, mtRemaining);
-         if (ret != ISBD_SUCCESS)
-            return ret;
+/* Receive messages in ASCII */
+int doSBDRT(uint8_t *xBuffer, size_t *rxBufferSize){
+   
 
-         diagprint(F("SBDIX MO code: "));
-         diagprint(moCode);
-         diagprint(F("\r\n"));
-
-         if (moCode >= 0 && moCode <= 4) // this range indicates successful return!
-         {
-            diagprint(F("SBDIX success!\r\n"));
-
-            this->remainingMessages = mtRemaining;
-            if (mtCode == 1 && rxBuffer) // retrieved 1 message
-            {
-               diagprint(F("Incoming message!\r\n"));
-               return doSBDRB(rxBuffer, prxBufferSize);
-            }
-
-            else
-            {
-               // No data returned
-               if (prxBufferSize) 
-                  *prxBufferSize = 0;
-            }
-            return ISBD_SUCCESS;
-         }
-
-         else if (moCode == 12 || moCode == 14 || moCode == 16) // fatal failure: no retry
-         {
-            diagprint(F("SBDIX fatal!\r\n"));
-            return ISBD_SBDIX_FATAL_ERROR;
-         }
-
-         else // retry
-         {
-            diagprint(F("Waiting for SBDIX retry...\r\n"));
-            if (!noBlockWait(sbdixInterval))
-               return ISBD_CANCELLED;
-         }
-      }
-
-      else // MSSTM check fail
-      {
-         diagprint(F("Waiting for MSSTM retry...\r\n"));
-         if (!noBlockWait(ISBD_MSSTM_RETRY_INTERVAL))
-            return ISBD_CANCELLED;
-      }
-   } // big wait loop
-
-   diagprint(F("SBDIX timeout!\r\n"));
-   return ISBD_SENDRECEIVE_TIMEOUT;
 }
