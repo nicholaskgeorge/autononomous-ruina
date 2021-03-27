@@ -30,10 +30,12 @@ void SBD_Initialize(IridiumSBD* self)){
 
 }
 
-/* TODO */
+/* TODO */ /* TODO */ /* TODO */ /* TODO */ /* TODO */ /* TODO */ /* TODO */
 void SBD_Tasks(IridiumSBD* self){
    return;
 }
+ /* TODO */ /* TODO */ /* TODO */ /* TODO */ /* TODO */ /* TODO */ /* TODO */ /* TODO */
+
 
 
 void adjustATTimeout(int seconds){
