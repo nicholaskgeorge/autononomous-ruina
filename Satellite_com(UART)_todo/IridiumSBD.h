@@ -27,6 +27,8 @@ extern "C" {
 #include <time.h>
 #include <unistd.h>
 
+#define ISBD_MAX_MESSAGE_LENGTH         340
+
 typedef enum{
   ISBD_SUCCESS          ,
   ISBD_ALREADY_AWAKE    ,
@@ -49,7 +51,7 @@ typedef struct{
     PIO_PIN sleep_pin;
     PIO_PIN ring_pin;
     SBD_MODE current_mode;
-    int atTimeout;
+    int atTimeout = 20;
     bool MOsent;
     int MOnum;
     bool MTreceive;
@@ -67,10 +69,16 @@ typedef struct{
     APP_Tasks function can be called.
 
 */
-void SBD_Initialize(void);
+void SBD_Initialize(IridiumSBD* self);
+
+/*
+    This routine is the application's tasks function.  It
+    defines the application's state machine and core logic.
+ */
+void SBD_Tasks(IridiumSBD* self);
 
 /* Adjust time out in seconds. Defalult value is 20 seconds. */
-void adjustATTimeout(IridiumSBD* self,,int seconds);
+void adjustATTimeout(IridiumSBD* self,int seconds);
 
 /*
 Wait for response from previous AT command.
@@ -79,21 +87,23 @@ If "prompt" string is provided (example "+CSQ:"), then all characters following
 prompt up to the next CRLF are stored in response buffer for later parsing by caller.
  */
 bool waitForATResponse(IridiumSBD* self,char *response=NULL, int responseSize=0, const char *prompt=NULL, const char *terminator="OK\r\n");
-int sendSBDText(IridiumSBD* self,const char *message);
-int sendSBDBinary(IridiumSBD* self,const uint8_t *txData, size_t txDataSize);
-int sendReceiveSBDText(IridiumSBD* self,const char *message, uint8_t *rxBuffer, size_t &rxBufferSize);
-int sendReceiveSBDBinary(IridiumSBD* self,const uint8_t *txData, size_t txDataSize, uint8_t *rxBuffer, size_t &rxBufferSize);
-int checkMailBox(vIridiumSBD* self);
-int getSignalQuality(IridiumSBD* self,int &quality);
+
+void sendSBDText(IridiumSBD* self,const char *message);
+
+void sendSBDBinary(IridiumSBD* self,const uint8_t *txData, size_t txDataSize);
+
+void checkMailBox(IridiumSBD* self,uint8_t *rxBuffer, size_t *rxBufferSize);
+
+void getSignalQuality(IridiumSBD* self,int &quality);
 
 /* make the modem asleeep */
-int sleep(IridiumSBD* self);
+void sleep(IridiumSBD* self);
 
 /* power on/off the modem */
 void power(IridiumSBD* self,bool on);
 
 /* The usual initialization process */
-int begin(void);
+void begin(IridiumSBD* self);
 #ifdef	__cplusplus
 }
 #endif
