@@ -92,12 +92,16 @@ prompt up to the next CRLF are stored in response buffer for later parsing by ca
  */
 bool waitForATResponse(IridiumSBD* self,char *response=NULL, int responseSize=0, const char *prompt=NULL, const char *terminator="OK\r\n");
 
+/* send data in text */
 void sendSBDText(IridiumSBD* self,const char *message);
 
+/* send data in binary*/
 void sendSBDBinary(IridiumSBD* self,const uint8_t *txData, size_t txDataSize);
 
+/* mailbox check if any new message coming or if old message sent */
 void checkMailBox(IridiumSBD* self,uint8_t *rxBuffer, size_t *rxBufferSize);
 
+/* Get satellite signal quality */
 void getSignalQuality(IridiumSBD* self,int &quality);
 
 /* make the modem asleeep */
