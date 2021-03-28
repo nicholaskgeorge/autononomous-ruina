@@ -33,6 +33,7 @@ void SBD_Initialize(IridiumSBD* self)){
 /* TODO */ /* TODO */ /* TODO */ /* TODO */ /* TODO */ /* TODO */ /* TODO */
 void SBD_Tasks(IridiumSBD* self){
    return;
+   // adaptive retry
 }
  /* TODO */ /* TODO */ /* TODO */ /* TODO */ /* TODO */ /* TODO */ /* TODO */ /* TODO */
 
@@ -66,7 +67,7 @@ bool waitForATResponse(IridiumSBD* self,char *response=NULL, int responseSize=0,
    while (time (NULL) < endwait){
       while (i<nbytes){
 
-       char c = buf[i];
+       char c = buf[i++];
        if (prompt){
           switch (promptState){
              case LOOKING_FOR_PROMPT:
@@ -93,7 +94,7 @@ bool waitForATResponse(IridiumSBD* self,char *response=NULL, int responseSize=0,
 
        if (c == terminator[matchTerminatorPos]){
           ++matchTerminatorPos;
-          if (terminator[matchTerminatorPos]== '\0' ){
+          if (terminator[matchTerminatorPos]== '\0' ){ // check echo strings
              return true;
           }
        }else{
@@ -112,7 +113,7 @@ void sendSBDText(IridiumSBD* self,const char *message){
 
    if (message == NULL){
       send("AT+SBDWT=\r");
-      if (!waitForATResponse()){
+      if (!waitForATResponse(self)){
          self->current_mode= ISBD_PROTOCOL_ERROR;
          return;
       }
@@ -316,7 +317,7 @@ void begin(IridiumSBD* self){
    bool modemAlive = false;
    while (time (NULL) < endwait && !modemAlive){
      send("AT\r");
-     modemAlive = waitForATResponse();
+     modemAlive = waitForATResponse(self);
    }
 
    if (!modemAlive){
@@ -325,7 +326,7 @@ void begin(IridiumSBD* self){
    }
 
    send("AT&K0\r");
-   if (!waitForATResponse()){
+   if (!waitForATResponse(self)){
      debug_print("Protocal error!\r\n");
      self->current_mode  =  ISBD_PROTOCOL_ERROR;
    }
@@ -340,10 +341,25 @@ void debug_print(char* str){
   USART1_Write(str,sizeof(str));
 }
 
+void debug_print(uint16_t num){
+   char* p; 
+   sprintf(p,"%u",num);
+   debug_print(p);
+}
+
+void debug_print(size_t num){
+   char* p; 
+   sprintf(p,"%zu",num);
+   debug_print(p);
+}
+
 /* Write to IridiumSBD */
 bool send( char *buffer){
-  bool status = UART0_Write((void*)buffer, sizeof((void*)buffer));
-  return status;
+   debug_print(">> ");
+   debug_print(buffer);
+   debug_print("\r\n");
+   bool status = UART0_Write((void*)buffer, sizeof((void*)buffer));
+   return status;
 }
 
 bool send(uint16_t num){
@@ -354,7 +370,7 @@ bool send(uint16_t num){
 
 bool send(size_t num){
    char* p; 
-   sprintf(p,"%u",num);
+   sprintf(p,"%zu",num);
    return send(p);
 }
 
@@ -363,8 +379,8 @@ int doSBDIX(uint16_t &moCode, uint16_t &moMSN, uint16_t &mtCode, uint16_t &mtMSN
    // Returns xx,xxxxx,xx,xxxxx,xx,xxx
    char sbdixResponseBuf[32];
    send("AT+SBDIX\r");
-   if (!waitForATResponse(sbdixResponseBuf, sizeof(sbdixResponseBuf), "+SBDIX: "))
-      return  ISBD_PROTOCOL_ERROR;
+   if (!waitForATResponse(self,sbdixResponseBuf, sizeof(sbdixResponseBuf), "+SBDIX: "))
+      return ISBD_PROTOCOL_ERROR;
 
    uint16_t *values[6] = { &moCode, &moMSN, &mtCode, &mtMSN, &mtLen, &mtRemaining };
    for (int i=0; i<6; ++i)
@@ -378,7 +394,15 @@ int doSBDIX(uint16_t &moCode, uint16_t &moMSN, uint16_t &mtCode, uint16_t &mtMSN
 }
 
 /* Receive messages in ASCII */
-int doSBDRT(uint8_t *xBuffer, size_t *rxBufferSize){
+int doSBDRT(uint8_t *rxBuffer, size_t *rxBufferSize){
+   send("AT+SBDRT\r");
+   char sbdrtResponseBuf[ISBD_MAX_MESSAGE_LENGTH];
+
+   if (!waitForATResponse(self,sbdrtResponseBuf, sizeof(sbdrtResponseBuf), "+SBDRT:\r\n"));
+      return ISBD_PROTOCOL_ERROR;
    
+   char* p = strtok(sbdrtResponseBuf,"\r");
+   rxBuffer = p;
+   rxBufferSize = sizeof(p);
 
 }
