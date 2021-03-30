@@ -7,7 +7,7 @@
  */
 
 #ifndef IRIDIUMSBD_H
-	IRIDIUMSBD_H
+#define	IRIDIUMSBD_H
 
 #ifdef	__cplusplus
 extern "C" {
@@ -54,16 +54,16 @@ typedef struct{
     PIO_PIN sleep_pin;
     PIO_PIN ring_pin;
     SBD_MODE current_mode;
-    int atTimeout = ISBD_DEFAULT_AT_TIMEOUT;
-    int sendReceiveTimeout = ISBD_DEFAULT_SENDRECEIVE_TIME;
+    int atTimeout;
+    int sendReceiveTimeout;
     bool MOsent;
     uint16_t MOnum;
     bool MTreceive;
     uint16_t MTnum;
     uint16_t MTlen;
     uint16_t MTqueue;
-		bool isAsleep;
-		time_t lastPowerOnTime;
+	bool isAsleep;
+	time_t lastPowerOnTime;
 
 } IridiumSBD;
 
@@ -90,22 +90,22 @@ This process terminates when "terminator" string is seen or upon timeout.
 If "prompt" string is provided (example "+CSQ:"), then all characters following
 prompt up to the next CRLF are stored in response buffer for later parsing by caller.
  */
-bool waitForATResponse(IridiumSBD* self,char *response=NULL, int responseSize=0, const char *prompt=NULL, const char *terminator="OK\r\n");
+bool waitForATResponse(IridiumSBD* self,char *response, int responseSize, const char *prompt, const char *terminator);
 
 /* send data in text */
-void sendSBDText(IridiumSBD* self,const char *message);
+void sendSBDText(IridiumSBD* self,char *message);
 
 /* send data in binary*/
-void sendSBDBinary(IridiumSBD* self,const uint8_t *txData, size_t txDataSize);
+void sendSBDBinary(IridiumSBD* self,uint8_t *txData, size_t txDataSize);
 
 /* mailbox check if any new message coming or if old message sent */
-void checkMailBox(IridiumSBD* self,uint8_t *rxBuffer, size_t *rxBufferSize);
+void checkMailBox(IridiumSBD* self,char *rxBuffer, size_t *rxBufferSize);
 
 /* Get satellite signal quality */
-void getSignalQuality(IridiumSBD* self,int &quality);
+void getSignalQuality(IridiumSBD* self,int *quality);
 
 /* make the modem asleeep */
-void sleep(IridiumSBD* self);
+void sleep_ISBD(IridiumSBD* self);
 
 /* power on/off the modem */
 void power(IridiumSBD* self,bool on);

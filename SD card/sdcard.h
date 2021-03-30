@@ -23,6 +23,7 @@
 #include <stdlib.h>                     // Defines EXIT_FAILURE
 #include "definitions.h"                // SYS function prototypes
 #include <stdio.h>
+#include <time.h>
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
@@ -39,6 +40,7 @@ extern "C" {
 // *****************************************************************************
 
 #define MAX_SD_CARD_READ_BUFFER_SIZE    200
+#define SD_CARD_DEFAULT_TIMOUT   30
 
 // *****************************************************************************
 /* Application states
@@ -199,7 +201,7 @@ void SDCARD_FileName(char** fileName,int numFile);
 /* Fill in buffer to Write to the file */
 void SDCARD_FillBuffer(void);
 
-/* Switch sdcard state only when it's waiting */
+/* Switch sd card state only when it's waiting */
 void SDCARD_StateSwitch(SDCARD_STATES state);
 
 /* Change device for data logging */
