@@ -24,6 +24,7 @@
 #include "definitions.h"                // SYS function prototypes
 #include <stdio.h>
 #include <time.h>
+#include "Helper_func.h"
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
@@ -58,13 +59,16 @@ typedef enum
 
     SDCARD_STATE_CARD_MOUNT,
     SDCARD_STATE_CARD_CURRENT_DRIVE_SET,
+    SDCARD_STATE_OPEN_WRITE_FILE,
+    SDCARD_STATE_OPEN_READ_FILE,
     SDCARD_STATE_WRITE_FILE,
     SDCARD_STATE_READ_FILE,
     SDCARD_STATE_ERROR,
     SDCARD_STATE_WAITING,
     SDCARD_STATE_SUCCESS,
     SDCARD_STATE_READ_FILE_SIZE,
-    SDCARD_STATE_CARD_READ
+    SDCARD_STATE_CARD_READ,
+    SDCARD_STATE_TIMEOUT
 
 
 } SDCARD_STATES;
@@ -91,14 +95,14 @@ typedef struct
     SYS_FS_HANDLE fileHandle;
     /* Write (true) or read (false) a file*/
     bool WorR;
-    /* Name(s) of file(s) to be open*/
-    char** fileOpen;
-    /* Number of files to be open */
-    int numFile;
+    /* Name of file(s) to be open*/
+    char* fileOpen;
     /* File Size*/
     int32_t fileSize;
     /* Message to be written/read */
     uint8_t *buf;
+    /* if message buffer is filled */
+    bool bufFilled;
     /* size of buf*/
     size_t nbytes;
     /* size of buf after operation*/
@@ -109,6 +113,8 @@ typedef struct
     char* devName;
     /* Mounted drive name*/
     char* mntName;
+//    /* Timer object */
+//    SYS_TIME_HANDLE timeHandle;
 
 } SDCARD_DATA;
 
@@ -158,7 +164,7 @@ typedef struct
     This routine must be called from the SYS_Initialize function.
 */
 
-void SDCARD_Initialize(void);
+void SDCARD_Initialize(SDCARD_DATA* SdcardData);
 
 /*******************************************************************************
   Function:
@@ -190,25 +196,25 @@ void SDCARD_Initialize(void);
     This routine must be called from SYS_Tasks() routine.
  */
 
-void SDCARD_Tasks( void );
+void SDCARD_Tasks( SDCARD_DATA* SdcardData );
 
 /* Change the file operation if read or write to the file */
-void SDCARD_WriteorRead(bool ifwrite);
+void SDCARD_WriteorRead(SDCARD_DATA* SdcardData,bool ifwrite);
 
 /* Change the file to be written or read */
-void SDCARD_FileName(char** fileName,int numFile);
+void SDCARD_FileName(SDCARD_DATA* SdcardData,char* fileName);
 
 /* Fill in buffer to Write to the file */
-void SDCARD_FillBuffer(void);
+void SDCARD_FillinBuffer(SDCARD_DATA* SdcardData,uint8_t* buf,size_t nbytes);
 
 /* Switch sd card state only when it's waiting */
-void SDCARD_StateSwitch(SDCARD_STATES state);
+void SDCARD_StateSwitch(SDCARD_DATA* SdcardData,SDCARD_STATES state);
 
 /* Change device for data logging */
-void SDCARD_SetDevice(char* devName);
+void SDCARD_SetDevice(SDCARD_DATA* SdcardData,char* devName);
 
 /* Change mount drive */
-void SDCARD_SetMount(char* mntName);
+void SDCARD_SetMount(SDCARD_DATA* SdcardData,char* mntName);
 
 #endif /* _APP_H */
 
