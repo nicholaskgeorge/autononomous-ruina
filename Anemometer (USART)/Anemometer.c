@@ -1,4 +1,4 @@
-/* 
+/*
  * File:   Anemometer.c
  * Anemometer library
  * Author: Daisy Zhang
@@ -8,15 +8,7 @@
 
 #include "Anemometer.h"
 
-#include <stddef.h>                     // Defines NULL
-#include <stdbool.h>                    // Defines true
-#include <stdlib.h>                     // Defines EXIT_FAILURE
-#include "definitions.h"                // SYS function prototypes
-#include <stdio.h>
-#include <math.h>
-#include <string.h>
-#include  <ctype.h>
-#include "./default/peripheral/usart/plib_usart0.h"
+
 
 /*Process the anemometer string and change the Anemometer_info struct
  * accordingly.
@@ -28,6 +20,11 @@ bool Anem_Process(Anemometer_INFO* Anemometer_info,char* incoming_str){
 
     char* ptr = incoming_str;
     char* s=ptr;
+
+    while (*ptr=='\0'){
+        ++ptr;
+    }
+
     while (*ptr!='\0'){
         if (!isspace(*ptr)&&!isdigit(*ptr)&&*ptr!='.'&&*ptr!='-'){
             s=ptr;
@@ -38,7 +35,6 @@ bool Anem_Process(Anemometer_INFO* Anemometer_info,char* incoming_str){
     Anemometer_info->bufferLen = sizeof(incoming_str);
     Anemometer_info->buffer = incoming_str;
 
-    //TODO
     if (*ptr == '\0') return true; // Parsed a complete sentence.
     return false;
 }
@@ -55,7 +51,7 @@ char* ParseField(Anemometer_INFO* Anemometer_info,char* s){
     char* endptr = s+1;
     while (*endptr!='\0'){
         if (!isspace(*endptr)&&!isdigit(*endptr)&&(*endptr!='.')&&(*endptr!='-')){
-            if ((*s == 'M'&&*endptr=='D')||(*s == 'P'&& *endptr =='I')){
+            if ((*s == 'M'&&*endptr=='D')||(*s == 'P'&& *endptr =='I')||(*s == 'R'&& *endptr =='O')){
                 endptr = endptr;
             }else{
                 endptr-=1;
@@ -68,7 +64,7 @@ char* ParseField(Anemometer_INFO* Anemometer_info,char* s){
         Anemometer_info->speed = strtod (s+2, &endptr);//skip space;
         return endptr;
     }else if (*s == 'D'){
-        Anemometer_info->direction = strtol(s+2,&endptr,10);;//skip space;
+        Anemometer_info->direction = strtod(s+2,&endptr);;//skip space;
         return endptr;
     }else if (*s == 'U'){
         Anemometer_info->u = strtod (s+2, &endptr);//skip space;
@@ -98,7 +94,7 @@ char* ParseField(Anemometer_INFO* Anemometer_info,char* s){
         Anemometer_info->roll = strtod (s+2, &endptr);//skip space;
         return endptr;
     }else if (*s == 'M'){
-        Anemometer_info->magnetic_dir = strtol(s+2,&endptr,10);;//skip space;
+        Anemometer_info->magnetic_dir = strtod(s+2,&endptr);;//skip space;
         return endptr;
     }
     return endptr;

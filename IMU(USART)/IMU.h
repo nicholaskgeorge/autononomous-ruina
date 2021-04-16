@@ -1,13 +1,12 @@
-/*
- * File:   Anemometer.h
- * Anemometer library
- * Author: Daisy Zhang
+/* 
+ * File:   IMU.h
+ * Author: daisy
  *
- * Created on August 26, 2020, 3:38 PM
+ * Created on April 13, 2021, 11:20 PM
  */
 
-#ifndef ANEMOMETER_H
-#define	ANEMOMETER_H
+#ifndef IMU_H
+#define	IMU_H
 
 #include <stddef.h>
 #include <stdbool.h>
@@ -18,7 +17,7 @@
 #include "configuration.h"
 #include <math.h>
 #include <string.h>
-#include  <ctype.h>
+#include  <ctype.h> 
 
 #ifdef	__cplusplus
 extern "C" {
@@ -34,20 +33,22 @@ typedef struct
 
 
 	// Variables parsed and kept for user
-	double speed;
-	double direction;
-	double u,v,w;
-	double temp,humidity,pressure;
-	double pitch,roll;
-    double magnetic_dir;
+    char messagetype[3];
+	double yaw,pitch,roll;
+	double MagX,MagY,MagZ;
+	double AccelX,AccelY,AccelZ;
+    double GyroX,GyroY,GyroZ;
 
-} Anemometer_INFO ;
+} IMU_INFO ;
 
-bool Anem_Process(Anemometer_INFO* Anemometer_info,char* incoming_str);
-char* ParseField(Anemometer_INFO* Anemometer_info,char* s);
+bool IMU_Process(IMU_INFO* IMU_info,char* incoming_str);
+bool Parse_IMU_Field(IMU_INFO* IMU_info);
+
+
 
 #ifdef	__cplusplus
 }
 #endif
 
-#endif	/* ANEMOMETER_H */
+#endif	/* IMU_H */
+
