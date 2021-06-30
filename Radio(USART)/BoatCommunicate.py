@@ -15,13 +15,15 @@ def Radio_decode(message):
     return decode.decode("utf-8")
 
 def main():
-    rec = ''
-    switch = True
-    message = "/$CP:DA,0.0%"
-    message += (119-len(message))*' '
-    send = Radio_Encode(message.encode('utf-8'))
+    # message = "/$CP:DA,0.0%"
+    while True:
+        message = input("Enter Message:")
+        print("Sending:"+message)
+        message+= (119-len(message))*' '
+        send = Radio_Encode(message.encode('utf-8'))
+        ser.write(send)
+        sleep(0.3)
     # print(send)
-    ser.write(send)
     # if ser.isOpen():
     #     print("open")
     #     while True :
