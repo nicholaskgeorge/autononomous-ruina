@@ -41,7 +41,7 @@ def read_data(dataQueue,ser):
         sleep(0.1)
 
 def main():
-    ser = serial.Serial(port='COM3',baudrate=19200, timeout=0.5)
+    ser = serial.Serial(port='COM7',baudrate=19200, timeout=0.5)
     dataQueue = queue.Queue()
     dataThread = threading.Thread(target=read_data, args=(dataQueue,ser,), daemon=True)
     dataThread.start()
