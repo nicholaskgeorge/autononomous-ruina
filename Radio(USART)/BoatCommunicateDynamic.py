@@ -1,5 +1,6 @@
 import threading
 import queue
+from turtle import Turtle
 import serial
 from time import sleep
 import keyboard
@@ -10,6 +11,9 @@ import keyboard
 #this should not be set to be greater than about 119. NOTE: if this is changed, the
 #buffer length on the MCU for incomming messages MUST be made 7 bytes larger
 max_message_size = 80
+resend_sleep_time = 1
+manual_send_sleep_time = 1
+
 
 def Radio_Encode(message):
     encode = message[:]
@@ -43,59 +47,69 @@ def read_data(dataQueue,ser):
         sleep(0.1)
 
 def main():
-    ser = serial.Serial(port='COM6',baudrate=19200, timeout=0.5)
-    dataQueue = queue.Queue()
+    ser = serial.Serial(port='COM5',baudrate=19200, timeout=0.5)
+    dataQueue = queue.Queue(maxsize=5)
     dataThread = threading.Thread(target=read_data, args=(dataQueue,ser,), daemon=True)
     dataThread.start()
     confirm_computer_has_recieved = False
-    send = False
+    confirm_print = True
     message = ''
     decoded = ''
     confirm_mcu_has_received = False
+
+    resend_index = 1
+    resend_limit = 3
     # sending("lap send", ser)
     # sleep(1)
     while True:
         try:
-            if keyboard.is_pressed('shift'):
+            if keyboard.is_pressed('`'):
+                print("you can type now:")
                 print("\n")
                 input_str = input()
-                print("sending "+input_str)
+                print("sending " + input_str)
                 sending(input_str,ser)
                 confirm_mcu_has_received = True
-                print(confirm_mcu_has_received)
-                print(dataQueue.qusize())
+                confirm_print = False
+                sleep(manual_send_sleep_time)
         except:
             pass
-        #print(dataQueue.qsize())
-        if (dataQueue.qsize() > 0):
+
+        if (dataQueue.qsize()>0):   
             decoded = dataQueue.get()
-            print(dataQueue.qsize())
-            print(decoded)
+
             if confirm_mcu_has_received:
                 if decoded == 'confirmed':
-                    print("was confirmed")
+                    print('was confirmed')
                     confirm_mcu_has_received = False
+                    confirm_print = True
             else:
+                print("happened")
                 confirm_computer_has_recieved = True
-        
-        if confirm_computer_has_recieved:
-            print("confirmed we recieved")
+
+        if (confirm_computer_has_recieved):
+            print("confirmed we received")
             sending("confirmed",ser)
-            sleep(3)
+            sleep(1.2)
             confirm_computer_has_recieved = False
-            send = True
-        
-        '''
-        elif send:
-            sending("lap send", ser)
-            sleep(1)
-            sending("lap send", ser)
-            print("sent data")
-            sleep(1)
-            send = False
-            confirm_mcu_has_received = True
-            '''
-        sleep(1)
+            confirm_print = True
+
+        if (confirm_print == False) & (dataQueue.qsize()==0):
+            print('\n')
+            print('resending')
+            print('sending '+ input_str)
+            print('\n')
+            sending(input_str,ser)
+            sleep(resend_sleep_time)
+            if resend_index==resend_limit:
+                confirm_print = True
+                break            
+            resend_index+=1
+            
+        sleep(0.5)
+
+            
+ 
 
 if (__name__ == '__main__'):
     main()
