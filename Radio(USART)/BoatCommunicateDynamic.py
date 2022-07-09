@@ -25,10 +25,12 @@ def Radio_decode(message):
 def sending(message,serialhandle):
     packed = message + (max_message_size-len(message))*' '
     send = Radio_Encode(packed.encode('utf-8'))
-    # thing = str(binascii.hexlify(send))
-    # print(' '.join(["0x"+ thing[i:i+2] for i in range(0,len(thing),2)]))
-    # print(send)
-    # print(send)
+    '''
+    thing = str(binascii.hexlify(send))
+    print(' '.join(["0x"+ thing[i:i+2] for i in range(0,len(thing),2)]))
+    print(send)
+    print(send)
+    '''
     serialhandle.write(send)
 
 def read_data(dataQueue,ser):
@@ -41,7 +43,7 @@ def read_data(dataQueue,ser):
         sleep(0.1)
 
 def main():
-    ser = serial.Serial(port='COM7',baudrate=19200, timeout=0.5)
+    ser = serial.Serial(port='COM6',baudrate=19200, timeout=0.5)
     dataQueue = queue.Queue()
     dataThread = threading.Thread(target=read_data, args=(dataQueue,ser,), daemon=True)
     dataThread.start()
@@ -49,7 +51,7 @@ def main():
     send = False
     message = ''
     decoded = ''
-    confirm_mcu_has_received = True
+    confirm_mcu_has_received = False
     # sending("lap send", ser)
     # sleep(1)
     while True:
@@ -60,30 +62,39 @@ def main():
                 print("sending "+input_str)
                 sending(input_str,ser)
                 confirm_mcu_has_received = True
+                print(confirm_mcu_has_received)
+                print(dataQueue.qusize())
         except:
             pass
+        #print(dataQueue.qsize())
         if (dataQueue.qsize() > 0):
             decoded = dataQueue.get()
+            print(dataQueue.qsize())
+            print(decoded)
             if confirm_mcu_has_received:
                 if decoded == 'confirmed':
                     print("was confirmed")
                     confirm_mcu_has_received = False
             else:
                 confirm_computer_has_recieved = True
+        
         if confirm_computer_has_recieved:
             print("confirmed we recieved")
             sending("confirmed",ser)
-            sleep(1.2)
+            sleep(3)
             confirm_computer_has_recieved = False
             send = True
-        # elif send:
-        #     # sending("lap send", ser)
-        #     sleep(1)
-        #     sending("lap send", ser)
-        #     print("sent data")
-        #     sleep(1)
-        #     send = False
-        #     confirm_mcu_has_received = True
+        
+        '''
+        elif send:
+            sending("lap send", ser)
+            sleep(1)
+            sending("lap send", ser)
+            print("sent data")
+            sleep(1)
+            send = False
+            confirm_mcu_has_received = True
+            '''
         sleep(1)
 
 if (__name__ == '__main__'):
