@@ -1,0 +1,15 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: usart2}
+children:
+- type: Symbols
+  children:
+  - type: Integer
+    attributes: {id: USART_SPI_BRG_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: usart2, value: '150'}
+- type: ElementPosition
+  attributes: {x: '142', y: '255', id: usart2}

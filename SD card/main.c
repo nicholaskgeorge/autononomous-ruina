@@ -3,6 +3,7 @@
 #include <stdlib.h>                     // Defines EXIT_FAILURE
 #include "definitions.h"                // SYS function prototypes
 #include <stdio.h>
+
 int main ( void )
 {
   /* SD Card code work initialize Starts */
@@ -22,14 +23,14 @@ int main ( void )
 
       /* Never call SDCARD_Tasks on one SDCARD_DATA pointer more than once in one loop*/
 
-      /* I2C data logging Starts */
-       TWIHS0_Read(0x42, &buf[0], nbytes );
-       if (!isallspace(buf,nbytes)){
-           Buffer b = remove_spaces(buf, nbytes);
-           SDCARD_FillinBuffer(SdcardData,b.ptr,b.len);
-           SDCARD_Tasks(SdcardData);
-       }
-       /* I2C data logging Ends */
+//      /* I2C data logging Starts */
+//       TWIHS0_Read(0x42, &buf[0], nbytes );
+//       if (!isallspace(buf,nbytes)){
+//           Buffer b = remove_spaces(buf, nbytes);
+//           SDCARD_FillinBuffer(SdcardData,b.ptr,b.len);
+//           SDCARD_Tasks(SdcardData);
+//       }
+//       /* I2C data logging Ends */
 
        /* OR */
 

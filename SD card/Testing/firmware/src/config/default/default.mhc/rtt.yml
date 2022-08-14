@@ -1,0 +1,60 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: rtt}
+children:
+- type: Symbols
+  children:
+  - type: String
+    attributes: {id: SYS_TIME_COMPONENT_ID}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: rtt, value: sys_time}
+  - type: Boolean
+    attributes: {id: rttALMIEN}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: rtt, value: 'true'}
+  - type: Boolean
+    attributes: {id: rttINCIEN}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: rtt, value: 'false'}
+  - type: Integer
+    attributes: {id: rttRTPRES}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: rtt, value: '3'}
+  - type: Comment
+    attributes: {id: rttResolution}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: text}
+        children:
+        - {type: Value, value: 'RTT Counter Clock Resolution:      0.092 ms'}
+- type: Attachments
+  children:
+  - type: DirectCapability
+    attributes: {id: RTT_TMR}
+    children:
+    - type: Attributes
+      children:
+      - type: String
+        attributes: {id: targetComponentID}
+        children:
+        - {type: Value, value: sys_time}
+      - type: String
+        attributes: {id: targetAttachmentID}
+        children:
+        - {type: Value, value: sys_time_TMR_dependency}
+- type: ElementPosition
+  attributes: {x: '640', y: '20', id: rtt}
