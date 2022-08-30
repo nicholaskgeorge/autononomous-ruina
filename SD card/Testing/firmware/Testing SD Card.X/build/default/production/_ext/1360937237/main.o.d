@@ -158,14 +158,17 @@ build/default/production/_ext/1360937237/main.o: ../src/main.c \
  ../src/config/default/peripheral/twihs/master/plib_twihs_master_common.h \
  ../src/config/default/peripheral/rtt/plib_rtt.h \
  ../src/config/default/peripheral/rtt/plib_rtt_common.h \
+ ../src/config/default/peripheral/usart/plib_usart1.h \
+ ../src/config/default/peripheral/usart/plib_usart_common.h \
  ../src/config/default/peripheral/hsmci/plib_hsmci.h \
  ../src/config/default/peripheral/hsmci/plib_hsmci_common.h \
  ../src/config/default/system/int/sys_int.h \
  ../src/config/default/system/cache/sys_cache.h \
  ../src/config/default/osal/osal.h \
  ../src/config/default/system/debug/sys_debug.h \
- ../src/config/default/peripheral/usart/plib_usart2.h \
- ../src/config/default/peripheral/usart/plib_usart_common.h ../src/app.h
+ ../src/config/default/peripheral/usart/plib_usart2.h ../src/app.h \
+ ../src/config/default/sdcard.h ../src/config/default/configuration.h \
+ ../src/config/default/definitions.h
 
 ../src/config/default/definitions.h:
 
@@ -489,6 +492,10 @@ build/default/production/_ext/1360937237/main.o: ../src/main.c \
 
 ../src/config/default/peripheral/rtt/plib_rtt_common.h:
 
+../src/config/default/peripheral/usart/plib_usart1.h:
+
+../src/config/default/peripheral/usart/plib_usart_common.h:
+
 ../src/config/default/peripheral/hsmci/plib_hsmci.h:
 
 ../src/config/default/peripheral/hsmci/plib_hsmci_common.h:
@@ -503,6 +510,10 @@ build/default/production/_ext/1360937237/main.o: ../src/main.c \
 
 ../src/config/default/peripheral/usart/plib_usart2.h:
 
-../src/config/default/peripheral/usart/plib_usart_common.h:
-
 ../src/app.h:
+
+../src/config/default/sdcard.h:
+
+../src/config/default/configuration.h:
+
+../src/config/default/definitions.h:

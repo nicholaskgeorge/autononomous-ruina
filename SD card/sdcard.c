@@ -25,7 +25,7 @@ void SDCARD_Initialize(SDCARD_DATA* SdcardData){
     SdcardData->devName = "/dev/mmcblka1";
     SdcardData->mntName = "/mnt/myDrive1";
     SdcardData->bufFilled = false;
-    SdcardData->buf = malloc(sizeof(uint8_t)*500);
+    SdcardData->buf = malloc(sizeof(uint8_t)*500); 
 //    SdcardData->timeHandle = SYS_TIME_CallbackRegisterMS(SDMountTimeout_Callback, (uintptr_t)0, SD_CARD_DEFAULT_TIMOUT*1000, SYS_TIME_SINGLE);
 }
 
@@ -39,12 +39,13 @@ void SDCARD_Tasks(SDCARD_DATA* SdcardData){
               if(SYS_FS_Mount(SdcardData->devName, SdcardData->mntName, FAT, 0, NULL) != SYS_FS_RES_SUCCESS)
               {
                   /* The disk could not be mounted. Try mounting again until success. */
-
+                  asm("BKPT");
                   USART1_Write("Keep mounting...\r\n",sizeof("Keep mounting...\r\n"));
               }
               else
               {
                   /* Mount was successful. Unmount the disk, for testing. */
+                  asm("BKPT");
                   SdcardData->state = SDCARD_STATE_CARD_CURRENT_DRIVE_SET;
               }
               break;
@@ -55,11 +56,13 @@ void SDCARD_Tasks(SDCARD_DATA* SdcardData){
               if(SYS_FS_CurrentDriveSet(SdcardData->mntName) == SYS_FS_RES_FAILURE)
               {
                   /* Error while setting current drive */
+                  asm("BKPT");
                   SdcardData->state = SDCARD_STATE_ERROR;
               }
               else
               {
-                  //USART1_Write("Set Drive...\r\n",sizeof("Set Drive...\r\n"));
+                asm("BKPT");
+                USART1_Write("Set Drive...\r\n",sizeof("Set Drive...\r\n"));
                 if(SdcardData->WorR){
                   SdcardData->state = SDCARD_STATE_OPEN_WRITE_FILE;
                 }else{

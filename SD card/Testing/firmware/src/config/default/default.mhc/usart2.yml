@@ -5,6 +5,20 @@ children:
 - type: Symbols
   children:
   - type: Integer
+    attributes: {id: BRG_VALUE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: usart2, value: '81'}
+  - type: Integer
+    attributes: {id: USART_CLOCK_FREQ}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: usart2, value: '150000000'}
+  - type: Integer
     attributes: {id: USART_SPI_BRG_VALUE}
     children:
     - type: Values
@@ -12,4 +26,4 @@ children:
       - type: Dynamic
         attributes: {id: usart2, value: '150'}
 - type: ElementPosition
-  attributes: {x: '142', y: '255', id: usart2}
+  attributes: {x: '13', y: '156', id: usart2}

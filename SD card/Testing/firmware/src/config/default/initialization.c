@@ -258,6 +258,8 @@ void SYS_Initialize ( void* data )
 
 	RTT_Initialize();
 
+    USART1_Initialize();
+
 	HSMCI_Initialize();
 
     USART2_Initialize();

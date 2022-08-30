@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/debug/Testing_SD_Card.X.debug.elf">
+    <memory name="program">
+      <units>bytes</units>
+      <length>2097152</length>
+      <used>13905</used>
+      <free>2083247</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>393216</length>
+      <used>2012</used>
+      <free>391204</free>
+    </memory>
+  </executable>
+</project>

@@ -65,6 +65,7 @@
 #include "peripheral/rtt/plib_rtt.h"
 #include "FreeRTOS.h"
 #include "task.h"
+#include "peripheral/usart/plib_usart1.h"
 #include "peripheral/hsmci/plib_hsmci.h"
 #include "system/int/sys_int.h"
 #include "system/cache/sys_cache.h"
