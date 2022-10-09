@@ -124,26 +124,14 @@ build/default/debug/_ext/1171490990/tasks.o: \
  ../src/config/default/system/time/sys_time_definitions.h \
  ../src/config/default/configuration.h ../src/config/default/osal/osal.h \
  ../src/config/default/osal/osal_definitions.h \
- ../src/config/default/osal/osal_freertos.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/FreeRTOS.h \
- ../src/config/default/FreeRTOSConfig.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/projdefs.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/portable.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/deprecated_definitions.h \
- ../src/third_party/rtos/FreeRTOS/Source/portable/GCC/SAM/CM7/portmacro.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/mpu_wrappers.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/queue.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/task.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/list.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/semphr.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/queue.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/task.h \
+ ../src/config/default/osal/osal_impl_basic.h \
  ../src/config/default/peripheral/clk/plib_clk.h \
  ../src/config/default/peripheral/pio/plib_pio.h \
  ../src/config/default/peripheral/nvic/plib_nvic.h \
  ../src/config/default/peripheral/xdmac/plib_xdmac.h \
  ../src/config/default/peripheral/xdmac/plib_xdmac_common.h \
  ../src/config/default/peripheral/efc/plib_efc.h \
+ ../src/config/default/peripheral/sdramc/plib_sdramc.h \
  ../src/config/default/system/time/sys_time.h \
  ../src/config/default/system/fs/sys_fs.h \
  ../src/config/default/system/fs/sys_fs_media_manager.h \
@@ -423,33 +411,7 @@ build/default/debug/_ext/1171490990/tasks.o: \
 
 ../src/config/default/osal/osal_definitions.h:
 
-../src/config/default/osal/osal_freertos.h:
-
-../src/third_party/rtos/FreeRTOS/Source/include/FreeRTOS.h:
-
-../src/config/default/FreeRTOSConfig.h:
-
-../src/third_party/rtos/FreeRTOS/Source/include/projdefs.h:
-
-../src/third_party/rtos/FreeRTOS/Source/include/portable.h:
-
-../src/third_party/rtos/FreeRTOS/Source/include/deprecated_definitions.h:
-
-../src/third_party/rtos/FreeRTOS/Source/portable/GCC/SAM/CM7/portmacro.h:
-
-../src/third_party/rtos/FreeRTOS/Source/include/mpu_wrappers.h:
-
-../src/third_party/rtos/FreeRTOS/Source/include/queue.h:
-
-../src/third_party/rtos/FreeRTOS/Source/include/task.h:
-
-../src/third_party/rtos/FreeRTOS/Source/include/list.h:
-
-../src/third_party/rtos/FreeRTOS/Source/include/semphr.h:
-
-../src/third_party/rtos/FreeRTOS/Source/include/queue.h:
-
-../src/third_party/rtos/FreeRTOS/Source/include/task.h:
+../src/config/default/osal/osal_impl_basic.h:
 
 ../src/config/default/peripheral/clk/plib_clk.h:
 
@@ -462,6 +424,8 @@ build/default/debug/_ext/1171490990/tasks.o: \
 ../src/config/default/peripheral/xdmac/plib_xdmac_common.h:
 
 ../src/config/default/peripheral/efc/plib_efc.h:
+
+../src/config/default/peripheral/sdramc/plib_sdramc.h:
 
 ../src/config/default/system/time/sys_time.h:
 

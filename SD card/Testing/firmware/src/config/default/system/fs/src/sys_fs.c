@@ -501,6 +501,7 @@ SYS_FS_RESULT SYS_FS_Mount
     /* Check if the media has been attached, analyzed and allocated a volume. */
     if (SYS_FS_MEDIA_MANAGER_MediaStatusGet(devName) != true)
     {
+        asm("BKPT");
         errorValue = SYS_FS_ERROR_NOT_READY;
         return SYS_FS_RES_FAILURE;
     }

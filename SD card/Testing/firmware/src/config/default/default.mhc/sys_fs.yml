@@ -2,6 +2,42 @@ format_version: v1.0
 type: UniqueComponent
 attributes: {id: sys_fs}
 children:
+- type: Symbols
+  children:
+  - type: Boolean
+    attributes: {id: SYS_FS_MPFS}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'false'}
+  - type: File
+    attributes: {id: SYS_FS_MPFS_HEADER}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'false'}
+  - type: File
+    attributes: {id: SYS_FS_MPFS_LOCAL_HEADER}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'false'}
+  - type: File
+    attributes: {id: SYS_FS_MPFS_SOURCE}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'false'}
 - type: Attachments
   children:
   - type: MultiCapability

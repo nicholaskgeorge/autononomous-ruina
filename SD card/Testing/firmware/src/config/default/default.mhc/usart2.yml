@@ -26,4 +26,4 @@ children:
       - type: Dynamic
         attributes: {id: usart2, value: '150'}
 - type: ElementPosition
-  attributes: {x: '13', y: '156', id: usart2}
+  attributes: {x: '13', y: '85', id: usart2}

@@ -1098,11 +1098,14 @@ bool SYS_FS_MEDIA_MANAGER_MediaStatusGet
 
     for (volumeIndex = 0; volumeIndex < SYS_FS_VOLUME_NUMBER; volumeIndex++)
     {
+        asm("BKPT");
         volumeObj = &gSYSFSMediaManagerObj.volumeObj[volumeIndex];
         if (volumeObj->inUse == true)
         {
+            asm("BKPT");
             if (strncmp("/dev/", volumeName, 5))
             {
+                asm("BKPT");
                 if (strcmp((const char*)(volumeName), (const char *)volumeObj->volumeName) == 0)
                 {
                     return (volumeObj->obj->driverFunctions->mediaStatusGet(volumeObj->obj->driverHandle));

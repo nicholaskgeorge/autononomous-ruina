@@ -22,7 +22,7 @@ void SDCARD_Initialize(SDCARD_DATA* SdcardData){
     SdcardData->fileOpen = "test.txt";
     SdcardData->WorR = true; // true -> write to file; false -> read file
     SdcardData->nbytesReturned = 0;
-    SdcardData->devName = "/dev/mmcblka1";
+    SdcardData->devName = "/dev/ mmcblka1";
     SdcardData->mntName = "/mnt/myDrive1";
     SdcardData->bufFilled = false;
     SdcardData->buf = malloc(sizeof(uint8_t)*500); 
@@ -36,7 +36,8 @@ void SDCARD_Tasks(SDCARD_DATA* SdcardData){
         {
 
             case SDCARD_STATE_CARD_MOUNT:
-              if(SYS_FS_Mount(SdcardData->devName, SdcardData->mntName, FAT, 0, NULL) != SYS_FS_RES_SUCCESS)
+                
+              if(SYS_FS_Mount(SdcardData->devName ,SdcardData->mntName, FAT, 0, NULL) != SYS_FS_RES_SUCCESS)
               {
                   /* The disk could not be mounted. Try mounting again until success. */
                   asm("BKPT");

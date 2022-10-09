@@ -142,7 +142,9 @@ build/default/production/_ext/1360937237/main.o: ../src/main.c \
  ../src/config/default/peripheral/nvic/plib_nvic.h \
  ../src/config/default/peripheral/xdmac/plib_xdmac.h \
  ../src/config/default/peripheral/xdmac/plib_xdmac_common.h \
+ ../src/config/default/peripheral/ram/plib_ram.h \
  ../src/config/default/peripheral/efc/plib_efc.h \
+ ../src/config/default/peripheral/sdramc/plib_sdramc.h \
  ../src/config/default/system/time/sys_time.h \
  ../src/config/default/system/fs/sys_fs.h \
  ../src/config/default/system/fs/sys_fs_media_manager.h \
@@ -156,8 +158,11 @@ build/default/production/_ext/1360937237/main.o: ../src/main.c \
  ../src/config/default/system/fs/fat_fs/file_system/ff.h \
  ../src/config/default/peripheral/twihs/master/plib_twihs0_master.h \
  ../src/config/default/peripheral/twihs/master/plib_twihs_master_common.h \
+ ../src/config/default/peripheral/spi/spi_master/plib_spi0_master.h \
+ ../src/config/default/peripheral/spi/spi_master/plib_spi_master_common.h \
  ../src/config/default/peripheral/rtt/plib_rtt.h \
  ../src/config/default/peripheral/rtt/plib_rtt_common.h \
+ ../src/config/default/peripheral/spi/spi_master/plib_spi1_master.h \
  ../src/config/default/peripheral/usart/plib_usart1.h \
  ../src/config/default/peripheral/usart/plib_usart_common.h \
  ../src/config/default/peripheral/hsmci/plib_hsmci.h \
@@ -460,7 +465,11 @@ build/default/production/_ext/1360937237/main.o: ../src/main.c \
 
 ../src/config/default/peripheral/xdmac/plib_xdmac_common.h:
 
+../src/config/default/peripheral/ram/plib_ram.h:
+
 ../src/config/default/peripheral/efc/plib_efc.h:
+
+../src/config/default/peripheral/sdramc/plib_sdramc.h:
 
 ../src/config/default/system/time/sys_time.h:
 
@@ -488,9 +497,15 @@ build/default/production/_ext/1360937237/main.o: ../src/main.c \
 
 ../src/config/default/peripheral/twihs/master/plib_twihs_master_common.h:
 
+../src/config/default/peripheral/spi/spi_master/plib_spi0_master.h:
+
+../src/config/default/peripheral/spi/spi_master/plib_spi_master_common.h:
+
 ../src/config/default/peripheral/rtt/plib_rtt.h:
 
 ../src/config/default/peripheral/rtt/plib_rtt_common.h:
+
+../src/config/default/peripheral/spi/spi_master/plib_spi1_master.h:
 
 ../src/config/default/peripheral/usart/plib_usart1.h:
 

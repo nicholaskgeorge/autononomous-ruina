@@ -122,20 +122,7 @@ build/default/debug/_ext/20954303/drv_sdmmc_file_system.o: \
  ../src/config/default/configuration.h ../src/config/default/user.h \
  ../src/config/default/osal/osal.h \
  ../src/config/default/osal/osal_definitions.h \
- ../src/config/default/osal/osal_freertos.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/FreeRTOS.h \
- ../src/config/default/FreeRTOSConfig.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/projdefs.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/portable.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/deprecated_definitions.h \
- ../src/third_party/rtos/FreeRTOS/Source/portable/GCC/SAM/CM7/portmacro.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/mpu_wrappers.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/queue.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/task.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/list.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/semphr.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/queue.h \
- ../src/third_party/rtos/FreeRTOS/Source/include/task.h \
+ ../src/config/default/osal/osal_impl_basic.h \
  ../src/config/default/system/fs/sys_fs_media_manager.h \
  ../src/config/default/system/fs/sys_fs.h
 
@@ -387,33 +374,7 @@ build/default/debug/_ext/20954303/drv_sdmmc_file_system.o: \
 
 ../src/config/default/osal/osal_definitions.h:
 
-../src/config/default/osal/osal_freertos.h:
-
-../src/third_party/rtos/FreeRTOS/Source/include/FreeRTOS.h:
-
-../src/config/default/FreeRTOSConfig.h:
-
-../src/third_party/rtos/FreeRTOS/Source/include/projdefs.h:
-
-../src/third_party/rtos/FreeRTOS/Source/include/portable.h:
-
-../src/third_party/rtos/FreeRTOS/Source/include/deprecated_definitions.h:
-
-../src/third_party/rtos/FreeRTOS/Source/portable/GCC/SAM/CM7/portmacro.h:
-
-../src/third_party/rtos/FreeRTOS/Source/include/mpu_wrappers.h:
-
-../src/third_party/rtos/FreeRTOS/Source/include/queue.h:
-
-../src/third_party/rtos/FreeRTOS/Source/include/task.h:
-
-../src/third_party/rtos/FreeRTOS/Source/include/list.h:
-
-../src/third_party/rtos/FreeRTOS/Source/include/semphr.h:
-
-../src/third_party/rtos/FreeRTOS/Source/include/queue.h:
-
-../src/third_party/rtos/FreeRTOS/Source/include/task.h:
+../src/config/default/osal/osal_impl_basic.h:
 
 ../src/config/default/system/fs/sys_fs_media_manager.h:
 
