@@ -107,8 +107,7 @@ uint16_t TC0_CH0_CaptureAGet (void);
 
 uint16_t TC0_CH0_CaptureBGet (void);
 
-void TC0_CH0_CaptureCallbackRegister(TC_CAPTURE_CALLBACK callback, uintptr_t context);
-
+TC_CAPTURE_STATUS TC0_CH0_CaptureStatusGet(void);
 
 
 

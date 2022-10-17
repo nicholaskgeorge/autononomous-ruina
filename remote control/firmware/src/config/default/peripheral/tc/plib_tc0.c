@@ -62,24 +62,17 @@
 
  
 
-/* Callback object for channel 0 */
-TC_CAPTURE_CALLBACK_OBJECT TC0_CH0_CallbackObj;
 
 /* Initialize channel in capture mode */
 void TC0_CH0_CaptureInitialize (void)
 {
-    /* Use peripheral clock */
-    TC0_REGS->TC_CHANNEL[0].TC_EMR = TC_EMR_NODIVCLK_Msk;
-        /* clock selection and capture configurations */
-    TC0_REGS->TC_CHANNEL[0].TC_CMR = TC_CMR_CAPTURE_LDRA_RISING | TC_CMR_CAPTURE_LDRB_FALLING;
-
+    /* clock selection and capture configurations */
+    TC0_REGS->TC_CHANNEL[0].TC_CMR = TC_CMR_TCCLKS_TIMER_CLOCK4 | TC_CMR_CAPTURE_LDRA_RISING \
+        | TC_CMR_CAPTURE_LDRB_FALLING ;
 
     /* external reset event configurations */
     TC0_REGS->TC_CHANNEL[0].TC_CMR |=  TC_CMR_CAPTURE_ABETRG_Msk |  TC_CMR_CAPTURE_ETRGEDG_FALLING;
 
-    /* enable interrupt */
-    TC0_REGS->TC_CHANNEL[0].TC_IER = TC_IER_LDRAS_Msk;
-    TC0_CH0_CallbackObj.callback_fn = NULL;
 }
 
 /* Start the capture mode */
@@ -96,37 +89,24 @@ void TC0_CH0_CaptureStop (void)
 
 uint32_t TC0_CH0_CaptureFrequencyGet( void )
 {
-    return (uint32_t)(150000000UL);
+    return (uint32_t)(1171875UL);
 }
 
 /* Read last captured value of Capture A */
 uint16_t TC0_CH0_CaptureAGet (void)
 {
-    return TC0_REGS->TC_CHANNEL[0].TC_RA;
+    return (uint16_t)TC0_REGS->TC_CHANNEL[0].TC_RA;
 }
 
 /* Read last captured value of Capture B */
 uint16_t TC0_CH0_CaptureBGet (void)
 {
-    return TC0_REGS->TC_CHANNEL[0].TC_RB;
+    return (uint16_t)TC0_REGS->TC_CHANNEL[0].TC_RB;
 }
 
-/* Register callback function */
-void TC0_CH0_CaptureCallbackRegister(TC_CAPTURE_CALLBACK callback, uintptr_t context)
+TC_CAPTURE_STATUS TC0_CH0_CaptureStatusGet(void)
 {
-    TC0_CH0_CallbackObj.callback_fn = callback;
-    TC0_CH0_CallbackObj.context = context;
-}
-
-/* Interrupt handler for Channel 0 */
-void TC0_CH0_InterruptHandler(void)
-{
-    TC_CAPTURE_STATUS capture_status = (TC_CAPTURE_STATUS)(TC0_REGS->TC_CHANNEL[0].TC_SR & TC_CAPTURE_STATUS_MSK);
-    /* Call registered callback function */
-    if ((TC_CAPTURE_NONE != capture_status) && TC0_CH0_CallbackObj.callback_fn != NULL)
-    {
-        TC0_CH0_CallbackObj.callback_fn(capture_status, TC0_CH0_CallbackObj.context);
-    }
+    return (TC_CAPTURE_STATUS)(TC0_REGS->TC_CHANNEL[0].TC_SR & TC_CAPTURE_STATUS_MSK);
 }
  
 

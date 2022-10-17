@@ -1,0 +1,2244 @@
+Archive member included to satisfy reference by file (symbol)
+
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(data_init.o)
+                              build/default/production/_ext/1171490990/startup_xc32.o (__pic32c_data_initialization)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-printf.fFgG.o)
+                              (_printf_fFgG)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-impure.o)
+                              build/default/production/_ext/1171490990/initialization.o (_impure_ptr)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
+                              build/default/production/_ext/1171490990/startup_xc32.o (__libc_init_array)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+                              build/default/production/_ext/60167248/plib_efc.o (memcpy)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-setbuf.o)
+                              build/default/production/_ext/1171490990/initialization.o (setbuf)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-setvbuf.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-setbuf.o) (setvbuf)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-nano-vfprintf.fFgG.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-printf.fFgG.o) (_vfprintf_fFgG)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-__ssfputs.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-nano-vfprintf.fFgG.o) (__ssfputs_r)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-dtoa.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-nano-vfprintf.fFgG.o) (_dtoa_r)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fflush.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-setvbuf.o) (_fflush_r)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-findfp.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-setvbuf.o) (__sinit)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fputwc.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-__ssfputs.o) (_fputwc_r)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fwalk.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fflush.o) (_fwalk_reent)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-locale.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fputwc.o) (__locale_mb_cur_max)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-localeconv.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-nano-vfprintf.fFgG.o) (_localeconv_r)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-makebuf.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-setvbuf.o) (__swhatbuf_r)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-malloc.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-setvbuf.o) (malloc)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mbtowc_r.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-locale.o) (__ascii_mbtowc)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memchr.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-nano-vfprintf.fFgG.o) (memchr)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-findfp.o) (memset)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-dtoa.o) (_Balloc)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-callocr.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o) (_calloc_r)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-freer.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-setvbuf.o) (_free_r)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-findfp.o) (_malloc_r)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-nano-vfprintf.fFgG.o) (_printf_common)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-sbrkr.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-stdio.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-findfp.o) (__sread)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-strcmp.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-locale.o) (strcmp)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-strlen.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-nano-vfprintf.fFgG.o) (strlen)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wbuf.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-__ssfputs.o) (__swbuf_r)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wcrtomb.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fputwc.o) (_wcrtomb_r)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wctomb_r.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-locale.o) (__ascii_wctomb)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-writer.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-stdio.o) (_write_r)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wsetup.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-nano-vfprintf.fFgG.o) (__swsetup_r)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-closer.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-stdio.o) (_close_r)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-ctype_.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-locale.o) (_ctype_)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fstatr.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-makebuf.o) (_fstat_r)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-isattyr.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-makebuf.o) (_isatty_r)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-lseekr.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-stdio.o) (_lseek_r)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mlock.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-freer.o) (__malloc_lock)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-readr.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-stdio.o) (_read_r)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-reent.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-sbrkr.o) (errno)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_close.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-closer.o) (_close)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_fstat.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fstatr.o) (_fstat)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_isatty.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-isattyr.o) (_isatty)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_lseek.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-lseekr.o) (_lseek)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_read.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-readr.o) (_read)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(sbrk.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-sbrkr.o) (_sbrk)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_write.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-writer.o) (_write)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(close.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_close.o) (close)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(fstat.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_fstat.o) (fstat)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(isatty.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_isatty.o) (isatty)
+e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(lseek.o)
+                              e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_lseek.o) (lseek)
+
+Allocating common symbols
+Common symbol       size              file
+
+frequency           0x4               build/default/production/_ext/1360937237/main.o
+period_t            0x4               build/default/production/_ext/1360937237/main.o
+errno               0x4               e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-reent.o)
+on_t                0x4               build/default/production/_ext/1360937237/main.o
+duty                0x4               build/default/production/_ext/1360937237/main.o
+off_t1              0x4               build/default/production/_ext/1360937237/main.o
+
+Microchip PIC32 Memory-Usage Report
+
+ROM Program-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.vectors                  0x400000          0x168         360   
+.text                     0x400168           0x20          32  App's exec code 
+.text._dtoa_r             0x400188          0xa68        2664   
+.text.__printf_float      0x400bf0          0x510        1296   
+.dinit                    0x401100          0x280         640   
+.text._vfprintf_r_fFgG    0x401380          0x268         616   
+.text.Reset_Handler       0x4015e8          0x178         376   
+.text.setvbuf             0x401760          0x158         344   
+.text.__multiply          0x4018b8          0x130         304   
+.text.quorem              0x4019e8          0x12e         302   
+.text.Dummy_Handler       0x401b16            0x2           2   
+.text.__sflush_r          0x401b18          0x10c         268   
+.rodata._ctype_           0x401c24          0x101         257   
+.text.__malloc_unlock     0x401d26            0x2           2   
+.text.main                0x401d28           0xf0         240   
+.text._printf_common      0x401e18           0xea         234   
+.text.NonMaskableInt_Ha   0x401f02            0x2           2   
+.text.__swsetup_r         0x401f04           0xdc         220   
+.text.PIO_Initialize      0x401fe0           0xcc         204   
+.text.__mdiff             0x4020ac           0xc8         200   
+.rodata._global_impure_   0x402174            0x4           4   
+.rodata.__mprec_tens      0x402178           0xc8         200   
+.text.__swbuf_r           0x402240           0xbc         188   
+.text._malloc_r           0x4022fc           0xb4         180   
+.text.__lshift            0x4023b0           0xa6         166   
+.text.__malloc_lock       0x402456            0x2           2   
+.text.TC0_CH0_CaptureFr   0x402458            0x8           8   
+.text                     0x402460           0xa0         160  App's exec code 
+.text.__d2b               0x402500           0x9e         158   
+.text.HardFault_Handler   0x40259e            0x2           2   
+.text.__pow5mult          0x4025a0           0x9c         156   
+.text._free_r             0x40263c           0x9c         156   
+.text.__smakebuf_r        0x4026d8           0x8c         140   
+.text.__pic32c_data_ini   0x402764           0x88         136   
+.text.__fputwc            0x4027ec           0x82         130   
+.text.__multadd           0x40286e           0x7e         126   
+.text.__sfp               0x4028ec           0x78         120   
+.text.CLOCK_Initialize    0x402964           0x68         104   
+.text._Balloc             0x4029cc           0x68         104   
+.text.__sinit             0x402a34           0x60          96   
+.text.__lo0bits           0x402a94           0x60          96   
+.text.USART1_Read         0x402af4           0x58          88   
+.text._fflush_r           0x402b4c           0x54          84   
+.text.USART1_Write        0x402ba0           0x4c          76   
+.text.SYS_Initialize      0x402bec           0x4c          76   
+.text.__ssfputs_r         0x402c38           0x4a          74   
+.text.DebugMonitor_Hand   0x402c82            0x2           2   
+.text.__libc_init_array   0x402c84           0x48          72   
+.text.std                 0x402ccc           0x48          72   
+.text.__swhatbuf_r        0x402d14           0x48          72   
+.text.SYSTICK_DelayMs     0x402d5c           0x44          68   
+.text                     0x402da0           0x40          64  App's exec code 
+.text.__hi0bits           0x402de0           0x40          64   
+.text.NVIC_Initialize     0x402e20           0x3c          60   
+.text._fwalk_reent        0x402e5c           0x3c          60   
+.text.__swrite            0x402e98           0x38          56   
+.text.__mcmp              0x402ed0           0x34          52   
+.text.__sfputc_r          0x402f04           0x2e          46   
+.text._Bfree              0x402f32           0x2e          46   
+.text.USART1_ErrorClear   0x402f60           0x2c          44   
+.rodata                   0x402f8c           0x2c          44  Read-only const 
+.text.__sfmoreglue        0x402fb8           0x2c          44   
+.text._wcrtomb_r          0x402fe4           0x2c          44   
+.text._sbrk               0x403010           0x2c          44   
+.text._close              0x40303c            0x4           4   
+.rodata.__mprec_bigtens   0x403040           0x28          40   
+.text._printf_fFgG        0x403068           0x24          36   
+.text.__ascii_mbtowc      0x40308c           0x24          36   
+.text.__sseek             0x4030b0           0x24          36   
+.text._write_r            0x4030d4           0x24          36   
+.text._fstat_r            0x4030f8           0x24          36   
+.text._lseek_r            0x40311c           0x24          36   
+.text._read_r             0x403140           0x24          36   
+.rodata                   0x403164           0x23          35  Read-only const 
+.text.__sread             0x403188           0x22          34   
+.text.MemoryManagement_   0x4031aa            0x2           2   
+.text._sbrk_r             0x4031ac           0x20          32   
+.text._close_r            0x4031cc           0x20          32   
+.text._isatty_r           0x4031ec           0x20          32   
+.text.read                0x40320c           0x1e          30   
+.text.BusFault_Handler    0x40322a            0x2           2   
+.text.SYSTICK_TimerInit   0x40322c           0x1c          28   
+.text.USART1_Initialize   0x403248           0x1c          28   
+.text.write               0x403264           0x1c          28   
+.text.memcpy              0x403280           0x1c          28   
+.text._fputwc_r           0x40329c           0x1c          28   
+.text._calloc_r           0x4032b8           0x1c          28   
+.text.__ascii_wctomb      0x4032d4           0x1a          26   
+.text.UsageFault_Handle   0x4032ee            0x2           2   
+.text.TC0_CH0_CaptureIn   0x4032f0           0x18          24   
+.text.SYSTICK_TimerStar   0x403308           0x14          20   
+.text._vfprintf_fFgG      0x40331c           0x14          20   
+.text.__i2b               0x403330           0x12          18   
+.text.Dummy_App_Func      0x403342            0x2           2   
+.text.EFC_Initialize      0x403344           0x10          16   
+.text.TC0_CH0_CaptureSt   0x403354           0x10          16   
+.text.setbuf              0x403364           0x10          16   
+.text.malloc              0x403374           0x10          16   
+.text.memset              0x403384           0x10          16   
+.text                     0x403394           0x10          16  App's exec code 
+.rodata                   0x4033a4            0xf          15  Read-only const 
+.text.TC0_CH0_CaptureSt   0x4033b4            0xc          12   
+.text.TC0_CH0_CaptureAG   0x4033c0            0xc          12   
+.text.TC0_CH0_CaptureBG   0x4033cc            0xc          12   
+.text._cleanup_r          0x4033d8            0xc          12   
+.text.__locale_mb_cur_m   0x4033e4            0xc          12   
+.rodata.p05.7453          0x4033f0            0xc          12   
+.text.fstat               0x4033fc            0xc          12   
+.rodata                   0x403408            0xb          11  Read-only const 
+.text._localeconv_r       0x403414            0x8           8   
+.text.__sclose            0x40341c            0x8           8   
+.text.close               0x403424            0x8           8   
+.text._fstat              0x40342c            0x4           4   
+.text._isatty             0x403430            0x4           4   
+.text._lseek              0x403434            0x4           4   
+.text._read               0x403438            0x4           4   
+.text._write              0x40343c            0x4           4   
+.text.isatty              0x403440            0x4           4   
+.text.lseek               0x403444            0x4           4   
+      Total ROM used  :      0x3444       13380  0.6% of 0x200000
+        --------------------------------------------------------------------------
+         Total Program Memory used  :      0x3444       13380  0.6% of 0x200000
+        --------------------------------------------------------------------------
+
+
+RAM Data-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.bss                    0x20400000           0x18          24  Uninitialized data 
+.data.__global_locale   0x20400018          0x16c         364   
+.data.impure_data       0x20400184           0x60          96   
+.bss.__sf_fake_stderr   0x204001e4           0x20          32   
+.bss.__sf_fake_stdin    0x20400204           0x20          32   
+.bss.__sf_fake_stdout   0x20400224           0x20          32   
+.bss                    0x20400244           0x1c          28  Uninitialized data 
+.bss.cmd.7917           0x20400260            0x4           4   
+.bss                    0x20400264            0x4           4  Uninitialized data 
+.data._impure_ptr       0x20400268            0x4           4   
+.bss.__malloc_free_list 0x2040026c            0x4           4   
+.bss.__malloc_sbrk_star 0x20400270            0x4           4   
+.bss                    0x20400274            0x4           4  Uninitialized data 
+         Total RAM used  :       0x278         632  0.2% of 0x60000
+        --------------------------------------------------------------------------
+            Total Data Memory used  :       0x278         632  0.2% of 0x60000
+        --------------------------------------------------------------------------
+
+
+Dynamic Data-Memory Reservation
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+heap                    0x20400280          0x200         512  Reserved for heap 
+stack                   0x20400498        0x5fb60      392032  Reserved for stack 
+
+        --------------------------------------------------------------------------
+
+Discarded input sections
+
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crti.o
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crti.o
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crti.o
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crti.o
+ .xc_stack_usage
+                0x00000000       0x26 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crti.o
+ .data          0x00000000        0x4 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+ .xc_stack_usage
+                0x00000000       0x3c e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+ .text          0x00000000        0x0 build/default/production/_ext/60165520/plib_clk.o
+ .data          0x00000000        0x0 build/default/production/_ext/60165520/plib_clk.o
+ .bss           0x00000000        0x0 build/default/production/_ext/60165520/plib_clk.o
+ .text          0x00000000        0x0 build/default/production/_ext/60167248/plib_efc.o
+ .data          0x00000000        0x0 build/default/production/_ext/60167248/plib_efc.o
+ .bss           0x00000000        0x0 build/default/production/_ext/60167248/plib_efc.o
+ .text.EFC_Read
+                0x00000000       0x10 build/default/production/_ext/60167248/plib_efc.o
+ .text.EFC_SectorErase
+                0x00000000       0x28 build/default/production/_ext/60167248/plib_efc.o
+ .text.EFC_PageBufferWrite
+                0x00000000       0x36 build/default/production/_ext/60167248/plib_efc.o
+ .text.EFC_PageBufferCommit
+                0x00000000       0x34 build/default/production/_ext/60167248/plib_efc.o
+ .text.EFC_PageWrite
+                0x00000000       0x58 build/default/production/_ext/60167248/plib_efc.o
+ .text.EFC_QuadWordWrite
+                0x00000000       0x44 build/default/production/_ext/60167248/plib_efc.o
+ .text.EFC_RegionLock
+                0x00000000       0x2c build/default/production/_ext/60167248/plib_efc.o
+ .text.EFC_RegionUnlock
+                0x00000000       0x2c build/default/production/_ext/60167248/plib_efc.o
+ .text.EFC_IsBusy
+                0x00000000       0x20 build/default/production/_ext/60167248/plib_efc.o
+ .text.EFC_ErrorGet
+                0x00000000       0x18 build/default/production/_ext/60167248/plib_efc.o
+ .bss.efc_status
+                0x00000000        0x4 build/default/production/_ext/60167248/plib_efc.o
+ .text          0x00000000        0x0 build/default/production/_ext/1865468468/plib_nvic.o
+ .data          0x00000000        0x0 build/default/production/_ext/1865468468/plib_nvic.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1865468468/plib_nvic.o
+ .text.NVIC_INT_Enable
+                0x00000000        0x8 build/default/production/_ext/1865468468/plib_nvic.o
+ .text.NVIC_INT_Disable
+                0x00000000       0x12 build/default/production/_ext/1865468468/plib_nvic.o
+ .text.NVIC_INT_Restore
+                0x00000000       0x12 build/default/production/_ext/1865468468/plib_nvic.o
+ .text          0x00000000        0x0 build/default/production/_ext/60177924/plib_pio.o
+ .data          0x00000000        0x0 build/default/production/_ext/60177924/plib_pio.o
+ .bss           0x00000000        0x0 build/default/production/_ext/60177924/plib_pio.o
+ .text.PIO_PortRead
+                0x00000000        0x4 build/default/production/_ext/60177924/plib_pio.o
+ .text.PIO_PortWrite
+                0x00000000        0xc build/default/production/_ext/60177924/plib_pio.o
+ .text.PIO_PortLatchRead
+                0x00000000        0x4 build/default/production/_ext/60177924/plib_pio.o
+ .text.PIO_PortSet
+                0x00000000        0x4 build/default/production/_ext/60177924/plib_pio.o
+ .text.PIO_PortClear
+                0x00000000        0x4 build/default/production/_ext/60177924/plib_pio.o
+ .text.PIO_PortToggle
+                0x00000000        0x8 build/default/production/_ext/60177924/plib_pio.o
+ .text.PIO_PortInputEnable
+                0x00000000        0x4 build/default/production/_ext/60177924/plib_pio.o
+ .text.PIO_PortOutputEnable
+                0x00000000        0x4 build/default/production/_ext/60177924/plib_pio.o
+ .text          0x00000000        0x0 build/default/production/_ext/1827571544/plib_systick.o
+ .data          0x00000000        0x0 build/default/production/_ext/1827571544/plib_systick.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1827571544/plib_systick.o
+ .text.SYSTICK_TimerRestart
+                0x00000000       0x1c build/default/production/_ext/1827571544/plib_systick.o
+ .text.SYSTICK_TimerStop
+                0x00000000       0x10 build/default/production/_ext/1827571544/plib_systick.o
+ .text.SYSTICK_TimerPeriodSet
+                0x00000000        0xc build/default/production/_ext/1827571544/plib_systick.o
+ .text.SYSTICK_TimerPeriodGet
+                0x00000000        0xc build/default/production/_ext/1827571544/plib_systick.o
+ .text.SYSTICK_TimerCounterGet
+                0x00000000        0xc build/default/production/_ext/1827571544/plib_systick.o
+ .text.SYSTICK_TimerFrequencyGet
+                0x00000000        0x8 build/default/production/_ext/1827571544/plib_systick.o
+ .text.SYSTICK_DelayUs
+                0x00000000       0x44 build/default/production/_ext/1827571544/plib_systick.o
+ .text.SYSTICK_TimerPeriodHasExpired
+                0x00000000       0x10 build/default/production/_ext/1827571544/plib_systick.o
+ .text          0x00000000        0x0 build/default/production/_ext/829342655/plib_tc0.o
+ .data          0x00000000        0x0 build/default/production/_ext/829342655/plib_tc0.o
+ .bss           0x00000000        0x0 build/default/production/_ext/829342655/plib_tc0.o
+ .text.TC0_CH0_CaptureStop
+                0x00000000        0xc build/default/production/_ext/829342655/plib_tc0.o
+ .text          0x00000000        0x0 build/default/production/_ext/2001315827/plib_usart1.o
+ .data          0x00000000        0x0 build/default/production/_ext/2001315827/plib_usart1.o
+ .bss           0x00000000        0x0 build/default/production/_ext/2001315827/plib_usart1.o
+ .text.USART1_ErrorGet
+                0x00000000       0x1c build/default/production/_ext/2001315827/plib_usart1.o
+ .text.USART1_SerialSetup
+                0x00000000       0x6c build/default/production/_ext/2001315827/plib_usart1.o
+ .text.USART1_ReadByte
+                0x00000000       0x10 build/default/production/_ext/2001315827/plib_usart1.o
+ .text.USART1_WriteByte
+                0x00000000       0x18 build/default/production/_ext/2001315827/plib_usart1.o
+ .text.USART1_TransmitterIsReady
+                0x00000000       0x10 build/default/production/_ext/2001315827/plib_usart1.o
+ .text.USART1_ReceiverIsReady
+                0x00000000       0x10 build/default/production/_ext/2001315827/plib_usart1.o
+ .text.USART1_TransmitComplete
+                0x00000000       0x10 build/default/production/_ext/2001315827/plib_usart1.o
+ .text          0x00000000        0x0 build/default/production/_ext/163028504/xc32_monitor.o
+ .data          0x00000000        0x0 build/default/production/_ext/163028504/xc32_monitor.o
+ .bss           0x00000000        0x0 build/default/production/_ext/163028504/xc32_monitor.o
+ .text          0x00000000        0x0 build/default/production/_ext/1014039709/sys_cache.o
+ .data          0x00000000        0x0 build/default/production/_ext/1014039709/sys_cache.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1014039709/sys_cache.o
+ .text.SYS_CACHE_EnableCaches
+                0x00000000       0xb0 build/default/production/_ext/1014039709/sys_cache.o
+ .text.SYS_CACHE_DisableCaches
+                0x00000000       0x94 build/default/production/_ext/1014039709/sys_cache.o
+ .text.SYS_CACHE_EnableICache
+                0x00000000       0x44 build/default/production/_ext/1014039709/sys_cache.o
+ .text.SYS_CACHE_DisableICache
+                0x00000000       0x30 build/default/production/_ext/1014039709/sys_cache.o
+ .text.SYS_CACHE_InvalidateICache
+                0x00000000       0x28 build/default/production/_ext/1014039709/sys_cache.o
+ .text.SYS_CACHE_EnableDCache
+                0x00000000       0x74 build/default/production/_ext/1014039709/sys_cache.o
+ .text.SYS_CACHE_DisableDCache
+                0x00000000       0x68 build/default/production/_ext/1014039709/sys_cache.o
+ .text.SYS_CACHE_InvalidateDCache
+                0x00000000       0x5c build/default/production/_ext/1014039709/sys_cache.o
+ .text.SYS_CACHE_CleanDCache
+                0x00000000       0x5c build/default/production/_ext/1014039709/sys_cache.o
+ .text.SYS_CACHE_CleanInvalidateDCache
+                0x00000000       0x5c build/default/production/_ext/1014039709/sys_cache.o
+ .text.SYS_CACHE_InvalidateDCache_by_Addr
+                0x00000000       0x38 build/default/production/_ext/1014039709/sys_cache.o
+ .text.SYS_CACHE_CleanDCache_by_Addr
+                0x00000000       0x38 build/default/production/_ext/1014039709/sys_cache.o
+ .text.SYS_CACHE_CleanInvalidateDCache_by_Addr
+                0x00000000       0x38 build/default/production/_ext/1014039709/sys_cache.o
+ .debug_info    0x00000000     0x166c build/default/production/_ext/1014039709/sys_cache.o
+ .debug_abbrev  0x00000000      0x248 build/default/production/_ext/1014039709/sys_cache.o
+ .debug_loc     0x00000000      0x6bb build/default/production/_ext/1014039709/sys_cache.o
+ .debug_aranges
+                0x00000000       0x80 build/default/production/_ext/1014039709/sys_cache.o
+ .debug_ranges  0x00000000       0xe8 build/default/production/_ext/1014039709/sys_cache.o
+ .debug_line    0x00000000      0xb02 build/default/production/_ext/1014039709/sys_cache.o
+ .debug_str     0x00000000       0x1c build/default/production/_ext/1014039709/sys_cache.o
+ .comment       0x00000000       0x54 build/default/production/_ext/1014039709/sys_cache.o
+ .debug_frame   0x00000000      0x150 build/default/production/_ext/1014039709/sys_cache.o
+ .ARM.attributes
+                0x00000000       0x32 build/default/production/_ext/1014039709/sys_cache.o
+ .text          0x00000000        0x0 build/default/production/_ext/1171490990/initialization.o
+ .data          0x00000000        0x0 build/default/production/_ext/1171490990/initialization.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1171490990/initialization.o
+ .text          0x00000000        0x0 build/default/production/_ext/1171490990/interrupts.o
+ .data          0x00000000        0x0 build/default/production/_ext/1171490990/interrupts.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1171490990/interrupts.o
+ .text          0x00000000        0x0 build/default/production/_ext/1171490990/exceptions.o
+ .data          0x00000000        0x0 build/default/production/_ext/1171490990/exceptions.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1171490990/exceptions.o
+ .text          0x00000000        0x0 build/default/production/_ext/1171490990/startup_xc32.o
+ .data          0x00000000        0x0 build/default/production/_ext/1171490990/startup_xc32.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1171490990/startup_xc32.o
+ .text          0x00000000        0x0 build/default/production/_ext/1171490990/libc_syscalls.o
+ .data          0x00000000        0x0 build/default/production/_ext/1171490990/libc_syscalls.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1171490990/libc_syscalls.o
+ .text._exit    0x00000000        0x2 build/default/production/_ext/1171490990/libc_syscalls.o
+ .debug_info    0x00000000      0xf64 build/default/production/_ext/1171490990/libc_syscalls.o
+ .debug_abbrev  0x00000000      0x1d3 build/default/production/_ext/1171490990/libc_syscalls.o
+ .debug_loc     0x00000000       0x15 build/default/production/_ext/1171490990/libc_syscalls.o
+ .debug_aranges
+                0x00000000       0x20 build/default/production/_ext/1171490990/libc_syscalls.o
+ .debug_ranges  0x00000000       0x10 build/default/production/_ext/1171490990/libc_syscalls.o
+ .debug_line    0x00000000      0x17d build/default/production/_ext/1171490990/libc_syscalls.o
+ .debug_str     0x00000000        0xe build/default/production/_ext/1171490990/libc_syscalls.o
+ .comment       0x00000000       0x54 build/default/production/_ext/1171490990/libc_syscalls.o
+ .debug_frame   0x00000000       0x20 build/default/production/_ext/1171490990/libc_syscalls.o
+ .ARM.attributes
+                0x00000000       0x32 build/default/production/_ext/1171490990/libc_syscalls.o
+ .text          0x00000000        0x0 build/default/production/_ext/1360937237/main.o
+ .data          0x00000000        0x0 build/default/production/_ext/1360937237/main.o
+ .bss           0x00000000        0x0 build/default/production/_ext/1360937237/main.o
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(data_init.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(data_init.o)
+ .xc_stack_usage
+                0x00000000       0x2a e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(data_init.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(data_init.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-printf.fFgG.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-printf.fFgG.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-printf.fFgG.o)
+ .xc_stack_usage
+                0x00000000       0x1a e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-printf.fFgG.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-printf.fFgG.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-impure.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-impure.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-impure.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
+ .xc_stack_usage
+                0x00000000       0x1f e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+ .xc_stack_usage
+                0x00000000       0x14 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-setbuf.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-setbuf.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-setbuf.o)
+ .xc_stack_usage
+                0x00000000       0x14 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-setbuf.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-setbuf.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-setvbuf.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-setvbuf.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-setvbuf.o)
+ .xc_stack_usage
+                0x00000000       0x15 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-setvbuf.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-setvbuf.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-nano-vfprintf.fFgG.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-nano-vfprintf.fFgG.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-nano-vfprintf.fFgG.o)
+ .xc_stack_usage
+                0x00000000       0x56 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-nano-vfprintf.fFgG.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-nano-vfprintf.fFgG.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-__ssfputs.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-__ssfputs.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-__ssfputs.o)
+ .xc_stack_usage
+                0x00000000       0x31 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-__ssfputs.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-__ssfputs.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-dtoa.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-dtoa.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-dtoa.o)
+ .xc_stack_usage
+                0x00000000       0x29 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-dtoa.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-dtoa.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fflush.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fflush.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fflush.o)
+ .xc_stack_usage
+                0x00000000       0x43 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fflush.o)
+ .text.fflush   0x00000000       0x24 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fflush.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fflush.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-findfp.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-findfp.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-findfp.o)
+ .xc_stack_usage
+                0x00000000       0x81 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-findfp.o)
+ .text._cleanup
+                0x00000000        0xc e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-findfp.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-findfp.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fputwc.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fputwc.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fputwc.o)
+ .xc_stack_usage
+                0x00000000       0x41 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fputwc.o)
+ .text.fputwc   0x00000000       0x50 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fputwc.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fputwc.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fwalk.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fwalk.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fwalk.o)
+ .xc_stack_usage
+                0x00000000       0x2e e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fwalk.o)
+ .text._fwalk   0x00000000       0x38 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fwalk.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fwalk.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-locale.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-locale.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-locale.o)
+ .xc_stack_usage
+                0x00000000       0x52 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-locale.o)
+ .text._setlocale_r
+                0x00000000       0x40 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-locale.o)
+ .text.setlocale
+                0x00000000       0x10 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-locale.o)
+ .bss._PathLocale
+                0x00000000        0x4 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-locale.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-locale.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-localeconv.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-localeconv.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-localeconv.o)
+ .xc_stack_usage
+                0x00000000       0x4f e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-localeconv.o)
+ .text.__localeconv_l
+                0x00000000        0x4 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-localeconv.o)
+ .text.localeconv
+                0x00000000        0x8 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-localeconv.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-localeconv.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-makebuf.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-makebuf.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-makebuf.o)
+ .xc_stack_usage
+                0x00000000       0x34 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-makebuf.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-makebuf.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-malloc.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-malloc.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-malloc.o)
+ .xc_stack_usage
+                0x00000000       0x26 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-malloc.o)
+ .text.free     0x00000000       0x10 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-malloc.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-malloc.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mbtowc_r.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mbtowc_r.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mbtowc_r.o)
+ .xc_stack_usage
+                0x00000000       0x33 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mbtowc_r.o)
+ .text._mbtowc_r
+                0x00000000       0x14 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mbtowc_r.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mbtowc_r.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memchr.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memchr.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memchr.o)
+ .xc_stack_usage
+                0x00000000       0x14 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memchr.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
+ .xc_stack_usage
+                0x00000000       0x14 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+ .xc_stack_usage
+                0x00000000      0x199 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+ .text.__s2b    0x00000000       0x7c e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+ .text.__ulp    0x00000000       0x4c e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+ .text.__b2d    0x00000000       0xa0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+ .text.__ratio  0x00000000       0x64 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+ .text._mprec_log10
+                0x00000000       0x28 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+ .text.__copybits
+                0x00000000       0x34 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+ .text.__any_on
+                0x00000000       0x42 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+ .rodata.__mprec_tinytens
+                0x00000000       0x28 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-callocr.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-callocr.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-callocr.o)
+ .xc_stack_usage
+                0x00000000       0x17 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-callocr.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-callocr.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-freer.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-freer.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-freer.o)
+ .xc_stack_usage
+                0x00000000       0x15 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-freer.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-freer.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+ .xc_stack_usage
+                0x00000000       0x17 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .xc_stack_usage
+                0x00000000       0x33 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .text._printf_i
+                0x00000000      0x228 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .rodata        0x00000000       0x22 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-sbrkr.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-sbrkr.o)
+ .xc_stack_usage
+                0x00000000       0x15 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-sbrkr.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-sbrkr.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-stdio.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-stdio.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-stdio.o)
+ .xc_stack_usage
+                0x00000000       0x6e e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-stdio.o)
+ .text.__seofread
+                0x00000000        0x4 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-stdio.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-stdio.o)
+ .text          0x00000000       0x14 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-strcmp.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-strcmp.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-strcmp.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-strcmp.o)
+ .xc_stack_usage
+                0x00000000       0x14 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-strcmp.o)
+ .debug_frame   0x00000000       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x00000000       0x1c e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-strcmp.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-strlen.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-strlen.o)
+ .xc_stack_usage
+                0x00000000       0x14 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-strlen.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wbuf.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wbuf.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wbuf.o)
+ .xc_stack_usage
+                0x00000000       0x2c e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wbuf.o)
+ .text.__swbuf  0x00000000       0x10 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wbuf.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wbuf.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wcrtomb.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wcrtomb.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wcrtomb.o)
+ .xc_stack_usage
+                0x00000000       0x2d e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wcrtomb.o)
+ .text.wcrtomb  0x00000000       0x14 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wcrtomb.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wcrtomb.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wctomb_r.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wctomb_r.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wctomb_r.o)
+ .xc_stack_usage
+                0x00000000       0x33 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wctomb_r.o)
+ .text._wctomb_r
+                0x00000000       0x14 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wctomb_r.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wctomb_r.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-writer.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-writer.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-writer.o)
+ .xc_stack_usage
+                0x00000000       0x16 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-writer.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-writer.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wsetup.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wsetup.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wsetup.o)
+ .xc_stack_usage
+                0x00000000       0x19 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wsetup.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wsetup.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-closer.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-closer.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-closer.o)
+ .xc_stack_usage
+                0x00000000       0x16 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-closer.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-closer.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-ctype_.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-ctype_.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-ctype_.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-ctype_.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fstatr.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fstatr.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fstatr.o)
+ .xc_stack_usage
+                0x00000000       0x16 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fstatr.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fstatr.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-isattyr.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-isattyr.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-isattyr.o)
+ .xc_stack_usage
+                0x00000000       0x17 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-isattyr.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-isattyr.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-lseekr.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-lseekr.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-lseekr.o)
+ .xc_stack_usage
+                0x00000000       0x16 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-lseekr.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-lseekr.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mlock.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mlock.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mlock.o)
+ .xc_stack_usage
+                0x00000000       0x38 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mlock.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mlock.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-readr.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-readr.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-readr.o)
+ .xc_stack_usage
+                0x00000000       0x15 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-readr.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-readr.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-reent.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-reent.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-reent.o)
+ .xc_stack_usage
+                0x00000000       0x36 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x00000000       0x1a e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0xb8 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-reent.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-reent.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_close.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_close.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_close.o)
+ .xc_stack_usage
+                0x00000000       0x14 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_close.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_close.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_fstat.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_fstat.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_fstat.o)
+ .xc_stack_usage
+                0x00000000       0x14 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_fstat.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_fstat.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_isatty.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_isatty.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_isatty.o)
+ .xc_stack_usage
+                0x00000000       0x15 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_isatty.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_isatty.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_lseek.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_lseek.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_lseek.o)
+ .xc_stack_usage
+                0x00000000       0x14 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_lseek.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_lseek.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_read.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_read.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_read.o)
+ .xc_stack_usage
+                0x00000000       0x13 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_read.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_read.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(sbrk.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(sbrk.o)
+ .xc_stack_usage
+                0x00000000       0x13 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(sbrk.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(sbrk.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_write.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_write.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_write.o)
+ .xc_stack_usage
+                0x00000000       0x14 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_write.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_write.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(close.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(close.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(close.o)
+ .xc_stack_usage
+                0x00000000       0x13 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(close.o)
+ .gnu.warning.closestub
+                0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(close.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(close.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(fstat.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(fstat.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(fstat.o)
+ .xc_stack_usage
+                0x00000000       0x13 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(fstat.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(fstat.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(isatty.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(isatty.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(isatty.o)
+ .xc_stack_usage
+                0x00000000       0x14 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(isatty.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(isatty.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(lseek.o)
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(lseek.o)
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(lseek.o)
+ .xc_stack_usage
+                0x00000000       0x13 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(lseek.o)
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(lseek.o)
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtend.o
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtend.o
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtend.o
+ .eh_frame      0x00000000        0x4 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtend.o
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtend.o
+ .comment       0x00000000       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtend.o
+ .ARM.attributes
+                0x00000000       0x30 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtend.o
+ .text          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtn.o
+ .data          0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtn.o
+ .bss           0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtn.o
+ .xc_stack_usage.hdr
+                0x00000000        0xe e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x00400000         0x00200000         xrl
+ram              0x20400000         0x00060000         xw !r
+itcm             0x00000000         0x00000000         xw
+dtcm             0x20000000         0x00000000         xw !r
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crti.o
+LOAD e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+LOAD build/default/production/_ext/60165520/plib_clk.o
+LOAD build/default/production/_ext/60167248/plib_efc.o
+LOAD build/default/production/_ext/1865468468/plib_nvic.o
+LOAD build/default/production/_ext/60177924/plib_pio.o
+LOAD build/default/production/_ext/1827571544/plib_systick.o
+LOAD build/default/production/_ext/829342655/plib_tc0.o
+LOAD build/default/production/_ext/2001315827/plib_usart1.o
+LOAD build/default/production/_ext/163028504/xc32_monitor.o
+LOAD build/default/production/_ext/1014039709/sys_cache.o
+LOAD build/default/production/_ext/1171490990/initialization.o
+LOAD build/default/production/_ext/1171490990/interrupts.o
+LOAD build/default/production/_ext/1171490990/exceptions.o
+LOAD build/default/production/_ext/1171490990/startup_xc32.o
+LOAD build/default/production/_ext/1171490990/libc_syscalls.o
+LOAD build/default/production/_ext/1360937237/main.o
+                0x00000001                __MPLAB_BUILD = 0x1
+                0x00600000                __rom_end = (ORIGIN (rom) + LENGTH (rom))
+                0x20460000                __ram_end = (ORIGIN (ram) + LENGTH (ram))
+
+.vectors        0x00400000      0x168
+                0x00400000                . = ALIGN (0x4)
+                0x00400000                _sfixed = .
+ *(.vectors .vectors.* .vectors_default .vectors_default.*)
+ .vectors       0x00400000      0x168 build/default/production/_ext/1171490990/interrupts.o
+                0x00400000                exception_table
+ *(.isr_vector)
+ *(.reset*)
+ *(.after_vectors)
+
+.text           0x00400168       0x20
+                0x00400168                . = ALIGN (0x4)
+ *(.glue_7t)
+ .glue_7t       0x00400168        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00400168        0x0 linker stubs
+ *(.gnu.linkonce.r.*)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00400168                . = ALIGN (0x4)
+ *(.init)
+ .init          0x00400168        0x4 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crti.o
+                0x00400168                _init
+ .init          0x0040016c        0x8 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtn.o
+                0x00400174                . = ALIGN (0x4)
+                0x00400174                __preinit_array_start = .
+ *(.preinit_array)
+                0x00400174                __preinit_array_end = .
+                0x00400174                . = ALIGN (0x4)
+                0x00400174                __init_array_start = .
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+ .init_array    0x00400174        0x4 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+                0x00400178                __init_array_end = .
+                0x00400178                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *crtend.o(.ctors)
+                0x00400178                . = ALIGN (0x4)
+ *(.fini)
+ .fini          0x00400178        0x4 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crti.o
+                0x00400178                _fini
+ .fini          0x0040017c        0x8 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtn.o
+                0x00400184                . = ALIGN (0x4)
+                0x00400184                __fini_array_start = .
+ *(.fini_array)
+ .fini_array    0x00400184        0x4 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+ *(SORT_BY_NAME(.fini_array.*))
+                0x00400188                __fini_array_end = .
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *crtend.o(.dtors)
+                0x00400188                . = ALIGN (0x4)
+                0x00400188                _efixed = .
+                [!provide]                PROVIDE (__exidx_start = .)
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                [!provide]                PROVIDE (__exidx_end = .)
+                0x00400188                . = ALIGN (0x4)
+                0x00400188                _etext = .
+
+.bss            0x20400000       0x18
+                0x20400000                . = ALIGN (0x4)
+                0x20400000                __bss_start__ = .
+                0x20400000                _sbss = .
+                0x20400000                _szero = .
+ *(COMMON)
+ COMMON         0x20400000       0x14 build/default/production/_ext/1360937237/main.o
+                0x20400000                frequency
+                0x20400004                period_t
+                0x20400008                on_t
+                0x2040000c                duty
+                0x20400010                off_t1
+ COMMON         0x20400014        0x4 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-reent.o)
+                0x20400014                errno
+                0x20400018                . = ALIGN (0x4)
+                0x20400018                __bss_end__ = .
+                0x20400018                _ebss = .
+                0x20400018                _ezero = .
+                0x20400018                . = ALIGN (0x4)
+                0x20400018                _end = .
+                0x2045ffff                _ram_end_ = ((ORIGIN (ram) + LENGTH (ram)) - 0x1)
+                0x00000200                _min_heap_size = 0x200
+START GROUP
+LOAD e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a
+LOAD e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard\libgcc.a
+LOAD e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libm_nano.a
+LOAD e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a
+END GROUP
+LOAD e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtend.o
+LOAD e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtn.o
+OUTPUT(dist/default/production/Testing_Remote_Control.X.production.elf elf32-littlearm)
+LOAD stack
+LOAD data_init
+
+.ARM.attributes
+                0x00000000       0x2e
+ .ARM.attributes
+                0x00000000       0x1e e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crti.o
+ .ARM.attributes
+                0x0000001e       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+ .ARM.attributes
+                0x00000050       0x32 build/default/production/_ext/60165520/plib_clk.o
+ .ARM.attributes
+                0x00000082       0x32 build/default/production/_ext/60167248/plib_efc.o
+ .ARM.attributes
+                0x000000b4       0x32 build/default/production/_ext/1865468468/plib_nvic.o
+ .ARM.attributes
+                0x000000e6       0x32 build/default/production/_ext/60177924/plib_pio.o
+ .ARM.attributes
+                0x00000118       0x32 build/default/production/_ext/1827571544/plib_systick.o
+ .ARM.attributes
+                0x0000014a       0x32 build/default/production/_ext/829342655/plib_tc0.o
+ .ARM.attributes
+                0x0000017c       0x32 build/default/production/_ext/2001315827/plib_usart1.o
+ .ARM.attributes
+                0x000001ae       0x32 build/default/production/_ext/163028504/xc32_monitor.o
+ .ARM.attributes
+                0x000001e0       0x32 build/default/production/_ext/1171490990/initialization.o
+ .ARM.attributes
+                0x00000212       0x32 build/default/production/_ext/1171490990/interrupts.o
+ .ARM.attributes
+                0x00000244       0x32 build/default/production/_ext/1171490990/exceptions.o
+ .ARM.attributes
+                0x00000276       0x32 build/default/production/_ext/1171490990/startup_xc32.o
+ .ARM.attributes
+                0x000002a8       0x32 build/default/production/_ext/1360937237/main.o
+ .ARM.attributes
+                0x000002da       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(data_init.o)
+ .ARM.attributes
+                0x0000030c       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-printf.fFgG.o)
+ .ARM.attributes
+                0x0000033e       0x30 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000036e       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x000003a0       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x000003d2       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-setbuf.o)
+ .ARM.attributes
+                0x00000404       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-setvbuf.o)
+ .ARM.attributes
+                0x00000436       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-nano-vfprintf.fFgG.o)
+ .ARM.attributes
+                0x00000468       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-__ssfputs.o)
+ .ARM.attributes
+                0x0000049a       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-dtoa.o)
+ .ARM.attributes
+                0x000004cc       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fflush.o)
+ .ARM.attributes
+                0x000004fe       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-findfp.o)
+ .ARM.attributes
+                0x00000530       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fputwc.o)
+ .ARM.attributes
+                0x00000562       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fwalk.o)
+ .ARM.attributes
+                0x00000594       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-locale.o)
+ .ARM.attributes
+                0x000005c6       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-localeconv.o)
+ .ARM.attributes
+                0x000005f8       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-makebuf.o)
+ .ARM.attributes
+                0x0000062a       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-malloc.o)
+ .ARM.attributes
+                0x0000065c       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mbtowc_r.o)
+ .ARM.attributes
+                0x0000068e       0x1c e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memchr.o)
+ .ARM.attributes
+                0x000006aa       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000006dc       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+ .ARM.attributes
+                0x0000070e       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-callocr.o)
+ .ARM.attributes
+                0x00000740       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-freer.o)
+ .ARM.attributes
+                0x00000772       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+ .ARM.attributes
+                0x000007a4       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .ARM.attributes
+                0x000007d6       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x00000808       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-stdio.o)
+ .ARM.attributes
+                0x0000083a       0x17 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x00000851       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wbuf.o)
+ .ARM.attributes
+                0x00000883       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wcrtomb.o)
+ .ARM.attributes
+                0x000008b5       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wctomb_r.o)
+ .ARM.attributes
+                0x000008e7       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-writer.o)
+ .ARM.attributes
+                0x00000919       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wsetup.o)
+ .ARM.attributes
+                0x0000094b       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-closer.o)
+ .ARM.attributes
+                0x0000097d       0x30 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-ctype_.o)
+ .ARM.attributes
+                0x000009ad       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fstatr.o)
+ .ARM.attributes
+                0x000009df       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-isattyr.o)
+ .ARM.attributes
+                0x00000a11       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-lseekr.o)
+ .ARM.attributes
+                0x00000a43       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x00000a75       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-readr.o)
+ .ARM.attributes
+                0x00000aa7       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-reent.o)
+ .ARM.attributes
+                0x00000ad9       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_close.o)
+ .ARM.attributes
+                0x00000b0b       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_fstat.o)
+ .ARM.attributes
+                0x00000b3d       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_isatty.o)
+ .ARM.attributes
+                0x00000b6f       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_lseek.o)
+ .ARM.attributes
+                0x00000ba1       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_read.o)
+ .ARM.attributes
+                0x00000bd3       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(sbrk.o)
+ .ARM.attributes
+                0x00000c05       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_write.o)
+ .ARM.attributes
+                0x00000c37       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(close.o)
+ .ARM.attributes
+                0x00000c69       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(fstat.o)
+ .ARM.attributes
+                0x00000c9b       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(isatty.o)
+ .ARM.attributes
+                0x00000ccd       0x32 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(lseek.o)
+ .ARM.attributes
+                0x00000cff       0x1e e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtn.o
+
+.comment        0x00000000       0x53
+ .comment       0x00000000       0x53 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+                                 0x54 (size before relaxing)
+ .comment       0x00000053       0x54 build/default/production/_ext/60165520/plib_clk.o
+ .comment       0x00000053       0x54 build/default/production/_ext/60167248/plib_efc.o
+ .comment       0x00000053       0x54 build/default/production/_ext/1865468468/plib_nvic.o
+ .comment       0x00000053       0x54 build/default/production/_ext/60177924/plib_pio.o
+ .comment       0x00000053       0x54 build/default/production/_ext/1827571544/plib_systick.o
+ .comment       0x00000053       0x54 build/default/production/_ext/829342655/plib_tc0.o
+ .comment       0x00000053       0x54 build/default/production/_ext/2001315827/plib_usart1.o
+ .comment       0x00000053       0x54 build/default/production/_ext/163028504/xc32_monitor.o
+ .comment       0x00000053       0x54 build/default/production/_ext/1171490990/initialization.o
+ .comment       0x00000053       0x54 build/default/production/_ext/1171490990/interrupts.o
+ .comment       0x00000053       0x54 build/default/production/_ext/1171490990/exceptions.o
+ .comment       0x00000053       0x54 build/default/production/_ext/1171490990/startup_xc32.o
+ .comment       0x00000053       0x54 build/default/production/_ext/1360937237/main.o
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(data_init.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-printf.fFgG.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-impure.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-setbuf.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-setvbuf.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-nano-vfprintf.fFgG.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-__ssfputs.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-dtoa.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fflush.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-findfp.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fputwc.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fwalk.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-locale.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-localeconv.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-makebuf.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-malloc.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mbtowc_r.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-callocr.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-freer.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-sbrkr.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-stdio.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wbuf.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wcrtomb.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wctomb_r.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-writer.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wsetup.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-closer.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-ctype_.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fstatr.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-isattyr.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-lseekr.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mlock.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-readr.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-reent.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_close.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_fstat.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_isatty.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_lseek.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_read.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(sbrk.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_write.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(close.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(fstat.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(isatty.o)
+ .comment       0x00000053       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(lseek.o)
+
+.debug_info     0x00000000     0xdfbc
+ .debug_info    0x00000000      0x8d5 build/default/production/_ext/60165520/plib_clk.o
+ .debug_info    0x000008d5     0x1531 build/default/production/_ext/60167248/plib_efc.o
+ .debug_info    0x00001e06      0xb3b build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_info    0x00002941      0xf46 build/default/production/_ext/60177924/plib_pio.o
+ .debug_info    0x00003887      0x709 build/default/production/_ext/1827571544/plib_systick.o
+ .debug_info    0x00003f90      0x77f build/default/production/_ext/829342655/plib_tc0.o
+ .debug_info    0x0000470f      0xdc6 build/default/production/_ext/2001315827/plib_usart1.o
+ .debug_info    0x000054d5     0x1057 build/default/production/_ext/163028504/xc32_monitor.o
+ .debug_info    0x0000652c     0x1120 build/default/production/_ext/1171490990/initialization.o
+ .debug_info    0x0000764c     0x19e9 build/default/production/_ext/1171490990/interrupts.o
+ .debug_info    0x00009035      0xfdc build/default/production/_ext/1171490990/exceptions.o
+ .debug_info    0x0000a011      0xe05 build/default/production/_ext/1171490990/startup_xc32.o
+ .debug_info    0x0000ae16     0x10ef build/default/production/_ext/1360937237/main.o
+ .debug_info    0x0000bf05      0x2d3 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(data_init.o)
+ .debug_info    0x0000c1d8      0x2b8 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_close.o)
+ .debug_info    0x0000c490      0x2b8 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_fstat.o)
+ .debug_info    0x0000c748      0x2ba e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_isatty.o)
+ .debug_info    0x0000ca02      0x2b8 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_lseek.o)
+ .debug_info    0x0000ccba      0x2b6 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_read.o)
+ .debug_info    0x0000cf70      0x2b6 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(sbrk.o)
+ .debug_info    0x0000d226      0x2b8 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_write.o)
+ .debug_info    0x0000d4de      0x2b7 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(close.o)
+ .debug_info    0x0000d795      0x2b7 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(fstat.o)
+ .debug_info    0x0000da4c      0x2b9 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(isatty.o)
+ .debug_info    0x0000dd05      0x2b7 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(lseek.o)
+
+.debug_abbrev   0x00000000     0x18fb
+ .debug_abbrev  0x00000000       0xd5 build/default/production/_ext/60165520/plib_clk.o
+ .debug_abbrev  0x000000d5      0x2e9 build/default/production/_ext/60167248/plib_efc.o
+ .debug_abbrev  0x000003be      0x1a0 build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_abbrev  0x0000055e      0x180 build/default/production/_ext/60177924/plib_pio.o
+ .debug_abbrev  0x000006de      0x12a build/default/production/_ext/1827571544/plib_systick.o
+ .debug_abbrev  0x00000808       0xd9 build/default/production/_ext/829342655/plib_tc0.o
+ .debug_abbrev  0x000008e1      0x1ec build/default/production/_ext/2001315827/plib_usart1.o
+ .debug_abbrev  0x00000acd      0x211 build/default/production/_ext/163028504/xc32_monitor.o
+ .debug_abbrev  0x00000cde      0x23f build/default/production/_ext/1171490990/initialization.o
+ .debug_abbrev  0x00000f1d      0x1cc build/default/production/_ext/1171490990/interrupts.o
+ .debug_abbrev  0x000010e9      0x1ac build/default/production/_ext/1171490990/exceptions.o
+ .debug_abbrev  0x00001295      0x223 build/default/production/_ext/1171490990/startup_xc32.o
+ .debug_abbrev  0x000014b8      0x22d build/default/production/_ext/1360937237/main.o
+ .debug_abbrev  0x000016e5       0x2e e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(data_init.o)
+ .debug_abbrev  0x00001713       0x2b e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_close.o)
+ .debug_abbrev  0x0000173e       0x2b e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_fstat.o)
+ .debug_abbrev  0x00001769       0x2b e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_isatty.o)
+ .debug_abbrev  0x00001794       0x2b e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_lseek.o)
+ .debug_abbrev  0x000017bf       0x2b e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_read.o)
+ .debug_abbrev  0x000017ea       0x2e e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(sbrk.o)
+ .debug_abbrev  0x00001818       0x2b e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_write.o)
+ .debug_abbrev  0x00001843       0x2e e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(close.o)
+ .debug_abbrev  0x00001871       0x2e e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(fstat.o)
+ .debug_abbrev  0x0000189f       0x2e e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(isatty.o)
+ .debug_abbrev  0x000018cd       0x2e e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(lseek.o)
+
+.debug_aranges  0x00000000      0x4d0
+ .debug_aranges
+                0x00000000       0x20 build/default/production/_ext/60165520/plib_clk.o
+ .debug_aranges
+                0x00000020       0x70 build/default/production/_ext/60167248/plib_efc.o
+ .debug_aranges
+                0x00000090       0x38 build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_aranges
+                0x000000c8       0x60 build/default/production/_ext/60177924/plib_pio.o
+ .debug_aranges
+                0x00000128       0x70 build/default/production/_ext/1827571544/plib_systick.o
+ .debug_aranges
+                0x00000198       0x50 build/default/production/_ext/829342655/plib_tc0.o
+ .debug_aranges
+                0x000001e8       0x70 build/default/production/_ext/2001315827/plib_usart1.o
+ .debug_aranges
+                0x00000258       0x28 build/default/production/_ext/163028504/xc32_monitor.o
+ .debug_aranges
+                0x00000280       0x20 build/default/production/_ext/1171490990/initialization.o
+ .debug_aranges
+                0x000002a0       0x20 build/default/production/_ext/1171490990/interrupts.o
+ .debug_aranges
+                0x000002c0       0x48 build/default/production/_ext/1171490990/exceptions.o
+ .debug_aranges
+                0x00000308       0x28 build/default/production/_ext/1171490990/startup_xc32.o
+ .debug_aranges
+                0x00000330       0x20 build/default/production/_ext/1360937237/main.o
+ .debug_aranges
+                0x00000350       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(data_init.o)
+ .debug_aranges
+                0x00000370       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_close.o)
+ .debug_aranges
+                0x00000390       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_fstat.o)
+ .debug_aranges
+                0x000003b0       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_isatty.o)
+ .debug_aranges
+                0x000003d0       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_lseek.o)
+ .debug_aranges
+                0x000003f0       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_read.o)
+ .debug_aranges
+                0x00000410       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(sbrk.o)
+ .debug_aranges
+                0x00000430       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_write.o)
+ .debug_aranges
+                0x00000450       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(close.o)
+ .debug_aranges
+                0x00000470       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(fstat.o)
+ .debug_aranges
+                0x00000490       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(isatty.o)
+ .debug_aranges
+                0x000004b0       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(lseek.o)
+
+.debug_ranges   0x00000000      0x370
+ .debug_ranges  0x00000000       0x10 build/default/production/_ext/60165520/plib_clk.o
+ .debug_ranges  0x00000010       0x90 build/default/production/_ext/60167248/plib_efc.o
+ .debug_ranges  0x000000a0       0x28 build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_ranges  0x000000c8       0x50 build/default/production/_ext/60177924/plib_pio.o
+ .debug_ranges  0x00000118       0x60 build/default/production/_ext/1827571544/plib_systick.o
+ .debug_ranges  0x00000178       0x40 build/default/production/_ext/829342655/plib_tc0.o
+ .debug_ranges  0x000001b8       0x60 build/default/production/_ext/2001315827/plib_usart1.o
+ .debug_ranges  0x00000218       0x18 build/default/production/_ext/163028504/xc32_monitor.o
+ .debug_ranges  0x00000230       0x10 build/default/production/_ext/1171490990/initialization.o
+ .debug_ranges  0x00000240       0x10 build/default/production/_ext/1171490990/interrupts.o
+ .debug_ranges  0x00000250       0x38 build/default/production/_ext/1171490990/exceptions.o
+ .debug_ranges  0x00000288       0x18 build/default/production/_ext/1171490990/startup_xc32.o
+ .debug_ranges  0x000002a0       0x10 build/default/production/_ext/1360937237/main.o
+ .debug_ranges  0x000002b0       0x10 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(data_init.o)
+ .debug_ranges  0x000002c0       0x10 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_close.o)
+ .debug_ranges  0x000002d0       0x10 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_fstat.o)
+ .debug_ranges  0x000002e0       0x10 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_isatty.o)
+ .debug_ranges  0x000002f0       0x10 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_lseek.o)
+ .debug_ranges  0x00000300       0x10 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_read.o)
+ .debug_ranges  0x00000310       0x10 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(sbrk.o)
+ .debug_ranges  0x00000320       0x10 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_write.o)
+ .debug_ranges  0x00000330       0x10 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(close.o)
+ .debug_ranges  0x00000340       0x10 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(fstat.o)
+ .debug_ranges  0x00000350       0x10 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(isatty.o)
+ .debug_ranges  0x00000360       0x10 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(lseek.o)
+
+.debug_line     0x00000000     0x2e3a
+ .debug_line    0x00000000      0x1cd build/default/production/_ext/60165520/plib_clk.o
+ .debug_line    0x000001cd      0x4a2 build/default/production/_ext/60167248/plib_efc.o
+ .debug_line    0x0000066f      0x283 build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_line    0x000008f2      0x3dd build/default/production/_ext/60177924/plib_pio.o
+ .debug_line    0x00000ccf      0x32a build/default/production/_ext/1827571544/plib_systick.o
+ .debug_line    0x00000ff9      0x1fb build/default/production/_ext/829342655/plib_tc0.o
+ .debug_line    0x000011f4      0x4a6 build/default/production/_ext/2001315827/plib_usart1.o
+ .debug_line    0x0000169a      0x1f4 build/default/production/_ext/163028504/xc32_monitor.o
+ .debug_line    0x0000188e      0x36a build/default/production/_ext/1171490990/initialization.o
+ .debug_line    0x00001bf8      0x166 build/default/production/_ext/1171490990/interrupts.o
+ .debug_line    0x00001d5e      0x1bf build/default/production/_ext/1171490990/exceptions.o
+ .debug_line    0x00001f1d      0x459 build/default/production/_ext/1171490990/startup_xc32.o
+ .debug_line    0x00002376      0x266 build/default/production/_ext/1360937237/main.o
+ .debug_line    0x000025dc      0x110 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(data_init.o)
+ .debug_line    0x000026ec       0x9f e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_close.o)
+ .debug_line    0x0000278b       0x9f e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_fstat.o)
+ .debug_line    0x0000282a       0xa0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_isatty.o)
+ .debug_line    0x000028ca       0x9f e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_lseek.o)
+ .debug_line    0x00002969       0x9e e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_read.o)
+ .debug_line    0x00002a07       0xb5 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(sbrk.o)
+ .debug_line    0x00002abc       0x9f e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_write.o)
+ .debug_line    0x00002b5b       0x9e e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(close.o)
+ .debug_line    0x00002bf9      0x106 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(fstat.o)
+ .debug_line    0x00002cff       0x9d e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(isatty.o)
+ .debug_line    0x00002d9c       0x9e e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(lseek.o)
+
+.debug_str      0x00000000      0x285
+ .debug_str     0x00000000        0x0 build/default/production/_ext/60165520/plib_clk.o
+ .debug_str     0x00000000       0x22 build/default/production/_ext/60167248/plib_efc.o
+ .debug_str     0x00000022        0x0 build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_str     0x00000022       0x46 build/default/production/_ext/60177924/plib_pio.o
+ .debug_str     0x00000068       0x3c build/default/production/_ext/1827571544/plib_systick.o
+ .debug_str     0x000000a4        0xa build/default/production/_ext/829342655/plib_tc0.o
+ .debug_str     0x000000ae       0x15 build/default/production/_ext/2001315827/plib_usart1.o
+ .debug_str     0x000000c3       0x27 build/default/production/_ext/163028504/xc32_monitor.o
+ .debug_str     0x000000ea       0x91 build/default/production/_ext/1171490990/initialization.o
+ .debug_str     0x0000017b        0xe build/default/production/_ext/1171490990/interrupts.o
+ .debug_str     0x00000189        0xe build/default/production/_ext/1171490990/exceptions.o
+ .debug_str     0x00000197       0x2f build/default/production/_ext/1171490990/startup_xc32.o
+ .debug_str     0x000001c6       0xbf build/default/production/_ext/1360937237/main.o
+ .debug_str     0x00000285        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(data_init.o)
+ .debug_str     0x00000285        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_close.o)
+ .debug_str     0x00000285        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_fstat.o)
+ .debug_str     0x00000285        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_isatty.o)
+ .debug_str     0x00000285        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_lseek.o)
+ .debug_str     0x00000285        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_read.o)
+ .debug_str     0x00000285        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(sbrk.o)
+ .debug_str     0x00000285        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_write.o)
+ .debug_str     0x00000285        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(close.o)
+ .debug_str     0x00000285        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(fstat.o)
+ .debug_str     0x00000285        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(isatty.o)
+ .debug_str     0x00000285        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(lseek.o)
+
+.debug_frame    0x00000000      0x784
+ .debug_frame   0x00000000       0x20 build/default/production/_ext/60165520/plib_clk.o
+ .debug_frame   0x00000020       0xec build/default/production/_ext/60167248/plib_efc.o
+ .debug_frame   0x0000010c       0x50 build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_frame   0x0000015c       0xa0 build/default/production/_ext/60177924/plib_pio.o
+ .debug_frame   0x000001fc       0xe0 build/default/production/_ext/1827571544/plib_systick.o
+ .debug_frame   0x000002dc       0x80 build/default/production/_ext/829342655/plib_tc0.o
+ .debug_frame   0x0000035c      0x114 build/default/production/_ext/2001315827/plib_usart1.o
+ .debug_frame   0x00000470       0x50 build/default/production/_ext/163028504/xc32_monitor.o
+ .debug_frame   0x000004c0       0x28 build/default/production/_ext/1171490990/initialization.o
+ .debug_frame   0x000004e8       0x20 build/default/production/_ext/1171490990/interrupts.o
+ .debug_frame   0x00000508       0x70 build/default/production/_ext/1171490990/exceptions.o
+ .debug_frame   0x00000578       0x38 build/default/production/_ext/1171490990/startup_xc32.o
+ .debug_frame   0x000005b0       0x3c build/default/production/_ext/1360937237/main.o
+ .debug_frame   0x000005ec       0x38 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(data_init.o)
+ .debug_frame   0x00000624       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_close.o)
+ .debug_frame   0x00000644       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_fstat.o)
+ .debug_frame   0x00000664       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_isatty.o)
+ .debug_frame   0x00000684       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_lseek.o)
+ .debug_frame   0x000006a4       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_read.o)
+ .debug_frame   0x000006c4       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(sbrk.o)
+ .debug_frame   0x000006e4       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_write.o)
+ .debug_frame   0x00000704       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(close.o)
+ .debug_frame   0x00000724       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(fstat.o)
+ .debug_frame   0x00000744       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(isatty.o)
+ .debug_frame   0x00000764       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(lseek.o)
+
+.debug_loc      0x00000000     0x1325
+ .debug_loc     0x00000000      0x51b build/default/production/_ext/60167248/plib_efc.o
+ .debug_loc     0x0000051b       0x73 build/default/production/_ext/1865468468/plib_nvic.o
+ .debug_loc     0x0000058e       0x94 build/default/production/_ext/60177924/plib_pio.o
+ .debug_loc     0x00000622      0x2fe build/default/production/_ext/1827571544/plib_systick.o
+ .debug_loc     0x00000920      0x6f7 build/default/production/_ext/2001315827/plib_usart1.o
+ .debug_loc     0x00001017      0x1ac build/default/production/_ext/163028504/xc32_monitor.o
+ .debug_loc     0x000011c3       0x45 build/default/production/_ext/1171490990/initialization.o
+ .debug_loc     0x00001208       0xa7 build/default/production/_ext/1171490990/startup_xc32.o
+ .debug_loc     0x000012af       0x62 build/default/production/_ext/1360937237/main.o
+ .debug_loc     0x00001311       0x14 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(data_init.o)
+
+.stack          0x20400498      0x100
+ .stack         0x20400498      0x100 stack
+
+.data.__global_locale%1
+                0x20400018      0x16c
+ .data.__global_locale
+                0x20400018      0x16c e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-locale.o)
+                0x20400018                __global_locale
+
+.data.impure_data%2
+                0x20400184       0x60
+ .data.impure_data
+                0x20400184       0x60 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-impure.o)
+
+.bss.__sf_fake_stderr%3
+                0x204001e4       0x20
+ .bss.__sf_fake_stderr
+                0x204001e4       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-findfp.o)
+                0x204001e4                __sf_fake_stderr
+
+.bss.__sf_fake_stdin%4
+                0x20400204       0x20
+ .bss.__sf_fake_stdin
+                0x20400204       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-findfp.o)
+                0x20400204                __sf_fake_stdin
+
+.bss.__sf_fake_stdout%5
+                0x20400224       0x20
+ .bss.__sf_fake_stdout
+                0x20400224       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-findfp.o)
+                0x20400224                __sf_fake_stdout
+
+.bss%6          0x20400244       0x1c
+ .bss           0x20400244       0x1c e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+
+.bss.cmd.7917%7
+                0x20400260        0x4
+ .bss.cmd.7917  0x20400260        0x4 build/default/production/_ext/1171490990/startup_xc32.o
+
+.bss%8          0x20400264        0x4
+ .bss           0x20400264        0x4 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(data_init.o)
+
+.data._impure_ptr%9
+                0x20400268        0x4
+ .data._impure_ptr
+                0x20400268        0x4 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-impure.o)
+                0x20400268                _impure_ptr
+
+.bss.__malloc_free_list%10
+                0x2040026c        0x4
+ .bss.__malloc_free_list
+                0x2040026c        0x4 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+                0x2040026c                __malloc_free_list
+
+.bss.__malloc_sbrk_start%11
+                0x20400270        0x4
+ .bss.__malloc_sbrk_start
+                0x20400270        0x4 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+                0x20400270                __malloc_sbrk_start
+
+.bss%12         0x20400274        0x4
+ .bss           0x20400274        0x4 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(sbrk.o)
+
+.eh_frame%z1    0x00000000        0x0
+ .eh_frame      0x00000000        0x0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+
+.config_D0000000%13
+                0xd0000000        0x4
+ .config_D0000000
+                0xd0000000        0x4 build/default/production/_ext/1171490990/initialization.o
+                0xd0000000                __config_D0000000
+
+.text._dtoa_r%14
+                0x00400188      0xa68
+ .text._dtoa_r  0x00400188      0xa68 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-dtoa.o)
+                0x00400188                _dtoa_r
+
+.text.__printf_float%15
+                0x00400bf0      0x510
+ .text.__printf_float
+                0x00400bf0      0x510 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-nano-vfprintf.fFgG.o)
+                0x00400bf0                _printf_float
+
+.dinit%16       0x00401100      0x280
+ .dinit         0x00401100      0x280 data_init
+
+.text._vfprintf_r_fFgG%17
+                0x00401380      0x268
+ .text._vfprintf_r_fFgG
+                0x00401380      0x268 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-nano-vfprintf.fFgG.o)
+                0x00401380                _vfprintf_r_fFgG
+
+.text.Reset_Handler%18
+                0x004015e8      0x178
+ .text.Reset_Handler
+                0x004015e8      0x178 build/default/production/_ext/1171490990/startup_xc32.o
+                0x004015e8                Reset_Handler
+
+.text.setvbuf%19
+                0x00401760      0x158
+ .text.setvbuf  0x00401760      0x158 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-setvbuf.o)
+                0x00401760                setvbuf
+
+.text.__multiply%20
+                0x004018b8      0x130
+ .text.__multiply
+                0x004018b8      0x130 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+                0x004018b8                __multiply
+
+.text.quorem%21
+                0x004019e8      0x12e
+ .text.quorem   0x004019e8      0x12e e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-dtoa.o)
+
+.text.__sflush_r%22
+                0x00401b18      0x10c
+ .text.__sflush_r
+                0x00401b18      0x10c e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fflush.o)
+                0x00401b18                __sflush_r
+
+.rodata._ctype_%23
+                0x00401c24      0x101
+ .rodata._ctype_
+                0x00401c24      0x101 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-ctype_.o)
+                0x00401c24                _ctype_
+
+.text.main%24   0x00401d28       0xf0
+ .text.main     0x00401d28       0xf0 build/default/production/_ext/1360937237/main.o
+                0x00401d28                main
+
+.text._printf_common%25
+                0x00401e18       0xea
+ .text._printf_common
+                0x00401e18       0xea e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00401e18                _printf_common
+
+.text.__swsetup_r%26
+                0x00401f04       0xdc
+ .text.__swsetup_r
+                0x00401f04       0xdc e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wsetup.o)
+                0x00401f04                __swsetup_r
+
+.text.PIO_Initialize%27
+                0x00401fe0       0xcc
+ .text.PIO_Initialize
+                0x00401fe0       0xcc build/default/production/_ext/60177924/plib_pio.o
+                0x00401fe0                PIO_Initialize
+
+.text.__mdiff%28
+                0x004020ac       0xc8
+ .text.__mdiff  0x004020ac       0xc8 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+                0x004020ac                __mdiff
+
+.rodata.__mprec_tens%29
+                0x00402178       0xc8
+ .rodata.__mprec_tens
+                0x00402178       0xc8 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+                0x00402178                __mprec_tens
+
+.text.__swbuf_r%30
+                0x00402240       0xbc
+ .text.__swbuf_r
+                0x00402240       0xbc e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wbuf.o)
+                0x00402240                __swbuf_r
+
+.text._malloc_r%31
+                0x004022fc       0xb4
+ .text._malloc_r
+                0x004022fc       0xb4 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+                0x004022fc                _malloc_r
+
+.text.__lshift%32
+                0x004023b0       0xa6
+ .text.__lshift
+                0x004023b0       0xa6 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+                0x004023b0                __lshift
+
+.text%33        0x00402460       0xa0
+ .text          0x00402460       0xa0 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memchr.o)
+                0x00402460                memchr
+
+.text.__d2b%34  0x00402500       0x9e
+ .text.__d2b    0x00402500       0x9e e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+                0x00402500                __d2b
+
+.text.__pow5mult%35
+                0x004025a0       0x9c
+ .text.__pow5mult
+                0x004025a0       0x9c e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+                0x004025a0                __pow5mult
+
+.text._free_r%36
+                0x0040263c       0x9c
+ .text._free_r  0x0040263c       0x9c e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-freer.o)
+                0x0040263c                _free_r
+
+.text.__smakebuf_r%37
+                0x004026d8       0x8c
+ .text.__smakebuf_r
+                0x004026d8       0x8c e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-makebuf.o)
+                0x004026d8                __smakebuf_r
+
+.text.__pic32c_data_initialization%38
+                0x00402764       0x88
+ .text.__pic32c_data_initialization
+                0x00402764       0x88 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(data_init.o)
+                0x00402764                __pic32c_data_initialization
+
+.text.__fputwc%39
+                0x004027ec       0x82
+ .text.__fputwc
+                0x004027ec       0x82 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fputwc.o)
+                0x004027ec                __fputwc
+
+.text.__multadd%40
+                0x0040286e       0x7e
+ .text.__multadd
+                0x0040286e       0x7e e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+                0x0040286e                __multadd
+
+.text.__sfp%41  0x004028ec       0x78
+ .text.__sfp    0x004028ec       0x78 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-findfp.o)
+                0x004028ec                __sfp
+
+.text.CLOCK_Initialize%42
+                0x00402964       0x68
+ .text.CLOCK_Initialize
+                0x00402964       0x68 build/default/production/_ext/60165520/plib_clk.o
+                0x00402964                CLOCK_Initialize
+
+.text._Balloc%43
+                0x004029cc       0x68
+ .text._Balloc  0x004029cc       0x68 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+                0x004029cc                _Balloc
+
+.text.__sinit%44
+                0x00402a34       0x60
+ .text.__sinit  0x00402a34       0x60 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-findfp.o)
+                0x00402a34                __sinit
+
+.text.__lo0bits%45
+                0x00402a94       0x60
+ .text.__lo0bits
+                0x00402a94       0x60 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+                0x00402a94                __lo0bits
+
+.text.USART1_Read%46
+                0x00402af4       0x58
+ .text.USART1_Read
+                0x00402af4       0x58 build/default/production/_ext/2001315827/plib_usart1.o
+                0x00402af4                USART1_Read
+
+.text._fflush_r%47
+                0x00402b4c       0x54
+ .text._fflush_r
+                0x00402b4c       0x54 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fflush.o)
+                0x00402b4c                _fflush_r
+
+.text.USART1_Write%48
+                0x00402ba0       0x4c
+ .text.USART1_Write
+                0x00402ba0       0x4c build/default/production/_ext/2001315827/plib_usart1.o
+                0x00402ba0                USART1_Write
+
+.text.SYS_Initialize%49
+                0x00402bec       0x4c
+ .text.SYS_Initialize
+                0x00402bec       0x4c build/default/production/_ext/1171490990/initialization.o
+                0x00402bec                SYS_Initialize
+
+.text.__ssfputs_r%50
+                0x00402c38       0x4a
+ .text.__ssfputs_r
+                0x00402c38       0x4a e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-__ssfputs.o)
+                0x00402c38                __ssfputs_r
+
+.text.__libc_init_array%51
+                0x00402c84       0x48
+ .text.__libc_init_array
+                0x00402c84       0x48 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-init.o)
+                0x00402c84                __libc_init_array
+
+.text.std%52    0x00402ccc       0x48
+ .text.std      0x00402ccc       0x48 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-findfp.o)
+
+.text.__swhatbuf_r%53
+                0x00402d14       0x48
+ .text.__swhatbuf_r
+                0x00402d14       0x48 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-makebuf.o)
+                0x00402d14                __swhatbuf_r
+
+.text.SYSTICK_DelayMs%54
+                0x00402d5c       0x44
+ .text.SYSTICK_DelayMs
+                0x00402d5c       0x44 build/default/production/_ext/1827571544/plib_systick.o
+                0x00402d5c                SYSTICK_DelayMs
+
+.text%55        0x00402da0       0x40
+ .text          0x00402da0       0x40 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+
+.text.__hi0bits%56
+                0x00402de0       0x40
+ .text.__hi0bits
+                0x00402de0       0x40 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+                0x00402de0                __hi0bits
+
+.text.NVIC_Initialize%57
+                0x00402e20       0x3c
+ .text.NVIC_Initialize
+                0x00402e20       0x3c build/default/production/_ext/1865468468/plib_nvic.o
+                0x00402e20                NVIC_Initialize
+
+.text._fwalk_reent%58
+                0x00402e5c       0x3c
+ .text._fwalk_reent
+                0x00402e5c       0x3c e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fwalk.o)
+                0x00402e5c                _fwalk_reent
+
+.text.__swrite%59
+                0x00402e98       0x38
+ .text.__swrite
+                0x00402e98       0x38 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-stdio.o)
+                0x00402e98                __swrite
+
+.text.__mcmp%60
+                0x00402ed0       0x34
+ .text.__mcmp   0x00402ed0       0x34 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+                0x00402ed0                __mcmp
+
+.text.__sfputc_r%61
+                0x00402f04       0x2e
+ .text.__sfputc_r
+                0x00402f04       0x2e e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-__ssfputs.o)
+
+.text._Bfree%62
+                0x00402f32       0x2e
+ .text._Bfree   0x00402f32       0x2e e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+                0x00402f32                _Bfree
+
+.text.USART1_ErrorClear%63
+                0x00402f60       0x2c
+ .text.USART1_ErrorClear
+                0x00402f60       0x2c build/default/production/_ext/2001315827/plib_usart1.o
+
+.rodata%64      0x00402f8c       0x2c
+ .rodata        0x00402f8c       0x2c build/default/production/_ext/1360937237/main.o
+
+.text.__sfmoreglue%65
+                0x00402fb8       0x2c
+ .text.__sfmoreglue
+                0x00402fb8       0x2c e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-findfp.o)
+                0x00402fb8                __sfmoreglue
+
+.text._wcrtomb_r%66
+                0x00402fe4       0x2c
+ .text._wcrtomb_r
+                0x00402fe4       0x2c e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wcrtomb.o)
+                0x00402fe4                _wcrtomb_r
+
+.text._sbrk%67  0x00403010       0x2c
+ .text._sbrk    0x00403010       0x2c e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(sbrk.o)
+                0x00403010                _sbrk
+
+.rodata.__mprec_bigtens%68
+                0x00403040       0x28
+ .rodata.__mprec_bigtens
+                0x00403040       0x28 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+                0x00403040                __mprec_bigtens
+
+.text._printf_fFgG%69
+                0x00403068       0x24
+ .text._printf_fFgG
+                0x00403068       0x24 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-printf.fFgG.o)
+                0x00403068                _printf_fFgG
+                0x00403068                __printf_fgG
+
+.text.__ascii_mbtowc%70
+                0x0040308c       0x24
+ .text.__ascii_mbtowc
+                0x0040308c       0x24 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mbtowc_r.o)
+                0x0040308c                __ascii_mbtowc
+
+.text.__sseek%71
+                0x004030b0       0x24
+ .text.__sseek  0x004030b0       0x24 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-stdio.o)
+                0x004030b0                __sseek
+
+.text._write_r%72
+                0x004030d4       0x24
+ .text._write_r
+                0x004030d4       0x24 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-writer.o)
+                0x004030d4                _write_r
+
+.text._fstat_r%73
+                0x004030f8       0x24
+ .text._fstat_r
+                0x004030f8       0x24 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fstatr.o)
+                0x004030f8                _fstat_r
+
+.text._lseek_r%74
+                0x0040311c       0x24
+ .text._lseek_r
+                0x0040311c       0x24 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-lseekr.o)
+                0x0040311c                _lseek_r
+
+.text._read_r%75
+                0x00403140       0x24
+ .text._read_r  0x00403140       0x24 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-readr.o)
+                0x00403140                _read_r
+
+.rodata%76      0x00403164       0x23
+ .rodata        0x00403164       0x23 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-nano-vfprintf.fFgG.o)
+
+.text.__sread%77
+                0x00403188       0x22
+ .text.__sread  0x00403188       0x22 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-stdio.o)
+                0x00403188                __sread
+
+.text._sbrk_r%78
+                0x004031ac       0x20
+ .text._sbrk_r  0x004031ac       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-sbrkr.o)
+                0x004031ac                _sbrk_r
+
+.text._close_r%79
+                0x004031cc       0x20
+ .text._close_r
+                0x004031cc       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-closer.o)
+                0x004031cc                _close_r
+
+.text._isatty_r%80
+                0x004031ec       0x20
+ .text._isatty_r
+                0x004031ec       0x20 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-isattyr.o)
+                0x004031ec                _isatty_r
+
+.text.read%81   0x0040320c       0x1e
+ .text.read     0x0040320c       0x1e build/default/production/_ext/163028504/xc32_monitor.o
+                0x0040320c                read
+
+.text.SYSTICK_TimerInitialize%82
+                0x0040322c       0x1c
+ .text.SYSTICK_TimerInitialize
+                0x0040322c       0x1c build/default/production/_ext/1827571544/plib_systick.o
+                0x0040322c                SYSTICK_TimerInitialize
+
+.text.USART1_Initialize%83
+                0x00403248       0x1c
+ .text.USART1_Initialize
+                0x00403248       0x1c build/default/production/_ext/2001315827/plib_usart1.o
+                0x00403248                USART1_Initialize
+
+.text.write%84  0x00403264       0x1c
+ .text.write    0x00403264       0x1c build/default/production/_ext/163028504/xc32_monitor.o
+                0x00403264                write
+
+.text.memcpy%85
+                0x00403280       0x1c
+ .text.memcpy   0x00403280       0x1c e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+                0x00403280                memcpy
+
+.text._fputwc_r%86
+                0x0040329c       0x1c
+ .text._fputwc_r
+                0x0040329c       0x1c e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-fputwc.o)
+                0x0040329c                _fputwc_r
+
+.text._calloc_r%87
+                0x004032b8       0x1c
+ .text._calloc_r
+                0x004032b8       0x1c e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-nano-callocr.o)
+                0x004032b8                _calloc_r
+
+.text.__ascii_wctomb%88
+                0x004032d4       0x1a
+ .text.__ascii_wctomb
+                0x004032d4       0x1a e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-wctomb_r.o)
+                0x004032d4                __ascii_wctomb
+
+.text.TC0_CH0_CaptureInitialize%89
+                0x004032f0       0x18
+ .text.TC0_CH0_CaptureInitialize
+                0x004032f0       0x18 build/default/production/_ext/829342655/plib_tc0.o
+                0x004032f0                TC0_CH0_CaptureInitialize
+
+.text.SYSTICK_TimerStart%90
+                0x00403308       0x14
+ .text.SYSTICK_TimerStart
+                0x00403308       0x14 build/default/production/_ext/1827571544/plib_systick.o
+                0x00403308                SYSTICK_TimerStart
+
+.text._vfprintf_fFgG%91
+                0x0040331c       0x14
+ .text._vfprintf_fFgG
+                0x0040331c       0x14 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(_lib_a-nano-vfprintf.fFgG.o)
+                0x0040331c                _vfprintf_fFgG
+
+.text.__i2b%92  0x00403330       0x12
+ .text.__i2b    0x00403330       0x12 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+                0x00403330                __i2b
+
+.text.EFC_Initialize%93
+                0x00403344       0x10
+ .text.EFC_Initialize
+                0x00403344       0x10 build/default/production/_ext/60167248/plib_efc.o
+                0x00403344                EFC_Initialize
+
+.text.TC0_CH0_CaptureStatusGet%94
+                0x00403354       0x10
+ .text.TC0_CH0_CaptureStatusGet
+                0x00403354       0x10 build/default/production/_ext/829342655/plib_tc0.o
+                0x00403354                TC0_CH0_CaptureStatusGet
+
+.text.setbuf%95
+                0x00403364       0x10
+ .text.setbuf   0x00403364       0x10 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-setbuf.o)
+                0x00403364                setbuf
+
+.text.malloc%96
+                0x00403374       0x10
+ .text.malloc   0x00403374       0x10 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-malloc.o)
+                0x00403374                malloc
+
+.text.memset%97
+                0x00403384       0x10
+ .text.memset   0x00403384       0x10 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-memset.o)
+                0x00403384                memset
+
+.text%98        0x00403394       0x10
+ .text          0x00403394       0x10 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-strlen.o)
+                0x00403394                strlen
+
+.rodata%99      0x004033a4        0xf
+ .rodata        0x004033a4        0xf e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-dtoa.o)
+
+.text.TC0_CH0_CaptureStart%100
+                0x004033b4        0xc
+ .text.TC0_CH0_CaptureStart
+                0x004033b4        0xc build/default/production/_ext/829342655/plib_tc0.o
+                0x004033b4                TC0_CH0_CaptureStart
+
+.text.TC0_CH0_CaptureAGet%101
+                0x004033c0        0xc
+ .text.TC0_CH0_CaptureAGet
+                0x004033c0        0xc build/default/production/_ext/829342655/plib_tc0.o
+                0x004033c0                TC0_CH0_CaptureAGet
+
+.text.TC0_CH0_CaptureBGet%102
+                0x004033cc        0xc
+ .text.TC0_CH0_CaptureBGet
+                0x004033cc        0xc build/default/production/_ext/829342655/plib_tc0.o
+                0x004033cc                TC0_CH0_CaptureBGet
+
+.text._cleanup_r%103
+                0x004033d8        0xc
+ .text._cleanup_r
+                0x004033d8        0xc e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-findfp.o)
+                0x004033d8                _cleanup_r
+
+.text.__locale_mb_cur_max%104
+                0x004033e4        0xc
+ .text.__locale_mb_cur_max
+                0x004033e4        0xc e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-locale.o)
+                0x004033e4                __locale_mb_cur_max
+
+.rodata.p05.7453%105
+                0x004033f0        0xc
+ .rodata.p05.7453
+                0x004033f0        0xc e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mprec.o)
+
+.text.fstat%106
+                0x004033fc        0xc
+ .text.fstat    0x004033fc        0xc e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(fstat.o)
+                0x004033fc                fstat
+
+.rodata%107     0x00403408        0xb
+ .rodata        0x00403408        0xb e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-locale.o)
+
+.text.TC0_CH0_CaptureFrequencyGet%108
+                0x00402458        0x8
+ .text.TC0_CH0_CaptureFrequencyGet
+                0x00402458        0x8 build/default/production/_ext/829342655/plib_tc0.o
+                0x00402458                TC0_CH0_CaptureFrequencyGet
+
+.text._localeconv_r%109
+                0x00403414        0x8
+ .text._localeconv_r
+                0x00403414        0x8 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-localeconv.o)
+                0x00403414                _localeconv_r
+
+.text.__sclose%110
+                0x0040341c        0x8
+ .text.__sclose
+                0x0040341c        0x8 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-stdio.o)
+                0x0040341c                __sclose
+
+.text.close%111
+                0x00403424        0x8
+ .text.close    0x00403424        0x8 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(close.o)
+                0x00403424                close
+
+.rodata._global_impure_ptr%112
+                0x00402174        0x4
+ .rodata._global_impure_ptr
+                0x00402174        0x4 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-impure.o)
+                0x00402174                _global_impure_ptr
+
+.text._close%113
+                0x0040303c        0x4
+ .text._close   0x0040303c        0x4 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_close.o)
+                0x0040303c                _close
+
+.text._fstat%114
+                0x0040342c        0x4
+ .text._fstat   0x0040342c        0x4 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_fstat.o)
+                0x0040342c                _fstat
+
+.text._isatty%115
+                0x00403430        0x4
+ .text._isatty  0x00403430        0x4 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_isatty.o)
+                0x00403430                _isatty
+
+.text._lseek%116
+                0x00403434        0x4
+ .text._lseek   0x00403434        0x4 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_lseek.o)
+                0x00403434                _lseek
+
+.text._read%117
+                0x00403438        0x4
+ .text._read    0x00403438        0x4 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_read.o)
+                0x00403438                _read
+
+.text._write%118
+                0x0040343c        0x4
+ .text._write   0x0040343c        0x4 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(_write.o)
+                0x0040343c                _write
+
+.text.isatty%119
+                0x00403440        0x4
+ .text.isatty   0x00403440        0x4 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(isatty.o)
+                0x00403440                isatty
+
+.text.lseek%120
+                0x00403444        0x4
+ .text.lseek    0x00403444        0x4 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libpic32c.a(lseek.o)
+                0x00403444                lseek
+
+.text.Dummy_Handler%121
+                0x00401b16        0x2
+ .text.Dummy_Handler
+                0x00401b16        0x2 build/default/production/_ext/1171490990/interrupts.o
+                0x00401b16                DACC_Handler
+                0x00401b16                SVCall_Handler
+                0x00401b16                TC0_CH2_Handler
+                0x00401b16                TC3_CH1_Handler
+                0x00401b16                UART3_Handler
+                0x00401b16                UART2_Handler
+                0x00401b16                TRNG_Handler
+                0x00401b16                SysTick_Handler
+                0x00401b16                AFEC1_Handler
+                0x00401b16                PendSV_Handler
+                0x00401b16                TC0_CH1_Handler
+                0x00401b16                QSPI_Handler
+                0x00401b16                ISI_Handler
+                0x00401b16                MCAN0_INT0_Handler
+                0x00401b16                RSWDT_Handler
+                0x00401b16                USART0_Handler
+                0x00401b16                TC1_CH2_Handler
+                0x00401b16                RTT_Handler
+                0x00401b16                USBHS_Handler
+                0x00401b16                IXC_Handler
+                0x00401b16                CCF_Handler
+                0x00401b16                PIOB_Handler
+                0x00401b16                RTC_Handler
+                0x00401b16                WDT_Handler
+                0x00401b16                MCAN1_INT1_Handler
+                0x00401b16                HSMCI_Handler
+                0x00401b16                UART1_Handler
+                0x00401b16                Dummy_Handler
+                0x00401b16                TWIHS1_Handler
+                0x00401b16                TC3_CH2_Handler
+                0x00401b16                XDMAC_Handler
+                0x00401b16                UART4_Handler
+                0x00401b16                TC2_CH0_Handler
+                0x00401b16                PWM1_Handler
+                0x00401b16                USART1_Handler
+                0x00401b16                PWM0_Handler
+                0x00401b16                PIOA_Handler
+                0x00401b16                AFEC0_Handler
+                0x00401b16                CCW_Handler
+                0x00401b16                TC3_CH0_Handler
+                0x00401b16                SSC_Handler
+                0x00401b16                TC1_CH0_Handler
+                0x00401b16                ACC_Handler
+                0x00401b16                PMC_Handler
+                0x00401b16                GMAC_Handler
+                0x00401b16                TC2_CH2_Handler
+                0x00401b16                MCAN0_INT1_Handler
+                0x00401b16                GMAC_Q5_Handler
+                0x00401b16                SUPC_Handler
+                0x00401b16                TC2_CH1_Handler
+                0x00401b16                MCAN1_INT0_Handler
+                0x00401b16                EFC_Handler
+                0x00401b16                GMAC_Q1_Handler
+                0x00401b16                USART2_Handler
+                0x00401b16                GMAC_Q2_Handler
+                0x00401b16                PIOE_Handler
+                0x00401b16                SPI1_Handler
+                0x00401b16                TC1_CH1_Handler
+                0x00401b16                GMAC_Q3_Handler
+                0x00401b16                PIOD_Handler
+                0x00401b16                TWIHS2_Handler
+                0x00401b16                I2SC0_Handler
+                0x00401b16                UART0_Handler
+                0x00401b16                I2SC1_Handler
+                0x00401b16                TC0_CH0_Handler
+                0x00401b16                PIOC_Handler
+                0x00401b16                GMAC_Q4_Handler
+                0x00401b16                FPU_Handler
+                0x00401b16                RSTC_Handler
+                0x00401b16                ICM_Handler
+                0x00401b16                AES_Handler
+                0x00401b16                TWIHS0_Handler
+                0x00401b16                SPI0_Handler
+
+.text.NonMaskableInt_Handler%122
+                0x00401f02        0x2
+ .text.NonMaskableInt_Handler
+                0x00401f02        0x2 build/default/production/_ext/1171490990/exceptions.o
+                0x00401f02                NonMaskableInt_Handler
+
+.text.HardFault_Handler%123
+                0x0040259e        0x2
+ .text.HardFault_Handler
+                0x0040259e        0x2 build/default/production/_ext/1171490990/exceptions.o
+                0x0040259e                HardFault_Handler
+
+.text.DebugMonitor_Handler%124
+                0x00402c82        0x2
+ .text.DebugMonitor_Handler
+                0x00402c82        0x2 build/default/production/_ext/1171490990/exceptions.o
+                0x00402c82                DebugMonitor_Handler
+
+.text.MemoryManagement_Handler%125
+                0x004031aa        0x2
+ .text.MemoryManagement_Handler
+                0x004031aa        0x2 build/default/production/_ext/1171490990/exceptions.o
+                0x004031aa                MemoryManagement_Handler
+
+.text.BusFault_Handler%126
+                0x0040322a        0x2
+ .text.BusFault_Handler
+                0x0040322a        0x2 build/default/production/_ext/1171490990/exceptions.o
+                0x0040322a                BusFault_Handler
+
+.text.UsageFault_Handler%127
+                0x004032ee        0x2
+ .text.UsageFault_Handler
+                0x004032ee        0x2 build/default/production/_ext/1171490990/exceptions.o
+                0x004032ee                UsageFault_Handler
+
+.text.Dummy_App_Func%128
+                0x00403342        0x2
+ .text.Dummy_App_Func
+                0x00403342        0x2 build/default/production/_ext/1171490990/startup_xc32.o
+                0x00403342                _on_reset
+                0x00403342                _on_bootstrap
+                0x00403342                __xc32_on_reset
+                0x00403342                Dummy_App_Func
+                0x00403342                __xc32_on_bootstrap
+
+.text.__malloc_lock%129
+                0x00402456        0x2
+ .text.__malloc_lock
+                0x00402456        0x2 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mlock.o)
+                0x00402456                __malloc_lock
+
+.text.__malloc_unlock%130
+                0x00401d26        0x2
+ .text.__malloc_unlock
+                0x00401d26        0x2 e:/complier-new/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v7e-m+dp/hard\libc_nano.a(lib_a-mlock.o)
+                0x00401d26                __malloc_unlock
