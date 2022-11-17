@@ -27,4 +27,4 @@ children:
         children:
         - {type: Value, value: USART1_UART}
 - type: ElementPosition
-  attributes: {x: '206', y: '193', id: stdio}
+  attributes: {x: '179', y: '209', id: stdio}

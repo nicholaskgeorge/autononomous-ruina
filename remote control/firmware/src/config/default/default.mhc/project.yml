@@ -6,20 +6,20 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 9D5EE038B893127B787BC03DFA6B467F
-- generatedChecksum: B442B6C67A4D1A68D2ED747303BD4EE0
+- generatedChecksum: E7898F35425BADF040CC7D45CDAF3174
   logicalPath: config/default
   name: initialization.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: B442B6C67A4D1A68D2ED747303BD4EE0
-- generatedChecksum: 717FD067234E175989112A55C506AF40
+  userChecksum: E7898F35425BADF040CC7D45CDAF3174
+- generatedChecksum: D2260129439E8D2F484B6D7943754E63
   logicalPath: config/default
   name: interrupts.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 717FD067234E175989112A55C506AF40
+  userChecksum: D2260129439E8D2F484B6D7943754E63
 - generatedChecksum: 2CDCA8CDF135BDEB85FDFC0A2A991C0B
   logicalPath: config/default
   name: libc_syscalls.c
@@ -34,13 +34,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: null
-- generatedChecksum: C6F6A5D39123E2D8442B130F1E288604
+- generatedChecksum: A15AA81B59E6FCFC325E25319412A948
   logicalPath: config/default/peripheral/clk
   name: plib_clk.c
   physicalPath: peripheral/clk
   security: NON_SECURE
   type: SOURCE
-  userChecksum: C6F6A5D39123E2D8442B130F1E288604
+  userChecksum: A15AA81B59E6FCFC325E25319412A948
 - generatedChecksum: 2788D041CAB75857A7CECCD3818C7110
   logicalPath: config/default/peripheral/efc
   name: plib_efc.c
@@ -48,20 +48,20 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 2788D041CAB75857A7CECCD3818C7110
-- generatedChecksum: 225A01C432E878DD89D0E2F7FC6E5E0D
+- generatedChecksum: 9927D1E96FEC5A8ADB046174101B8D96
   logicalPath: config/default/peripheral/nvic
   name: plib_nvic.c
   physicalPath: peripheral/nvic
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 225A01C432E878DD89D0E2F7FC6E5E0D
-- generatedChecksum: E70239B28C14B985116CEF595F8AE6DE
+  userChecksum: 9927D1E96FEC5A8ADB046174101B8D96
+- generatedChecksum: C567BCE5C56CF6AAD3B16B170EBFD819
   logicalPath: config/default/peripheral/pio
   name: plib_pio.c
   physicalPath: peripheral/pio
   security: NON_SECURE
   type: SOURCE
-  userChecksum: E70239B28C14B985116CEF595F8AE6DE
+  userChecksum: C567BCE5C56CF6AAD3B16B170EBFD819
 - generatedChecksum: B058A15DC1450590F230C4AA9917FEFA
   logicalPath: config/default/peripheral/systick
   name: plib_systick.c
@@ -76,6 +76,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 53A8174F65AD59A1CDB544F7D37A4950
+- generatedChecksum: 8F5E970D5EBB7BE838F439DBD49FE9AE
+  logicalPath: config/default/peripheral/tc
+  name: plib_tc3.c
+  physicalPath: peripheral/tc
+  security: NON_SECURE
+  type: SOURCE
+  userChecksum: 8F5E970D5EBB7BE838F439DBD49FE9AE
 - generatedChecksum: DBA7604603100E3B0845D4F7671E0165
   logicalPath: config/default/peripheral/usart
   name: plib_usart1.c
@@ -83,6 +90,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: DBA7604603100E3B0845D4F7671E0165
+- generatedChecksum: 0959B814DCFF363EA945FF8341AE7977
+  logicalPath: config/default/peripheral/usart
+  name: plib_usart2.c
+  physicalPath: peripheral/usart
+  security: NON_SECURE
+  type: SOURCE
+  userChecksum: 0959B814DCFF363EA945FF8341AE7977
 - generatedChecksum: E970E900864995DA418A5E3F0374A5B3
   logicalPath: config/default
   name: startup_xc32.c
@@ -244,13 +258,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 1B57CD6F80549B93641F203699604CDC
-- generatedChecksum: 6E8847564118AAF8665BBE862CC7E60B
+- generatedChecksum: 1846E33CA241134608C515B778E22F8D
   logicalPath: config/default
   name: definitions.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: 6E8847564118AAF8665BBE862CC7E60B
+  userChecksum: 1846E33CA241134608C515B778E22F8D
 - generatedChecksum: C679A77E2A1338BE090B760AD405B86C
   logicalPath: config/default
   name: device.h
@@ -377,13 +391,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: EBA5F002C5711D1A31FDB06D67D9328C
-- generatedChecksum: B1620374F0AF06D7C4AB1E3062453A3B
+- generatedChecksum: F64B0F46C8831DF977CEBA6D07FFD188
   logicalPath: config/default
   name: interrupts.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: B1620374F0AF06D7C4AB1E3062453A3B
+  userChecksum: F64B0F46C8831DF977CEBA6D07FFD188
 - generatedChecksum: EDDCFC2F7A0251113C852CD4CEF3EA52
   logicalPath: packs/ATSAME70Q21B_DFP/component
   name: isi.h
@@ -524,6 +538,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 1A8D731B4906BF2BC99A72F4F3B96653
+- generatedChecksum: 8891F68A8A681676FECC5FF43FF2AC73
+  logicalPath: config/default/peripheral/tc
+  name: plib_tc3.h
+  physicalPath: peripheral/tc
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 8891F68A8A681676FECC5FF43FF2AC73
 - generatedChecksum: 396F5952D935AAD9540588BC16E9C562
   logicalPath: config/default/peripheral/tc
   name: plib_tc_common.h
@@ -538,6 +559,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: C5B511FE0D1A7B671C75C07E3EF30E14
+- generatedChecksum: 03D0EF8E04600AFB2BD99F4F7333F76B
+  logicalPath: config/default/peripheral/usart
+  name: plib_usart2.h
+  physicalPath: peripheral/usart
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 03D0EF8E04600AFB2BD99F4F7333F76B
 - generatedChecksum: 2B0D6DB62F6E6E43DA189A8FA1DB7B5C
   logicalPath: config/default/peripheral/usart
   name: plib_usart_common.h
@@ -951,13 +979,13 @@ files:
   security: NON_SECURE
   type: LINKER
   userChecksum: F14514C2B945AE263A184FBF53912C6F
-- generatedChecksum: ECA2BF762835A5EA1711E8EB0C3B2271
+- generatedChecksum: 2776F63AA808CD623F6DB476B8916CE9
   logicalPath: ''
   name: pin_configurations.csv
   physicalPath: ''
   security: NON_SECURE
   type: IMPORTANT
-  userChecksum: ECA2BF762835A5EA1711E8EB0C3B2271
+  userChecksum: 2776F63AA808CD623F6DB476B8916CE9
 format_version: v1.0
 libraries: []
 settings:

@@ -153,7 +153,15 @@ void SYS_Initialize ( void* data )
     TC0_CH0_CaptureInitialize(); 
      
     
+  
+
+ 
+     
+     
+    TC3_CH2_CaptureInitialize();
     USART1_Initialize();
+
+    USART2_Initialize();
 
 
 

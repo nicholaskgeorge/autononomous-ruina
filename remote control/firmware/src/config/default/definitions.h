@@ -55,8 +55,10 @@
 #include "peripheral/systick/plib_systick.h"
 #include "peripheral/efc/plib_efc.h"
 #include "peripheral/tc/plib_tc0.h"
+#include "peripheral/tc/plib_tc3.h"
 #include "peripheral/usart/plib_usart1.h"
 #include "system/cache/sys_cache.h"
+#include "peripheral/usart/plib_usart2.h"
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility

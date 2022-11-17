@@ -35,5 +35,5 @@ MP_AS_DIR="E:\complier-new\bin"
 MP_LD_DIR="E:\complier-new\bin"
 MP_AR_DIR="E:\complier-new\bin"
 # MP_BC_DIR is not defined
-DFP_DIR=C:/Users/lenovo/.mchp_packs/Microchip/SAME70_DFP/4.9.129
 CMSIS_DIR=C:/Program Files/Microchip/MPLABX/v6.00/packs/arm/CMSIS/5.4.0
+DFP_DIR=C:/Users/lenovo/.mchp_packs/Microchip/SAME70_DFP/4.9.129

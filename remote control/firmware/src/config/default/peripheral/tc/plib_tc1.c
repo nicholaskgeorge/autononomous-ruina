@@ -60,88 +60,54 @@
 
  
 
+ 
 
-/* Callback object for channel 0 */
-static TC_TIMER_CALLBACK_OBJECT TC1_CH0_CallbackObj;
 
-/* Initialize channel in timer mode */
-void TC1_CH0_TimerInitialize (void)
+/* Initialize channel in capture mode */
+void TC1_CH0_CaptureInitialize (void)
 {
-    /* Use peripheral clock */
-    TC1_REGS->TC_CHANNEL[0].TC_EMR = TC_EMR_NODIVCLK_Msk;
-    /* clock selection and waveform selection */
-    TC1_REGS->TC_CHANNEL[0].TC_CMR =  TC_CMR_WAVEFORM_WAVSEL_UP_RC | TC_CMR_WAVE_Msk ;
+    /* clock selection and capture configurations */
+    TC1_REGS->TC_CHANNEL[0].TC_CMR = TC_CMR_TCCLKS_TIMER_CLOCK4 | TC_CMR_CAPTURE_LDRA_RISING \
+        | TC_CMR_CAPTURE_LDRB_FALLING ;
 
-    /* write period */
-    TC1_REGS->TC_CHANNEL[0].TC_RC = 0U;
+    /* external reset event configurations */
+    TC1_REGS->TC_CHANNEL[0].TC_CMR |=  TC_CMR_CAPTURE_ABETRG_Msk |  TC_CMR_CAPTURE_ETRGEDG_FALLING;
 
-
-    /* enable interrupt */
-    TC1_REGS->TC_CHANNEL[0].TC_IER = TC_IER_CPAS_Msk;
-    TC1_CH0_CallbackObj.callback_fn = NULL;
 }
 
-/* Start the timer */
-void TC1_CH0_TimerStart (void)
+/* Start the capture mode */
+void TC1_CH0_CaptureStart (void)
 {
     TC1_REGS->TC_CHANNEL[0].TC_CCR = (TC_CCR_CLKEN_Msk | TC_CCR_SWTRG_Msk);
 }
 
-/* Stop the timer */
-void TC1_CH0_TimerStop (void)
+/* Stop the capture mode */
+void TC1_CH0_CaptureStop (void)
 {
     TC1_REGS->TC_CHANNEL[0].TC_CCR = (TC_CCR_CLKDIS_Msk);
 }
 
-uint32_t TC1_CH0_TimerFrequencyGet( void )
+uint32_t TC1_CH0_CaptureFrequencyGet( void )
 {
-    return (uint32_t)(150000000UL);
+    return (uint32_t)(1171875UL);
 }
 
-/* Configure timer period */
-void TC1_CH0_TimerPeriodSet (uint16_t period)
+/* Read last captured value of Capture A */
+uint16_t TC1_CH0_CaptureAGet (void)
 {
-    TC1_REGS->TC_CHANNEL[0].TC_RC = period;
+    return (uint16_t)TC1_REGS->TC_CHANNEL[0].TC_RA;
 }
 
-/* Configure timer compare */
-void TC1_CH0_TimerCompareSet (uint16_t compare)
+/* Read last captured value of Capture B */
+uint16_t TC1_CH0_CaptureBGet (void)
 {
-    TC1_REGS->TC_CHANNEL[0].TC_RA = compare;
+    return (uint16_t)TC1_REGS->TC_CHANNEL[0].TC_RB;
 }
 
-/* Read timer period */
-uint16_t TC1_CH0_TimerPeriodGet (void)
+TC_CAPTURE_STATUS TC1_CH0_CaptureStatusGet(void)
 {
-    return (uint16_t)TC1_REGS->TC_CHANNEL[0].TC_RC;
+    return (TC_CAPTURE_STATUS)(TC1_REGS->TC_CHANNEL[0].TC_SR & TC_CAPTURE_STATUS_MSK);
 }
-
-/* Read timer counter value */
-uint16_t TC1_CH0_TimerCounterGet (void)
-{
-    return (uint16_t)TC1_REGS->TC_CHANNEL[0].TC_CV;
-}
-
-/* Register callback for period interrupt */
-void TC1_CH0_TimerCallbackRegister(TC_TIMER_CALLBACK callback, uintptr_t context)
-{
-    TC1_CH0_CallbackObj.callback_fn = callback;
-    TC1_CH0_CallbackObj.context = context;
-}
-
-/* Interrupt handler for Channel 0 */
-void TC1_CH0_InterruptHandler(void)
-{
-    TC_TIMER_STATUS timer_status = (TC_TIMER_STATUS)(TC1_REGS->TC_CHANNEL[0].TC_SR & TC_TIMER_STATUS_MSK);
-    /* Call registered callback function */
-    if ((TC_TIMER_NONE != timer_status) && TC1_CH0_CallbackObj.callback_fn != NULL)
-    {
-        TC1_CH0_CallbackObj.callback_fn(timer_status, TC1_CH0_CallbackObj.context);
-    }
-}
-
- 
-
  
 
  

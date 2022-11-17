@@ -112,9 +112,11 @@ build/default/debug/_ext/163028504/xc32_monitor.o: \
  ../src/config/default/peripheral/efc/plib_efc.h \
  ../src/config/default/peripheral/tc/plib_tc0.h \
  ../src/config/default/peripheral/tc/plib_tc_common.h \
+ ../src/config/default/peripheral/tc/plib_tc3.h \
  ../src/config/default/peripheral/usart/plib_usart1.h \
  ../src/config/default/peripheral/usart/plib_usart_common.h \
- ../src/config/default/system/cache/sys_cache.h
+ ../src/config/default/system/cache/sys_cache.h \
+ ../src/config/default/peripheral/usart/plib_usart2.h
 
 ../src/config/default/definitions.h:
 
@@ -342,8 +344,12 @@ build/default/debug/_ext/163028504/xc32_monitor.o: \
 
 ../src/config/default/peripheral/tc/plib_tc_common.h:
 
+../src/config/default/peripheral/tc/plib_tc3.h:
+
 ../src/config/default/peripheral/usart/plib_usart1.h:
 
 ../src/config/default/peripheral/usart/plib_usart_common.h:
 
 ../src/config/default/system/cache/sys_cache.h:
+
+../src/config/default/peripheral/usart/plib_usart2.h:

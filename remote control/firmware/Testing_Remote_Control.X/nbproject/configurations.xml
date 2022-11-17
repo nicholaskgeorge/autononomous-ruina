@@ -25,10 +25,12 @@
             <logicalFolder name="f5" displayName="tc" projectFiles="true">
               <itemPath>../src/config/default/peripheral/tc/plib_tc0.h</itemPath>
               <itemPath>../src/config/default/peripheral/tc/plib_tc_common.h</itemPath>
+              <itemPath>../src/config/default/peripheral/tc/plib_tc3.h</itemPath>
             </logicalFolder>
             <logicalFolder name="f6" displayName="usart" projectFiles="true">
               <itemPath>../src/config/default/peripheral/usart/plib_usart_common.h</itemPath>
               <itemPath>../src/config/default/peripheral/usart/plib_usart1.h</itemPath>
+              <itemPath>../src/config/default/peripheral/usart/plib_usart2.h</itemPath>
             </logicalFolder>
           </logicalFolder>
           <logicalFolder name="f2" displayName="system" projectFiles="true">
@@ -166,6 +168,7 @@
           </logicalFolder>
         </logicalFolder>
       </logicalFolder>
+      <itemPath>../src/decode_ibus.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -199,9 +202,11 @@
             </logicalFolder>
             <logicalFolder name="f5" displayName="tc" projectFiles="true">
               <itemPath>../src/config/default/peripheral/tc/plib_tc0.c</itemPath>
+              <itemPath>../src/config/default/peripheral/tc/plib_tc3.c</itemPath>
             </logicalFolder>
             <logicalFolder name="f6" displayName="usart" projectFiles="true">
               <itemPath>../src/config/default/peripheral/usart/plib_usart1.c</itemPath>
+              <itemPath>../src/config/default/peripheral/usart/plib_usart2.c</itemPath>
             </logicalFolder>
           </logicalFolder>
           <logicalFolder name="f1" displayName="stdio" projectFiles="true">
@@ -220,6 +225,7 @@
         </logicalFolder>
       </logicalFolder>
       <itemPath>../src/main.c</itemPath>
+      <itemPath>../src/decode_ibus.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -235,7 +241,9 @@
         <itemPath>../src/config/default/default.mhc/settings.yml</itemPath>
         <itemPath>../src/config/default/default.mhc/stdio.yml</itemPath>
         <itemPath>../src/config/default/default.mhc/tc0.yml</itemPath>
+        <itemPath>../src/config/default/default.mhc/tc3.yml</itemPath>
         <itemPath>../src/config/default/default.mhc/usart1.yml</itemPath>
+        <itemPath>../src/config/default/default.mhc/usart2.yml</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/default/harmony-manifest-success.yml</itemPath>
@@ -260,8 +268,8 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="SAME70_DFP" vendor="Microchip" version="4.9.129"/>
         <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
+        <pack name="SAME70_DFP" vendor="Microchip" version="4.9.129"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -484,6 +492,8 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="400000-5fffff"/>
         <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="C:/Users/lenovo/Documents/GitHub/autononomous-ruina/remote control/firmware/Testing_Remote_Control.X/debug/default/Testing_Remote_Control_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"
@@ -1091,6 +1101,8 @@
         <property key="periphComp5.gte" value="gt"/>
         <property key="periphComp6.gte" value="gt"/>
         <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="C:/Users/lenovo/Documents/GitHub/autononomous-ruina/remote control/firmware/Testing_Remote_Control.X/debug/default/Testing_Remote_Control_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"

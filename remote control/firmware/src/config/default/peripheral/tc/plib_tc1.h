@@ -94,23 +94,20 @@ extern "C" {
 
 
 
-void TC1_CH0_TimerInitialize (void);
 
-void TC1_CH0_TimerStart (void);
+void TC1_CH0_CaptureInitialize (void);
 
-void TC1_CH0_TimerStop (void);
+void TC1_CH0_CaptureStart (void);
 
-void TC1_CH0_TimerPeriodSet (uint16_t period);
+void TC1_CH0_CaptureStop (void);
 
-void TC1_CH0_TimerCompareSet (uint16_t compare);
+uint32_t TC1_CH0_CaptureFrequencyGet (void);
 
-uint32_t TC1_CH0_TimerFrequencyGet (void);
+uint16_t TC1_CH0_CaptureAGet (void);
 
-uint16_t TC1_CH0_TimerPeriodGet (void);
+uint16_t TC1_CH0_CaptureBGet (void);
 
-uint16_t TC1_CH0_TimerCounterGet (void);
-
-void TC1_CH0_TimerCallbackRegister(TC_TIMER_CALLBACK callback, uintptr_t context);
+TC_CAPTURE_STATUS TC1_CH0_CaptureStatusGet(void);
 
 
 
