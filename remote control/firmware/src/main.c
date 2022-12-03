@@ -40,7 +40,7 @@ int channels[14];
 float duty1,duty2;
 /*Calculated frequency*/
 float frequency1,frequency2;
-float on_time1,on_time2;
+uint16_t on_time1,on_time2;
 float angle1,angle2;
 // *****************************************************************************
 // *****************************************************************************
@@ -51,9 +51,14 @@ float angle1,angle2;
 float duty2angle(int K, float duty)
 {
     float angle;
-    angle = 40*K*duty-3*K;
+    angle = 2*K*duty-K;
     return angle;
 }
+
+//int map(int i_max, int i_min, int o_max, int o_min){
+//    float slope = (o_max-o_min)/(i_max-i_min);
+//    float y_int = 
+//}
 
 int main ( void )
 {
@@ -112,20 +117,36 @@ int main ( void )
                 }
                 break;
             }
-            for (int i=0;i<32;i++){
-                USART1_Write(&message[i],sizeof(message[i]));
-            }
-
-            for (int j=0;j<64;j++){
-                USART1_Write(&rec_buffer[j],sizeof(rec_buffer[j]));
-            }
+//            for (int i=0;i<32;i++){
+//                USART1_Write(&message[i],sizeof(message[i]));
+//            }
+//
+//            for (int j=0;j<64;j++){
+//                USART1_Write(&rec_buffer[j],sizeof(rec_buffer[j]));
+//            }
 
         }
-        
+//        
+//        int test[2] = {0xB6,5};
+//        int c1 = *test;
+//        int c2 = *(test+1);
+//        c2+=0;
+//        c1+=0;
         get_channels(message, channels);
-        
-            
-           
+//        for (int i=0;i<14;i++){
+//            USART1_Write(&channels[i],sizeof(channels[i]));
+//        }
+        on_time1 = channels[0];
+        on_time2 = channels[2];
+//        USART1_Write(&on_time1,sizeof(on_time1));
+        USART1_Write(&on_time2,sizeof(on_time2));
+        duty1 = ((float)on_time1-1000)/1000;
+        duty2 = ((float)on_time2-1000)/1000;
+//        printf("duty2:%f\n",duty2);
+        angle1 = duty2angle(175,duty1);
+        printf("angle for sail,%f\n",angle1);
+//        angle2 = duty2angle(15,duty2);
+//        printf("angle for rudder,%f\n",angle2);
         
     }
 
