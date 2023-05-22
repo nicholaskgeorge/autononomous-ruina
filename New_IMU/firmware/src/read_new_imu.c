@@ -4,7 +4,7 @@
 #include <stdbool.h>                    // Defines true
 #include <stdlib.h> 
 
-void New_IMU_Process(NEW_IMU_INFO IMU_info, uint8_t* data){
+void New_IMU_Process(NEW_IMU_INFO* IMU_info, uint8_t* data){
    uint8_t* ptr = data;
    uint8_t low_byte = 0;
    uint8_t high_byte = 0;

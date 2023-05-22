@@ -5,6 +5,7 @@
 #include "read_new_imu.h"
 
 uint8_t data_buffer[buff_size];
+NEW_IMU_INFO* new_imu_info;
 
 int main ( void )
 {
