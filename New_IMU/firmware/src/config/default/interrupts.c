@@ -94,10 +94,12 @@ extern void UART0_Handler              ( void ) __attribute__((weak, alias("Dumm
 extern void UART1_Handler              ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void PIOA_Handler               ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void PIOB_Handler               ( void ) __attribute__((weak, alias("Dummy_Handler")));
+extern void PIOC_Handler               ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void USART0_Handler             ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void USART1_Handler             ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void USART2_Handler             ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void PIOD_Handler               ( void ) __attribute__((weak, alias("Dummy_Handler")));
+extern void PIOE_Handler               ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void HSMCI_Handler              ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void TWIHS0_Handler             ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void TWIHS1_Handler             ( void ) __attribute__((weak, alias("Dummy_Handler")));
@@ -122,6 +124,7 @@ extern void MCAN1_INT1_Handler         ( void ) __attribute__((weak, alias("Dumm
 extern void GMAC_Handler               ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void AFEC1_Handler              ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void TWIHS2_Handler             ( void ) __attribute__((weak, alias("Dummy_Handler")));
+extern void SPI1_Handler               ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void QSPI_Handler               ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void UART2_Handler              ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void UART3_Handler              ( void ) __attribute__((weak, alias("Dummy_Handler")));
@@ -138,6 +141,7 @@ extern void XDMAC_Handler              ( void ) __attribute__((weak, alias("Dumm
 extern void ISI_Handler                ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void PWM1_Handler               ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void FPU_Handler                ( void ) __attribute__((weak, alias("Dummy_Handler")));
+extern void SDRAMC_Handler             ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void RSWDT_Handler              ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void CCW_Handler                ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void CCF_Handler                ( void ) __attribute__((weak, alias("Dummy_Handler")));
@@ -145,6 +149,7 @@ extern void GMAC_Q1_Handler            ( void ) __attribute__((weak, alias("Dumm
 extern void GMAC_Q2_Handler            ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void IXC_Handler                ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void I2SC0_Handler              ( void ) __attribute__((weak, alias("Dummy_Handler")));
+extern void I2SC1_Handler              ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void GMAC_Q3_Handler            ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void GMAC_Q4_Handler            ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void GMAC_Q5_Handler            ( void ) __attribute__((weak, alias("Dummy_Handler")));
@@ -182,10 +187,12 @@ const H3DeviceVectors exception_table=
     .pfnUART1_Handler              = UART1_Handler,
     .pfnPIOA_Handler               = PIOA_Handler,
     .pfnPIOB_Handler               = PIOB_Handler,
+    .pfnPIOC_Handler               = PIOC_Handler,
     .pfnUSART0_Handler             = USART0_Handler,
     .pfnUSART1_Handler             = USART1_Handler,
     .pfnUSART2_Handler             = USART2_Handler,
     .pfnPIOD_Handler               = PIOD_Handler,
+    .pfnPIOE_Handler               = PIOE_Handler,
     .pfnHSMCI_Handler              = HSMCI_Handler,
     .pfnTWIHS0_Handler             = TWIHS0_Handler,
     .pfnTWIHS1_Handler             = TWIHS1_Handler,
@@ -210,6 +217,7 @@ const H3DeviceVectors exception_table=
     .pfnGMAC_Handler               = GMAC_Handler,
     .pfnAFEC1_Handler              = AFEC1_Handler,
     .pfnTWIHS2_Handler             = TWIHS2_Handler,
+    .pfnSPI1_Handler               = SPI1_Handler,
     .pfnQSPI_Handler               = QSPI_Handler,
     .pfnUART2_Handler              = UART2_Handler,
     .pfnUART3_Handler              = UART3_Handler,
@@ -226,6 +234,7 @@ const H3DeviceVectors exception_table=
     .pfnISI_Handler                = ISI_Handler,
     .pfnPWM1_Handler               = PWM1_Handler,
     .pfnFPU_Handler                = FPU_Handler,
+    .pfnSDRAMC_Handler             = SDRAMC_Handler,
     .pfnRSWDT_Handler              = RSWDT_Handler,
     .pfnCCW_Handler                = CCW_Handler,
     .pfnCCF_Handler                = CCF_Handler,
@@ -233,6 +242,7 @@ const H3DeviceVectors exception_table=
     .pfnGMAC_Q2_Handler            = GMAC_Q2_Handler,
     .pfnIXC_Handler                = IXC_Handler,
     .pfnI2SC0_Handler              = I2SC0_Handler,
+    .pfnI2SC1_Handler              = I2SC1_Handler,
     .pfnGMAC_Q3_Handler            = GMAC_Q3_Handler,
     .pfnGMAC_Q4_Handler            = GMAC_Q4_Handler,
     .pfnGMAC_Q5_Handler            = GMAC_Q5_Handler,

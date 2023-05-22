@@ -94,12 +94,12 @@ typedef struct _H3DeviceVectors
   pfn_handler_t pfnReserved9;
   pfn_handler_t pfnPIOA_Handler;                    /* 10 Parallel I/O Controller A */
   pfn_handler_t pfnPIOB_Handler;                    /* 11 Parallel I/O Controller B */
-  pfn_handler_t pfnReserved12;
+  pfn_handler_t pfnPIOC_Handler;                    /* 12 Parallel I/O Controller C */
   pfn_handler_t pfnUSART0_Handler;                  /* 13 USART 0 */
   pfn_handler_t pfnUSART1_Handler;                  /* 14 USART 1 */
   pfn_handler_t pfnUSART2_Handler;                  /* 15 USART 2 */
   pfn_handler_t pfnPIOD_Handler;                    /* 16 Parallel I/O Controller D */
-  pfn_handler_t pfnReserved17;
+  pfn_handler_t pfnPIOE_Handler;                    /* 17 Parallel I/O Controller E */
   pfn_handler_t pfnHSMCI_Handler;                   /* 18 Multimedia Card Interface */
   pfn_handler_t pfnTWIHS0_Handler;                  /* 19 Two Wire Interface 0 HS */
   pfn_handler_t pfnTWIHS1_Handler;                  /* 20 Two Wire Interface 1 HS */
@@ -124,7 +124,7 @@ typedef struct _H3DeviceVectors
   pfn_handler_t pfnGMAC_Handler;                    /* 39 Ethernet MAC */
   pfn_handler_t pfnAFEC1_Handler;                   /* 40 Analog Front End 1 */
   pfn_handler_t pfnTWIHS2_Handler;                  /* 41 Two Wire Interface 2 HS */
-  pfn_handler_t pfnReserved42;
+  pfn_handler_t pfnSPI1_Handler;                    /* 42 Serial Peripheral Interface 1 */
   pfn_handler_t pfnQSPI_Handler;                    /* 43 Quad I/O Serial Peripheral Interface */
   pfn_handler_t pfnUART2_Handler;                   /* 44 UART 2 */
   pfn_handler_t pfnUART3_Handler;                   /* 45 UART 3 */
@@ -144,7 +144,7 @@ typedef struct _H3DeviceVectors
   pfn_handler_t pfnISI_Handler;                     /* 59 Camera Interface */
   pfn_handler_t pfnPWM1_Handler;                    /* 60 Pulse Width Modulation 1 */
   pfn_handler_t pfnFPU_Handler;                     /* 61 Floating Point Unit */
-  pfn_handler_t pfnReserved62;
+  pfn_handler_t pfnSDRAMC_Handler;                  /* 62 SDRAM Controller */
   pfn_handler_t pfnRSWDT_Handler;                   /* 63 Reinforced Secure Watchdog Timer */
   pfn_handler_t pfnCCW_Handler;                     /* 64 Cache ECC Warning */
   pfn_handler_t pfnCCF_Handler;                     /* 65 Cache ECC Fault */
@@ -152,7 +152,7 @@ typedef struct _H3DeviceVectors
   pfn_handler_t pfnGMAC_Q2_Handler;                 /* 67 GMAC Queue 2 */
   pfn_handler_t pfnIXC_Handler;                     /* 68 Floating Point Unit IXC */
   pfn_handler_t pfnI2SC0_Handler;                   /* 69 Inter-IC Sound controller 0 */
-  pfn_handler_t pfnReserved70;
+  pfn_handler_t pfnI2SC1_Handler;                   /* 70 Inter-IC Sound controller 1 */
   pfn_handler_t pfnGMAC_Q3_Handler;                 /* 71 GMAC Queue 3 */
   pfn_handler_t pfnGMAC_Q4_Handler;                 /* 72 GMAC Queue 4 */
   pfn_handler_t pfnGMAC_Q5_Handler;                 /* 73 GMAC Queue 5 */
