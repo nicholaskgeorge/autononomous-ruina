@@ -4,22 +4,219 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>../src/REG.h</itemPath>
-      <itemPath>../src/wit_c_sdk.h</itemPath>
+      <logicalFolder name="f1" displayName="config" projectFiles="true">
+        <logicalFolder name="f1" displayName="default" projectFiles="true">
+          <logicalFolder name="f1" displayName="peripheral" projectFiles="true">
+            <logicalFolder name="f1" displayName="clk" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/clk/plib_clk.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f4" displayName="efc" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/efc/plib_efc.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f3" displayName="nvic" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/nvic/plib_nvic.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f2" displayName="pio" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/pio/plib_pio.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f5" displayName="usart" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/usart/plib_usart_common.h</itemPath>
+              <itemPath>../src/config/default/peripheral/usart/plib_usart1.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <itemPath>../src/config/default/device.h</itemPath>
+          <itemPath>../src/config/default/device_cache.h</itemPath>
+          <itemPath>../src/config/default/toolchain_specifics.h</itemPath>
+          <itemPath>../src/config/default/definitions.h</itemPath>
+          <itemPath>../src/config/default/interrupts.h</itemPath>
+          <itemPath>../src/config/default/device_vectors.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="packs" projectFiles="true">
+        <logicalFolder name="f1" displayName="ATSAME70N21B_DFP" projectFiles="true">
+          <logicalFolder name="f1" displayName="component" projectFiles="true">
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/acc.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/aes.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/afec.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/chipid.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/dacc.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/efc.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/fuses.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/gmac.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/gpbr.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/hsmci.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/i2sc.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/icm.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/isi.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/matrix.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/mcan.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/pio.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/pmc.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/pwm.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/qspi.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/rstc.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/rswdt.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/rtc.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/rtt.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/sdramc.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/smc.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/spi.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/ssc.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/supc.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/tc.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/trng.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/twihs.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/uart.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/usart.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/usbhs.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/utmi.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/wdt.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/component/xdmac.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f2" displayName="instance" projectFiles="true">
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/acc.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/aes.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/afec0.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/afec1.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/chipid.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/dacc.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/efc.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/fuses.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/gmac.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/gpbr.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/hsmci.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/i2sc0.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/i2sc1.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/icm.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/isi.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/matrix.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/mcan0.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/mcan1.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/pioa.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/piob.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/pioc.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/piod.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/pioe.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/pmc.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/pwm0.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/pwm1.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/qspi.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/rstc.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/rswdt.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/rtc.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/rtt.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/sdramc.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/smc.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/spi0.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/spi1.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/ssc.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/supc.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/tc0.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/tc1.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/tc2.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/tc3.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/trng.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/twihs0.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/twihs1.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/twihs2.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/uart0.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/uart1.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/uart2.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/uart3.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/uart4.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/usart0.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/usart1.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/usart2.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/usbhs.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/utmi.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/wdt.h</itemPath>
+            <itemPath>../src/packs/ATSAME70N21B_DFP/instance/xdmac.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f3" displayName="pio" projectFiles="true">
+            <itemPath>../src/packs/ATSAME70N21B_DFP/pio/same70n21b.h</itemPath>
+          </logicalFolder>
+          <itemPath>../src/packs/ATSAME70N21B_DFP/same70n21b.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f2" displayName="CMSIS" projectFiles="true">
+          <logicalFolder name="f1" displayName="CMSIS" projectFiles="true">
+            <logicalFolder name="f1" displayName="Core" projectFiles="true">
+              <logicalFolder name="f1" displayName="Include" projectFiles="true">
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_version.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_iccarm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_gcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang_ltm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/core_cm7.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/mpu_armv7.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cachel1_armv7.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+      <itemPath>../src/read_new_imu.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
                    projectFiles="true">
+      <logicalFolder name="f1" displayName="config" projectFiles="true">
+        <logicalFolder name="f1" displayName="default" projectFiles="true">
+          <itemPath>../src/config/default/ATSAME70N21B.ld</itemPath>
+        </logicalFolder>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>../src/wit_c_sdk.c</itemPath>
+      <logicalFolder name="f1" displayName="config" projectFiles="true">
+        <logicalFolder name="f1" displayName="default" projectFiles="true">
+          <logicalFolder name="f2" displayName="peripheral" projectFiles="true">
+            <logicalFolder name="f1" displayName="clk" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/clk/plib_clk.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f4" displayName="efc" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/efc/plib_efc.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f3" displayName="nvic" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/nvic/plib_nvic.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f2" displayName="pio" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/pio/plib_pio.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f5" displayName="usart" projectFiles="true">
+              <itemPath>../src/config/default/peripheral/usart/plib_usart1.c</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="f1" displayName="stdio" projectFiles="true">
+            <itemPath>../src/config/default/stdio/xc32_monitor.c</itemPath>
+          </logicalFolder>
+          <itemPath>../src/config/default/initialization.c</itemPath>
+          <itemPath>../src/config/default/interrupts.c</itemPath>
+          <itemPath>../src/config/default/exceptions.c</itemPath>
+          <itemPath>../src/config/default/startup_xc32.c</itemPath>
+          <itemPath>../src/config/default/libc_syscalls.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <itemPath>../src/main.c</itemPath>
+      <itemPath>../src/read_new_imu.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
                    projectFiles="false">
+      <logicalFolder name="f1" displayName="default.mhc" projectFiles="true">
+        <itemPath>../src/config/default/default.mhc/cmsis.yml</itemPath>
+        <itemPath>../src/config/default/default.mhc/core.yml</itemPath>
+        <itemPath>../src/config/default/default.mhc/dfp.yml</itemPath>
+        <itemPath>../src/config/default/default.mhc/efc.yml</itemPath>
+        <itemPath>../src/config/default/default.mhc/GraphSettings.yml</itemPath>
+        <itemPath>../src/config/default/default.mhc/project.yml</itemPath>
+        <itemPath>../src/config/default/default.mhc/settings.yml</itemPath>
+        <itemPath>../src/config/default/default.mhc/usart1.yml</itemPath>
+      </logicalFolder>
       <itemPath>Makefile</itemPath>
+      <itemPath>../src/config/default/harmony-manifest-success.yml</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
@@ -36,7 +233,7 @@
         <targetPluginBoard></targetPluginBoard>
         <platformTool>Simulator</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>2.10</languageToolchainVersion>
+        <languageToolchainVersion>3.01</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
@@ -101,7 +298,8 @@
         <property key="enable-symbols" value="true"/>
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories" value=""/>
+        <property key="extra-include-directories"
+                  value="../src;../src/config/default;../src/packs/ATSAME70N21B_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -140,10 +338,11 @@
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-cross-reference-file" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
-        <property key="heap-size" value="0"/>
+        <property key="heap-size" value="512"/>
         <property key="input-libraries" value=""/>
         <property key="linker-symbols" value=""/>
         <property key="map-file" value="${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.map"/>
+        <property key="no-device-startup-code" value="true"/>
         <property key="no-startup-files" value="false"/>
         <property key="oXC32ld-extra-opts" value=""/>
         <property key="optimization-level" value=""/>
@@ -165,7 +364,8 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories" value=""/>
+        <property key="extra-include-directories"
+                  value="../src;../src/config/default;../src/packs/ATSAME70N21B_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -184,6 +384,9 @@
       <C32Global>
         <property key="gp-relative-option" value=""/>
         <property key="legacy-libc" value="false"/>
+        <property key="mdtcm" value=""/>
+        <property key="mitcm" value=""/>
+        <property key="mstacktcm" value="false"/>
         <property key="save-temps" value="false"/>
         <property key="wpo-lto" value="false"/>
       </C32Global>
